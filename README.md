@@ -26,28 +26,6 @@ Online informatieomgevingen veranderen snel. Losse posts, bronnen, claims en bee
 | GitHub + ChatGPT handleiding | Ja |
 | Release gate + checksums | Ja |
 
-## Screenshots
-
-### Systeemoverzicht
-
-![Systeemoverzicht](docs/screenshots/01-system-overview.png)
-
-### Workflow
-
-![Workflow](docs/screenshots/02-workflow.png)
-
-### USP's
-
-![USP's](docs/screenshots/03-usps.png)
-
-### Sociale context
-
-![Sociale context](docs/screenshots/04-social-context.png)
-
-### Monitoringwaarde
-
-![Monitoringwaarde](docs/screenshots/05-monitoring-value.png)
-
 ## Data snapshot
 
 | Entity | Count |
