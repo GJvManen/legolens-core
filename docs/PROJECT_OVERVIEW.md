@@ -35,16 +35,6 @@ In conflict- en crisiscontexten ontstaat informatie sneller dan teams deze handm
 | Rapportage | Executive briefs, incident reports en evidence appendices voorbereiden |
 | Case packs | Nieuwe conflict- of crisiscontexten als eigen dataset toevoegen |
 
-## Screenshots
-
-### Workflow
-![Workflow](screenshots/02-workflow.png)
-
-### USP's
-![USP's](screenshots/03-usps.png)
-
-### Sociale context
-![Sociale context](screenshots/04-social-context.png)
 
 ## Brede toepasbaarheid
 
