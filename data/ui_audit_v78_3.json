@@ -1,0 +1,18 @@
+{
+  "schema_version": "v78.3",
+  "generated_at": "2026-05-01T20:40:00Z",
+  "checks": {
+    "items_retained": 476,
+    "sources_retained": 382,
+    "families_retained": 10,
+    "needs_review_families": 5,
+    "update_controls_present": true,
+    "import_controls_present": true,
+    "thumbnail_rendering_present": true,
+    "sliding_banner_present": true,
+    "iranian_flag_present": true,
+    "admin_approval_buttons_present": true,
+    "project_connection_present": true,
+    "no_content_removed": true
+  }
+}

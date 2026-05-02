@@ -1,0 +1,35 @@
+{
+  "schema_version": "v120.changelog",
+  "generated_at": "2026-05-02T15:45:00Z",
+  "release": "v120.1",
+  "changes": [
+    {
+      "area": "release",
+      "change": "Central version source added and all visible shell version labels moved to v120."
+    },
+    {
+      "area": "stability",
+      "change": "v120 release gate, validation script and smoke tests added."
+    },
+    {
+      "area": "data quality",
+      "change": "Confidence scoring sidecar and explicit evidence review status fields added."
+    },
+    {
+      "area": "workflow",
+      "change": "Today/Monitor/Investigate/Review/Report/Admin workflow hubs added."
+    },
+    {
+      "area": "graph",
+      "change": "Graph intelligence sidecar added for community/path analysis planning."
+    },
+    {
+      "area": "reporting",
+      "change": "Report export runtime expanded with DOCX/PPTX/PDF-ready templates."
+    },
+    {
+      "area": "backend",
+      "change": "Backend release endpoints and CORS defaults hardened."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "legolens.community.v1",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "readiness": [
+    "README",
+    "QUICKSTART",
+    "CONTRIBUTING",
+    "CODE_OF_CONDUCT",
+    "SECURITY",
+    "ETHICS",
+    "DATA_POLICY",
+    "RESPONSIBLE_USE",
+    "GitHub guide",
+    "ChatGPT integration guide",
+    "issue templates",
+    "CI workflow"
+  ],
+  "status": "ready"
+}

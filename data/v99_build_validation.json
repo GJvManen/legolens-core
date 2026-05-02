@@ -1,0 +1,101 @@
+{
+  "schema_version": "v99.0-build-validation",
+  "generated_at": "2026-05-02T11:45:00Z",
+  "errors": [],
+  "backend_checks": [
+    {
+      "endpoint": "/api/health",
+      "ok": true,
+      "keys": [
+        "ok",
+        "release",
+        "generated_at"
+      ]
+    },
+    {
+      "endpoint": "/api/update/manifest",
+      "ok": true,
+      "keys": [
+        "schema_version",
+        "generated_at",
+        "latest_package",
+        "latest_release",
+        "offline_import_supported",
+        "check_now_requires_http_or_backend",
+        "test_package",
+        "lossless_policy"
+      ]
+    },
+    {
+      "endpoint": "/api/update/package",
+      "ok": true,
+      "keys": [
+        "schema_version",
+        "target",
+        "generated_at",
+        "auto_publication",
+        "direct_publication",
+        "human_review_required",
+        "lossless_policy",
+        "data"
+      ]
+    },
+    {
+      "endpoint": "/api/release-gate",
+      "ok": true,
+      "keys": [
+        "schema_version",
+        "generated_at",
+        "status",
+        "blocking_checks",
+        "notes"
+      ]
+    },
+    {
+      "endpoint": "/api/openai/auth/status",
+      "ok": true,
+      "keys": [
+        "ok",
+        "release",
+        "provider",
+        "configured",
+        "authorized",
+        "mode",
+        "selected_project",
+        "note"
+      ]
+    },
+    {
+      "endpoint": "/api/openai/projects",
+      "ok": true,
+      "keys": [
+        "ok",
+        "source",
+        "projects"
+      ]
+    },
+    {
+      "endpoint": "POST /api/openai/auth/start",
+      "ok": true,
+      "keys": [
+        "ok",
+        "authorized",
+        "configured",
+        "mode",
+        "session_id",
+        "projects",
+        "note"
+      ]
+    },
+    {
+      "endpoint": "POST /api/openai/project/select",
+      "ok": true,
+      "keys": [
+        "ok",
+        "selected_project",
+        "policy"
+      ]
+    }
+  ],
+  "status": "pass"
+}

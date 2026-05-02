@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-05-01T17:05:00Z",
+  "status": "PASS",
+  "original_item_count": 470,
+  "final_item_count": 476,
+  "original_item_ids_missing": [],
+  "original_items_retained": 470,
+  "new_item_ids": [
+    "itm_00471",
+    "itm_00472",
+    "itm_00473",
+    "itm_00474",
+    "itm_00475",
+    "itm_00476"
+  ],
+  "original_source_count": 376,
+  "final_source_count": 382,
+  "new_source_ids": [
+    "src_web_nos_nieuwsuur",
+    "src_web_ndtv",
+    "src_web_manchester_university",
+    "src_web_thetimes",
+    "src_youtube_france24_english",
+    "src_youtube_cnn_news18"
+  ],
+  "families_needing_review_preserved": [
+    "fam_brick_beat_battalion",
+    "fam_community_reposts",
+    "fam_militarylego_ai_x_network",
+    "fam_persiaboi_studios",
+    "fam_rock_id_official"
+  ],
+  "duplicate_clusters_resolved_losslessly": [
+    "dup_0001",
+    "dup_0002",
+    "dup_0003",
+    "dup_0004",
+    "dup_0005",
+    "dup_0006",
+    "dup_0007",
+    "dup_0008"
+  ]
+}

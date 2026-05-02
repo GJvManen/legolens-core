@@ -1,0 +1,31 @@
+import { readFile, access } from 'node:fs/promises';
+import { constants } from 'node:fs';
+async function data(name) { return JSON.parse(await readFile(`data/${name}`, 'utf8')); }
+const mustExist = async (p) => { await access(p, constants.R_OK); return true; };
+const items = await data('items.json');
+const sources = await data('sources.json');
+const families = await data('source_families.json');
+const candidates = await data('candidate_queue.json');
+const evidence = await data('evidence.json');
+const manifest = await data('release_manifest.json');
+const update = await data('update_package_v85.json');
+const checks = [];
+function check(name, ok, detail='') { checks.push({ name, status: ok ? 'pass':'fail', detail }); if(!ok) process.exitCode = 1; }
+check('items retained', items.length === 476, `${items.length}`);
+check('sources retained', sources.length === 382, `${sources.length}`);
+check('families retained', families.length === 10, `${families.length}`);
+check('needs_review families retained', families.filter(f=>f.status==='needs_review').length === 5);
+check('candidate queue retained', candidates.length >= 38, `${candidates.length}`);
+check('evidence coverage', evidence.length === items.length, `${evidence.length}/${items.length}`);
+check('manifest target v85', manifest.target === 'v85.0', manifest.target);
+check('update package type', update.package_type === 'legolens_update_package');
+check('update package includes all items', update.data.items.length === items.length);
+check('entrypoint exists', await mustExist('index.html'));
+check('app css exists', await mustExist('app.css'));
+check('app js exists', await mustExist('app.js'));
+check('bootstrap js exists', await mustExist('data/bootstrap.js'));
+check('sqlite export exists', await mustExist('db/legolens.sqlite'));
+const html = await readFile('index.html', 'utf8');
+for (const id of ['dashboard','updates','content','research','sources','incidents','network','evidence','similarity','discovery','reports','admin','quality']) check(`section #${id}`, html.includes(`id="${id}"`));
+console.table(checks);
+if (process.exitCode) throw new Error('v85 validation failed');

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Report Index Entry",
+  "type": "object",
+  "required": [
+    "report_id",
+    "incident_id",
+    "title",
+    "format",
+    "path"
+  ],
+  "properties": {
+    "report_id": {
+      "type": "string"
+    },
+    "incident_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "format": {
+      "enum": [
+        "markdown",
+        "json",
+        "pdf"
+      ]
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

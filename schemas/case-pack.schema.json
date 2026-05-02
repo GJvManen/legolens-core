@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legolens.local/schemas/case-pack.schema.json",
+  "title": "LegoLens Case Pack",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "case_id",
+    "title",
+    "version",
+    "framework",
+    "framework_version",
+    "data_files"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "legolens.case-pack.v1"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "framework": {
+      "type": "string"
+    },
+    "framework_version": {
+      "type": "string"
+    },
+    "data_files": {
+      "type": "object"
+    },
+    "publication_policy": {
+      "type": "string"
+    }
+  }
+}

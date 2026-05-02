@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legolens.local/schemas/discovery.schema.json",
+  "title": "Discovery metadata",
+  "type": "object",
+  "required": [
+    "discovery_method",
+    "last_verified_at"
+  ],
+  "properties": {
+    "discovery_method": {
+      "type": "string"
+    },
+    "first_seen_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_verified_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "added_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "v78.0",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "templates": [
+    {
+      "template_id": "tpl_incident_brief",
+      "label": "Incident brief",
+      "sections": [
+        "summary",
+        "timeline",
+        "source_chain",
+        "coverage",
+        "amplification",
+        "evidence",
+        "uncertainties",
+        "recommended_actions"
+      ]
+    },
+    {
+      "template_id": "tpl_weekly_monitoring",
+      "label": "Weekly monitoring update",
+      "sections": [
+        "new_candidates",
+        "review_decisions",
+        "active_incidents",
+        "data_quality",
+        "next_actions"
+      ]
+    },
+    {
+      "template_id": "tpl_executive_summary",
+      "label": "Executive summary",
+      "sections": [
+        "key_findings",
+        "risk",
+        "confidence",
+        "decision_needed"
+      ]
+    }
+  ]
+}

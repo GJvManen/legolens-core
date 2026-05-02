@@ -1,0 +1,49 @@
+{
+  "schema_version": "v77.0",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "mode": "web-assisted_candidate_discovery",
+  "note": "Findings were added to candidate_queue only; items.json was not changed.",
+  "candidates_added": 5,
+  "findings": [
+    {
+      "url": "https://www.abc.net.au/news/2026-04-22/us-israel-strikes-on-iran-propaganda/106585244",
+      "title": "ABC News — Meme warfare and 'slopaganda' are defining the AI-era information war",
+      "source": "ABC News",
+      "published_at": "2026-04-21",
+      "confidence": 0.82,
+      "reason": "Search result indicates broader ABC article not present; related ABC video is already in items."
+    },
+    {
+      "url": "https://fortune.com/2026/04/09/what-are-lego-videos-ai-generated-iran-propaganda/",
+      "title": "Fortune — AI-savvy pro-Iran groups troll America with Lego Movie-style videos",
+      "source": "Fortune",
+      "published_at": "2026-04-09",
+      "confidence": 0.72,
+      "reason": "Syndicated/coverage candidate; verify overlap with AP item before adding as item."
+    },
+    {
+      "url": "https://www.euronews.com/2026/04/09/pro-iran-groups-using-ai-to-troll-trump-and-try-to-control-war-narrative-analysts-say",
+      "title": "Euronews — Pro-Iran groups using AI to troll Trump and control war narrative",
+      "source": "Euronews",
+      "published_at": "2026-04-09",
+      "confidence": 0.7,
+      "reason": "Coverage candidate; likely overlaps AP but may add European syndication provenance."
+    },
+    {
+      "url": "https://thesoufancenter.org/intelbrief-2026-april-24/",
+      "title": "The Soufan Center — Iran's use of information warfare in the conflict against the United States",
+      "source": "The Soufan Center",
+      "published_at": "2026-04-24",
+      "confidence": 0.8,
+      "reason": "Research/intelbrief candidate mentioning Explosive Media and information warfare."
+    },
+    {
+      "url": "https://www.thesun.co.uk/news/38456797/iran-lego-propaganda-dubai-britain-raf/",
+      "title": "The Sun — Iran shares LEGO war propaganda video showing Dubai and RAF base scenarios",
+      "source": "The Sun",
+      "published_at": "2026-04-01",
+      "confidence": 0.48,
+      "reason": "Low-confidence/tabloid candidate; needs verification before use."
+    }
+  ]
+}

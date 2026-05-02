@@ -1,0 +1,34 @@
+{
+  "schema_version": "v120.lazy-load-manifest",
+  "generated_at": "2026-05-02T15:45:00Z",
+  "bootstrap_mode": "compatibility",
+  "startup": [
+    "version.json",
+    "release_manifest.json",
+    "dashboard_metrics_v94_2.json",
+    "confidence_scores_v118.json"
+  ],
+  "on_demand": {
+    "investigate": [
+      "items.json",
+      "sources.json",
+      "evidence.json",
+      "claims_v93.json"
+    ],
+    "graph": [
+      "network_graph.json",
+      "graph_dashboard_v116.json",
+      "graph_intelligence_v120.json"
+    ],
+    "reports": [
+      "report_export_runtime_v120.json",
+      "reports_index.json"
+    ],
+    "admin": [
+      "release_gate_v120.json",
+      "update_manifest.json",
+      "v120_build_validation.json"
+    ]
+  },
+  "note": "v120 ships a lazy-load contract while retaining single-file bootstrap compatibility for local/offline use."
+}

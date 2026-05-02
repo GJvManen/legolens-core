@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-05-01T19:40:00Z",
+  "release": "v78.2",
+  "diagnosis_v78_1": {
+    "v78_1_html_mb": 3.28,
+    "v78_1_script_mb": 3.24,
+    "v78_1_data_image_count": 450,
+    "position:absolute": 9,
+    "bottom:": 14,
+    "overflow-y:auto": 1,
+    "candidateList": 0,
+    "approveCandidate": 0,
+    "data-candidate-action": 0,
+    "Project connection": 3
+  },
+  "data_integrity": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "incidents": 6,
+    "evidence_records": 476,
+    "candidate_queue": 38,
+    "similarity_candidates": 75,
+    "narratives": 8,
+    "ttps": 10,
+    "duplicate_item_ids": 0,
+    "orphan_source_refs": 0,
+    "orphan_family_refs": 0,
+    "items_missing_title": 0,
+    "items_missing_url": 0,
+    "items_missing_provenance": 0,
+    "items_missing_evidence_ids": 0,
+    "needs_review_families": 5
+  },
+  "asset_integrity": {
+    "thumbnail_paths_checked": 952,
+    "invalid_asset_refs": []
+  },
+  "ui_static_checks": {
+    "static_duplicate_ids": [],
+    "nav_anchor_count": 10,
+    "missing_nav_targets": [],
+    "missing_js_referenced_ids": [],
+    "embedded_json_mb": 2.102,
+    "html_mb": 2.138,
+    "raw_script_syntax_node_check": "pass"
+  },
+  "node_app_shell_smoke_test": {
+    "contentStatus": "476 items geladen uit de embedded v78.2 data-copy; canonical JSON-bestanden zitten in /data.",
+    "contentGridLength": 414144,
+    "cardButtons": 476,
+    "sourceRows": 382,
+    "candidates": 114,
+    "patchPreview": "Nog geen lokale reviewacties.",
+    "topStats": "<div class=\"stat\"><strong>476</strong><span>Contentitems</span></div><div class=\"stat\"><strong>382</strong><span>Bronnen</span></div><div class=\"stat\"><strong>6</strong><span>Incidentclusters</span></div><div class=\"stat\"><strong>30</strong><span>Open kandidaten</span></div>"
+  },
+  "notes": [
+    "Canonical data files were not reduced; only the embedded UI copy replaces data:image fallback blobs with assets/fallback.jpg for speed.",
+    "Browser automation with chromium was not reliable in this container due a crashpad startup error, so node syntax and DOM-shell smoke tests were used.",
+    "Admin approval remains patch-first and does not write directly to items.json."
+  ]
+}

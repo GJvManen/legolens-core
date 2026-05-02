@@ -1,0 +1,21 @@
+{
+  "schema_version": "v99.2-build-validation",
+  "release": "v99.2",
+  "generated_at": "2026-05-02T12:00:52.842442Z",
+  "checks": {
+    "items_preserved": true,
+    "sources_preserved": true,
+    "families_preserved": true,
+    "preview_assets_missing": 0,
+    "api_key_save_backend_endpoint": "/api/openai/config/save",
+    "api_key_runtime_config_path": "runtime_config/openai_config.local.json",
+    "thumbnail_generated_fallback_enabled": true,
+    "direct_publication": false
+  },
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "candidate_queue": 38
+  }
+}

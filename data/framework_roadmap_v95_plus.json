@@ -1,0 +1,101 @@
+{
+  "schema_version": "v94.2-framework-roadmap",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "principles": [
+    "stability before feature growth",
+    "review-first, no auto-publication",
+    "evidence before attribution",
+    "lossless updates",
+    "server-side AI integration only"
+  ],
+  "next_releases": [
+    {
+      "release": "v95",
+      "title": "Browser-tested release pipeline",
+      "priority": "P0",
+      "deliverables": [
+        "Playwright/Chromium smoke tests",
+        "visual regression snapshots",
+        "CI release gate",
+        "offline and backend update tests"
+      ]
+    },
+    {
+      "release": "v96",
+      "title": "Persistent admin database",
+      "priority": "P0",
+      "deliverables": [
+        "SQLite write path",
+        "review_log persistence",
+        "update_sessions table",
+        "candidate state persistence"
+      ]
+    },
+    {
+      "release": "v97",
+      "title": "Evidence capture automation",
+      "priority": "P1",
+      "deliverables": [
+        "archive URL collector",
+        "screenshot capture job",
+        "transcript ingestion",
+        "evidence completeness SLA"
+      ]
+    },
+    {
+      "release": "v98",
+      "title": "Advanced graph analytics",
+      "priority": "P1",
+      "deliverables": [
+        "centrality metrics",
+        "community detection",
+        "path analysis",
+        "incident propagation metrics"
+      ]
+    },
+    {
+      "release": "v99",
+      "title": "Multi-user governance",
+      "priority": "P1",
+      "deliverables": [
+        "roles",
+        "review approvals",
+        "change requests",
+        "audit trail export"
+      ]
+    },
+    {
+      "release": "v100",
+      "title": "Production deployment profile",
+      "priority": "P2",
+      "deliverables": [
+        "Docker compose",
+        "Postgres mode",
+        "object storage for evidence",
+        "backup/restore runbook"
+      ]
+    },
+    {
+      "release": "v101",
+      "title": "Privacy and legal review layer",
+      "priority": "P1",
+      "deliverables": [
+        "data retention policy",
+        "PII minimization",
+        "source takedown flags",
+        "risk register"
+      ]
+    },
+    {
+      "release": "v102",
+      "title": "Interoperability export",
+      "priority": "P2",
+      "deliverables": [
+        "STIX-like export",
+        "DISARM mapping export",
+        "CSV data mart",
+        "BI connector"
+      ]
+    }
+  ]
+}

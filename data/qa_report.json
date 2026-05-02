@@ -1,0 +1,45 @@
+{
+  "schema_version": "v94.0",
+  "generated_at": "2026-05-02T12:20:00Z",
+  "metrics": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5,
+    "candidate_queue": 38,
+    "evidence_records": 476,
+    "incidents": 6,
+    "claims": 14,
+    "actors": 10,
+    "infrastructure": 41
+  },
+  "checks": {
+    "orphan_source_refs": [],
+    "orphan_family_refs": [],
+    "missing_thumbnail_refs": [],
+    "missing_hero_assets": [],
+    "needs_review_preserved": true,
+    "no_content_removed": true,
+    "auto_publication": false,
+    "update_package_present": false
+  },
+  "role_counts": {
+    "unknown": 476
+  },
+  "families_needing_review": [
+    "fam_brick_beat_battalion",
+    "fam_community_reposts",
+    "fam_militarylego_ai_x_network",
+    "fam_persiaboi_studios",
+    "fam_rock_id_official"
+  ],
+  "warnings": [],
+  "release": "v99.1",
+  "summary": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5,
+    "missing_thumbnail_refs": 0
+  }
+}

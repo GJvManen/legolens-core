@@ -1,0 +1,24 @@
+{
+  "schema_version": "v115.build-validation",
+  "release": "v115.0",
+  "generated_at": "2026-05-02T13:40:23.891663Z",
+  "source_bundle": "v110.0",
+  "content_lossless": true,
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "incidents": 6,
+    "claims": 14,
+    "evidence": 476,
+    "graph_edges": 1803
+  },
+  "implemented_releases": [
+    "v111 interface regrouping",
+    "v112 unified detail panel",
+    "v113 work queues and bulk review",
+    "v114 report builder 2.0",
+    "v115 graph explorer"
+  ],
+  "release_gate_status": "PASS"
+}

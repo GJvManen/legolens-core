@@ -1,0 +1,1483 @@
+{
+  "schema_version": "v110.analyst-workbench",
+  "release": "v110.0",
+  "generated_at": "2026-05-02T13:29:47.031523Z",
+  "summary": {
+    "open_tasks": 132,
+    "open_evidence_tasks": 476,
+    "pending_candidates": 30,
+    "claim_review_tasks": 12,
+    "comparison_pairs": 50,
+    "saved_searches": 4
+  },
+  "modules": [
+    "Research Mode",
+    "Evidence Workbench",
+    "Infrastructure Graph",
+    "Claim Intelligence",
+    "Candidate Review",
+    "Reports",
+    "Update Center"
+  ],
+  "saved_searches": [
+    {
+      "search_id": "search_open_evidence_gaps",
+      "label": "Open evidence gaps",
+      "module": "Evidence Workbench",
+      "filters": {
+        "evidence_status": [
+          "missing",
+          "partial"
+        ]
+      }
+    },
+    {
+      "search_id": "search_unverified_high_reach_claims",
+      "label": "Unverified high-reach claims",
+      "module": "Claim Intelligence",
+      "filters": {
+        "verification_status": "unverified",
+        "min_item_count": 75
+      }
+    },
+    {
+      "search_id": "search_needs_review_families",
+      "label": "Needs-review source families",
+      "module": "Sources",
+      "filters": {
+        "family_status": "needs_review"
+      }
+    },
+    {
+      "search_id": "search_reused_infrastructure",
+      "label": "Reused infrastructure nodes",
+      "module": "Infrastructure Graph",
+      "filters": {
+        "min_degree": 20
+      }
+    }
+  ],
+  "task_queue": [
+    {
+      "task_id": "wb_claimtask_claim_nar_pop_culture_memetic",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Pop-culture memetic persuasion",
+      "entity_id": "claim_nar_pop_culture_memetic",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_nar_creator_infrastructure",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Creator/source infrastructure",
+      "entity_id": "claim_nar_creator_infrastructure",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_social_amplification",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Community repost and social amplification cluster",
+      "entity_id": "claim_inc_2026_iran_lego_social_amplification",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_nar_us_humiliation",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "US humiliation / incompetence",
+      "entity_id": "claim_nar_us_humiliation",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_core_explosive_media",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Explosive Media core distribution cluster",
+      "entity_id": "claim_inc_2026_iran_lego_core_explosive_media",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Platform moderation, takedowns and mirror persistence",
+      "entity_id": "claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_alt_creator_networks",
+      "task_type": "claim_review",
+      "priority": "high",
+      "title": "Alternative creator-network clusters",
+      "entity_id": "claim_inc_2026_iran_lego_alt_creator_networks",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_media_coverage",
+      "task_type": "claim_review",
+      "priority": "medium",
+      "title": "International media and expert coverage cluster",
+      "entity_id": "claim_inc_2026_iran_lego_media_coverage",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_nar_platform_moderation",
+      "task_type": "claim_review",
+      "priority": "medium",
+      "title": "Platform moderation / takedown",
+      "entity_id": "claim_nar_platform_moderation",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_nar_revenge_deterrence",
+      "task_type": "claim_review",
+      "priority": "medium",
+      "title": "Revenge / deterrence",
+      "entity_id": "claim_nar_revenge_deterrence",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_inc_2026_iran_lego_creator_source_discovery",
+      "task_type": "claim_review",
+      "priority": "medium",
+      "title": "Creator and source discovery cluster",
+      "entity_id": "claim_inc_2026_iran_lego_creator_source_discovery",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_claimtask_claim_nar_unverified_claim",
+      "task_type": "claim_review",
+      "priority": "medium",
+      "title": "Unverified or claim-heavy content",
+      "entity_id": "claim_nar_unverified_claim",
+      "recommended_view": "Claim Intelligence"
+    },
+    {
+      "task_id": "wb_evtask_itm_00467",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Flow Lego (channel)",
+      "entity_id": "itm_00467",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00468",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Flow Lego (videos tab)",
+      "entity_id": "itm_00468",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00008",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "L.O.S.E.R!",
+      "entity_id": "itm_00008",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00009",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Loser 2 (LIAR) — Official Teaser",
+      "entity_id": "itm_00009",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00010",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Resistance",
+      "entity_id": "itm_00010",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00011",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Strait of Hormuz",
+      "entity_id": "itm_00011",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00012",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Phoenix Awakened",
+      "entity_id": "itm_00012",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00013",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Minab Girls",
+      "entity_id": "itm_00013",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00014",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Meet Iran’s negotiation lineup",
+      "entity_id": "itm_00014",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00015",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Path of Blood",
+      "entity_id": "itm_00015",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00016",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "دمُكم دمُنا / Your blood is our blood",
+      "entity_id": "itm_00016",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00017",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "لن نترك لبنان / We will not leave Lebanon",
+      "entity_id": "itm_00017",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00018",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "IRAN WON!",
+      "entity_id": "itm_00018",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00019",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "One man. One tar. One homeland.",
+      "entity_id": "itm_00019",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00020",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "In 48 hours, You learned the truth...",
+      "entity_id": "itm_00020",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00021",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "The Kabab is ready.",
+      "entity_id": "itm_00021",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00062",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Military Lego ai (channel)",
+      "entity_id": "itm_00062",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00063",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Military Lego ai (videos tab)",
+      "entity_id": "itm_00063",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00151",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa / Posts / X",
+      "entity_id": "itm_00151",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00167",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media introduction quote via another Threads result",
+      "entity_id": "itm_00167",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00215",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "WarFrontUpdatesME — NEW LEGO-STYLE RELEASED: STONE AGE",
+      "entity_id": "itm_00215",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00220",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Palestine Foundation Pakistan — Goodbye, Oil",
+      "entity_id": "itm_00220",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00260",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa profile",
+      "entity_id": "itm_00260",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00261",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — Trump Surrendered. IRAN WON. TACO will always remain TACO",
+      "entity_id": "itm_00261",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00263",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa profile",
+      "entity_id": "itm_00263",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00274",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — We are the team that creates LEGO-style animations",
+      "entity_id": "itm_00274",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00275",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media Telegram channel",
+      "entity_id": "itm_00275",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00284",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "jose04152 (account)",
+      "entity_id": "itm_00284",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00288",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Brick Beat Battalion (channel)",
+      "entity_id": "itm_00288",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00305",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Rock ID Official (channel)",
+      "entity_id": "itm_00305",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00313",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media | Facebook — GoodBye, Oil video",
+      "entity_id": "itm_00313",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00338",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Rock ID Official (videos tab)",
+      "entity_id": "itm_00338",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00345",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "PersiaBoi Studios / Daily Iran LEGO Animations — Hormuz Hustle",
+      "entity_id": "itm_00345",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00346",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "PersiaBoi Studios / Daily Iran LEGO Animations — The Dollar Is Dead",
+      "entity_id": "itm_00346",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00347",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "PersiaBoi Studios — That was fast… another Lego-style animated clip",
+      "entity_id": "itm_00347",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00350",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Brick Beat Battalion (videos tab)",
+      "entity_id": "itm_00350",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00353",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Daily Iran LEGO Animations & Emotional Soundtracks — Epstein Queen",
+      "entity_id": "itm_00353",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00354",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Daily Iran LEGO Animations & Emotional Soundtracks — Minab 168",
+      "entity_id": "itm_00354",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00360",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa (official Facebook page)",
+      "entity_id": "itm_00360",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00365",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — A summary of the past few days (official Facebook post)",
+      "entity_id": "itm_00365",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00366",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — Let's get Lindsey a one-way ticket from Disneyland to Tehran",
+      "entity_id": "itm_00366",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00367",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — What actually happened: Operation Epic Deception",
+      "entity_id": "itm_00367",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00374",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — Hello everyone, We're the independent team behind Iranian LEGO Animations",
+      "entity_id": "itm_00374",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00375",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — What actually happened: Operation Epic Deception #trump",
+      "entity_id": "itm_00375",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00376",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — دمُكم دمُنا أطفالُكم أطفالُنا...",
+      "entity_id": "itm_00376",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00392",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Lego_AI_X (@Militarylego_AI_X) (channel)",
+      "entity_id": "itm_00392",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00414",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Militarylego AI X (@61567236192838) - Videos",
+      "entity_id": "itm_00414",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00422",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Jpli Loper (channel)",
+      "entity_id": "itm_00422",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00432",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Iran (@IranLegoDaily) (channel)",
+      "entity_id": "itm_00432",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00433",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Iran (@IranLegoDaily) (videos tab)",
+      "entity_id": "itm_00433",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00434",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "CNN IRAN LEGO (channel)",
+      "entity_id": "itm_00434",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00438",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — L.O.S.E.R (Khamenei again)",
+      "entity_id": "itm_00438",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00439",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — 186 little girls were killed And no man will remain silent...",
+      "entity_id": "itm_00439",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00361",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — Get straight out of Hormuz, Little orange man! Our New Lego-style music video is here!",
+      "entity_id": "itm_00361",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00369",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — Get straight out of Hormuz, Little orange man! Our New Lego-style music video is here!",
+      "entity_id": "itm_00369",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00271",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — Look at the mug",
+      "entity_id": "itm_00271",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00235",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — As always, there are plenty of hidden details",
+      "entity_id": "itm_00235",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00398",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — Reality #legofan #legophotography #legostagram",
+      "entity_id": "itm_00398",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00267",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — The target list is locked and loaded. Wanna gamble again, LOSER? \"GoodBye, Oil\"",
+      "entity_id": "itm_00267",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00270",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — We are the team that creates LEGO-style animations (support post)",
+      "entity_id": "itm_00270",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00259",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — We are the team that creates LEGO-style animations",
+      "entity_id": "itm_00259",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00210",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — Never talk about the Stone Age again Peter! okay?!",
+      "entity_id": "itm_00210",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00397",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — Arrested in France—for defending Palestine",
+      "entity_id": "itm_00397",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00257",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — \"Stone Age\" It will be released soon.",
+      "entity_id": "itm_00257",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00258",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — Stone Age? Huh! Something big is coming. Soon...",
+      "entity_id": "itm_00258",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00269",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — In response to your completely valid request ... support us here",
+      "entity_id": "itm_00269",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00268",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — We're not stopping — the LEGO-style animations will keep coming, stronger than ever",
+      "entity_id": "itm_00268",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00396",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "ExplosiveMediaa — The way to crush imperialism has been shown to the world. Trump Surrendered. IRAN WON. TACO will always remain TACO",
+      "entity_id": "itm_00396",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00400",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — Hello everyone. We're the independent team behind Iranian LEGO Animations",
+      "entity_id": "itm_00400",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00399",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "explosivemediaa — New LEGO-style animation. Out tonight.",
+      "entity_id": "itm_00399",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00152",
+      "task_type": "evidence_gap",
+      "priority": "medium",
+      "title": "Explosive Media — Hello everyone. We're the independent team behind Iranian LEGO Animations.",
+      "entity_id": "itm_00152",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_similarity_001",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "0",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_002",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "1",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_003",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "2",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_004",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "3",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_005",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "4",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_006",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "5",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_007",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "6",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_008",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "7",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_009",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "8",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_010",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "9",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_011",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "10",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_012",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "11",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_013",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "12",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_014",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "13",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_015",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "14",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_016",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "15",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_017",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "16",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_018",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "17",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_019",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "18",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_020",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "19",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_021",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "20",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_022",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "21",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_023",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "22",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_024",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "23",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_025",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "24",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_026",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "25",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_027",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "26",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_028",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "27",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_029",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "28",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_030",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "29",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_031",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "30",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_032",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "31",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_033",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "32",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_034",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "33",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_035",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "34",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_036",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "35",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_037",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "36",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_038",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "37",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_039",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "38",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_similarity_040",
+      "task_type": "similarity_review",
+      "priority": "medium",
+      "title": "Similarity candidate",
+      "entity_id": "39",
+      "recommended_view": "Side-by-side comparison"
+    },
+    {
+      "task_id": "wb_evtask_itm_00469",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "CNN IRAN LEGO (channel)",
+      "entity_id": "itm_00469",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00470",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "CNN IRAN LEGO (videos tab)",
+      "entity_id": "itm_00470",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00022",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "Dozens of Lego-themed AI videos have flooded social media (DW video)",
+      "entity_id": "itm_00022",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00023",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "Lego-style animated videos coming out of Iran that mock US... (Reuters)",
+      "entity_id": "itm_00023",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00024",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "Iran drops another Lego-style video. Title: LIAR.",
+      "entity_id": "itm_00024",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00025",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "A 2-minute LEGO-style animation is making rounds online",
+      "entity_id": "itm_00025",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00026",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "CNN reel covering the Lego-style propaganda video",
+      "entity_id": "itm_00026",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00027",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "Dozens of Lego-themed AI videos have flooded social media",
+      "entity_id": "itm_00027",
+      "recommended_view": "Evidence Workbench"
+    },
+    {
+      "task_id": "wb_evtask_itm_00028",
+      "task_type": "evidence_gap",
+      "priority": "low",
+      "title": "Come closer...",
+      "entity_id": "itm_00028",
+      "recommended_view": "Evidence Workbench"
+    }
+  ],
+  "comparison_pairs": [
+    {
+      "comparison_id": "cmp_001",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00039",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_002",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00040",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_003",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00041",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_004",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00042",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_005",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00043",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_006",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00044",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_007",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00045",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_008",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00046",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_009",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00047",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_010",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00048",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_011",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00049",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_012",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00050",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_013",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00051",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_014",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00053",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_015",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00054",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_016",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00056",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_017",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00057",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_018",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00058",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_019",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00059",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_020",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00060",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_021",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00064",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_022",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00065",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_023",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00066",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_024",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00067",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_025",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00068",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_026",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00070",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_027",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00071",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_028",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00072",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_029",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00073",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_030",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00074",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_031",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00075",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_032",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00076",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_033",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00077",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_034",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00078",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_035",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00079",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_036",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00080",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_037",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00081",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_038",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00082",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_039",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00083",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_040",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00084",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_041",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00085",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_042",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00086",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_043",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00087",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_044",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00088",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_045",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00089",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_046",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00090",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_047",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00091",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_048",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00092",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_049",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00093",
+      "reason": "similarity candidate",
+      "score": 0.98
+    },
+    {
+      "comparison_id": "cmp_050",
+      "left_item_id": "itm_00038",
+      "right_item_id": "itm_00094",
+      "reason": "similarity candidate",
+      "score": 0.98
+    }
+  ],
+  "bulk_actions": [
+    "export_selection",
+    "mark_needs_evidence",
+    "create_review_patch",
+    "link_to_incident",
+    "open_side_by_side"
+  ],
+  "local_first_policy": {
+    "backend_required": false,
+    "json_canonical": true,
+    "auto_publication": false,
+    "patch_first": true
+  }
+}

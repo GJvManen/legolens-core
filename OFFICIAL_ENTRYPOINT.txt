@@ -1,0 +1,1 @@
+Open index.html. Release: LegoLens Iran v120.1. Central version source: data/version.json.

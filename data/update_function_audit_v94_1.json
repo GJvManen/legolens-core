@@ -1,0 +1,356 @@
+{
+  "schema_version": "v94.1-update-audit/runtime",
+  "generated_at": "2026-05-02T09:36:21Z",
+  "summary": {
+    "total": 22,
+    "passed": 22,
+    "failed": 0
+  },
+  "diff_update_package_v94_1": {
+    "target": "v94.1",
+    "added": [],
+    "removed": [],
+    "lossless": true,
+    "changed_counts": [
+      {
+        "file": "items.json",
+        "old_count": 476,
+        "new_count": 476
+      },
+      {
+        "file": "sources.json",
+        "old_count": 382,
+        "new_count": 382
+      },
+      {
+        "file": "source_families.json",
+        "old_count": 10,
+        "new_count": 10
+      },
+      {
+        "file": "candidate_queue.json",
+        "old_count": 38,
+        "new_count": 38
+      },
+      {
+        "file": "incidents.json",
+        "old_count": 6,
+        "new_count": 6
+      },
+      {
+        "file": "evidence.json",
+        "old_count": 476,
+        "new_count": 476
+      },
+      {
+        "file": "similarity_candidates.json",
+        "old_count": 75,
+        "new_count": 75
+      },
+      {
+        "file": "qa_report.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "release_manifest.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "narratives.json",
+        "old_count": 8,
+        "new_count": 8
+      },
+      {
+        "file": "ttp_taxonomy.json",
+        "old_count": 10,
+        "new_count": 10
+      },
+      {
+        "file": "review_log.json",
+        "old_count": 15,
+        "new_count": 15
+      },
+      {
+        "file": "discovery_schedule.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "reports_index.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "search_index.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "network_graph.json",
+        "old_count": null,
+        "new_count": null
+      },
+      {
+        "file": "claims_v93.json",
+        "old_count": 14,
+        "new_count": 14
+      },
+      {
+        "file": "actors_v94.json",
+        "old_count": 10,
+        "new_count": 10
+      },
+      {
+        "file": "infrastructure_v94.json",
+        "old_count": 41,
+        "new_count": 41
+      }
+    ]
+  },
+  "diff_test_update_package_v86": {
+    "target": "v94-test-staged-update",
+    "added": [],
+    "removed": [],
+    "lossless": true,
+    "changed_counts": [
+      {
+        "file": "items.json",
+        "old_count": 476,
+        "new_count": 476
+      },
+      {
+        "file": "sources.json",
+        "old_count": 382,
+        "new_count": 382
+      },
+      {
+        "file": "source_families.json",
+        "old_count": 10,
+        "new_count": 10
+      },
+      {
+        "file": "candidate_queue.json",
+        "old_count": 38,
+        "new_count": 39
+      }
+    ]
+  },
+  "findings": [
+    {
+      "severity": "pass",
+      "finding": "Backend update endpoints serve valid JSON."
+    },
+    {
+      "severity": "pass",
+      "finding": "update_package_v94_1 is lossless and keeps all 476 items."
+    },
+    {
+      "severity": "pass",
+      "finding": "Offline Check now now opens the Import JSON picker instead of silently requiring manual import."
+    },
+    {
+      "severity": "note",
+      "finding": "Browser clicktest could not be run in this environment due Chromium policy ERR_BLOCKED_BY_ADMINISTRATOR; static, backend and simulation tests passed."
+    }
+  ],
+  "checks": [
+    {
+      "check": "manifest v94.1",
+      "passed": true,
+      "detail": {
+        "schema_version": "v94.1",
+        "generated_at": "2026-05-02T09:35:43Z",
+        "latest_package": "update_package_v94_1.json",
+        "latest_release": "v94.1",
+        "offline_import_supported": true,
+        "check_now_requires_http_or_backend": false,
+        "test_package": "test_update_package_v86.json",
+        "lossless_policy": {
+          "block_if_existing_item_missing": true,
+          "block_if_needs_review_family_count_changes": true
+        },
+        "check_now_file_mode": "opens_json_picker_for_manual_update_package_selection",
+        "http_check_now_supported": true
+      }
+    },
+    {
+      "check": "manifest latest package v94_1",
+      "passed": true,
+      "detail": "update_package_v94_1.json"
+    },
+    {
+      "check": "update package v94.1 target",
+      "passed": true,
+      "detail": "v94.1"
+    },
+    {
+      "check": "update_package_v94_1 lossless",
+      "passed": true,
+      "detail": {
+        "removed": []
+      }
+    },
+    {
+      "check": "update_package_v94_1 keeps items",
+      "passed": true,
+      "detail": 476
+    },
+    {
+      "check": "test_update_package_v86 lossless",
+      "passed": true,
+      "detail": {
+        "removed": []
+      }
+    },
+    {
+      "check": "test_update_package_v86 keeps items",
+      "passed": true,
+      "detail": 476
+    },
+    {
+      "check": "apply sim items",
+      "passed": true,
+      "detail": 476
+    },
+    {
+      "check": "apply sim sources",
+      "passed": true,
+      "detail": 382
+    },
+    {
+      "check": "apply sim families",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "check": "apply sim needs_review",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "backend /api/health",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "ok",
+          "release",
+          "generated_at"
+        ],
+        "target": null,
+        "release": "v94.1"
+      }
+    },
+    {
+      "check": "backend /api/update/manifest",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "generated_at",
+          "latest_package",
+          "latest_release",
+          "offline_import_supported"
+        ],
+        "target": null,
+        "release": null
+      }
+    },
+    {
+      "check": "backend /api/update/package",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "target",
+          "generated_at",
+          "auto_publication",
+          "direct_publication"
+        ],
+        "target": "v94.1",
+        "release": null
+      }
+    },
+    {
+      "check": "backend /api/update/test-package",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "target",
+          "generated_at",
+          "auto_publication",
+          "direct_publication"
+        ],
+        "target": "v94-test-staged-update",
+        "release": null
+      }
+    },
+    {
+      "check": "backend /api/release-gate",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "generated_at",
+          "status",
+          "blocking_checks",
+          "notes"
+        ],
+        "target": null,
+        "release": null
+      }
+    },
+    {
+      "check": "backend /api/qa",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "generated_at",
+          "metrics",
+          "checks",
+          "role_counts"
+        ],
+        "target": null,
+        "release": null
+      }
+    },
+    {
+      "check": "backend /api/db/manifest",
+      "passed": true,
+      "detail": {
+        "keys": [
+          "schema_version",
+          "generated_at",
+          "database_path",
+          "tables",
+          "policy"
+        ],
+        "target": null,
+        "release": null
+      }
+    },
+    {
+      "check": "backend package is v94.1",
+      "passed": true,
+      "detail": "v94.1"
+    },
+    {
+      "check": "file:// check now opens picker",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "http check uses manifest latest package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "bootstrap embedded manifest v94.1",
+      "passed": true,
+      "detail": "v94.1"
+    }
+  ]
+}

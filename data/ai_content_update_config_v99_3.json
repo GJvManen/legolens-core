@@ -1,0 +1,12 @@
+{
+  "schema_version": "v99.3-ai-content-update-config",
+  "generated_at": "2026-05-02T12:55:00Z",
+  "endpoint": "POST /api/ai/update-content",
+  "policy": {
+    "direct_publication": false,
+    "output": "staged_update_package",
+    "human_review_required": true
+  },
+  "uses_openai_web_search": true,
+  "description": "Uses server-side OpenAI Responses API, optionally with web_search, to propose new content/update candidates. Existing content is never overwritten automatically."
+}

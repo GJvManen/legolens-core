@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legolens.local/schemas/source.schema.json",
+  "title": "LegoLens Source",
+  "type": "object",
+  "required": [
+    "id",
+    "family_id",
+    "platform",
+    "name",
+    "url",
+    "source_kind",
+    "status",
+    "item_count"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "family_id": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "canonical_source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_kind": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "reliability_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "scan_priority": {
+      "type": [
+        "number",
+        "integer",
+        "null"
+      ]
+    },
+    "scan_method": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_scanned_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_new_item_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "item_count": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

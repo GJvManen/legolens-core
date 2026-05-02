@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-05-01",
+  "from_version": "v74",
+  "to_version": "v74.1",
+  "items_before": 470,
+  "items_after": 476,
+  "new_items": 6,
+  "updated_items": 476,
+  "new_sources": 6,
+  "new_families": 0,
+  "possible_duplicates": 0,
+  "families_needing_review": [
+    "Brick Beat Battalion",
+    "Community / Reposts",
+    "Militarylego AI X Network",
+    "PersiaBoi Studios",
+    "Rock ID Official"
+  ],
+  "qa_changes": [
+    "Retained all 470 original item IDs and added 6 verified missing coverage/mirror records.",
+    "Resolved date_quality=unknown records by adding auditable archive-first-seen timeline dates without fabricating publication dates.",
+    "Generated 367 local metadata preview images so no item uses thumbnail_mode=fallback.",
+    "Resolved all 8 duplicate clusters losslessly via canonical URL-variant normalization and provenance flags; no item was deleted.",
+    "Preserved the five families with status needs_review exactly as requested.",
+    "Regenerated QA, provenance chains, duplicate resolution, lossless audit and external verification reports."
+  ],
+  "resolved_duplicate_clusters": 8
+}

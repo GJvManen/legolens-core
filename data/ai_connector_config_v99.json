@@ -1,0 +1,43 @@
+{
+  "schema_version": "v99.0-ai-connector-config",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "status": "configured_server_side_only",
+  "security_policy": {
+    "browser_api_key_allowed": false,
+    "api_key_location": "server-side environment variable OPENAI_API_KEY",
+    "direct_publication_allowed": false,
+    "all_model_output_destination": "candidate_queue_or_update_package",
+    "human_review_required": true,
+    "structured_outputs_required": true
+  },
+  "default_admin_fields": {
+    "ai_backend_endpoint": "http://localhost:8787/api/ai",
+    "model_profile": "default",
+    "update_mode": "candidate_only",
+    "scope": [
+      "known_sources",
+      "coverage",
+      "claims",
+      "duplicates",
+      "incident_links",
+      "evidence_gaps"
+    ],
+    "max_candidates": 25,
+    "review_policy": "human_required"
+  },
+  "backend_endpoints": [
+    "GET /api/ai/status",
+    "POST /api/ai/test",
+    "POST /api/ai/discover",
+    "POST /api/ai/expand-update",
+    "POST /api/ai/classify-candidates",
+    "POST /api/ai/generate-report",
+    "POST /api/ai/suggest-claims",
+    "POST /api/ai/suggest-incident-links"
+  ],
+  "notes": [
+    "Het Admin panel slaat alleen de backend endpoint/config op in localStorage; nooit een OpenAI key.",
+    "Als OPENAI_API_KEY ontbreekt, retourneert de backend een veilige mock candidate zodat de workflow getest kan worden."
+  ],
+  "chatgpt_authorization": "chatgpt_authorization_config_v99.json"
+}

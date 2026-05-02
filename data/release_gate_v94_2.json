@@ -1,0 +1,35 @@
+{
+  "schema_version": "v94.2-release-gate",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "status": "pass",
+  "blocking_checks": {
+    "items_preserved": true,
+    "sources_preserved": true,
+    "families_preserved": true,
+    "needs_review_preserved": true,
+    "thumbnail_refs_valid": true,
+    "hero_assets_valid": true,
+    "fallback_exists": true,
+    "update_package_v94_exists": true,
+    "test_update_package_exists": true,
+    "no_auto_publication": true,
+    "orphan_source_refs_zero": true,
+    "orphan_family_refs_zero": true,
+    "ai_connector_no_browser_key": true,
+    "ai_connector_backend_endpoints_present": true,
+    "dashboard_graphics_data_present": true,
+    "lossless_content_preserved": true,
+    "needs_review_families_preserved": true
+  },
+  "notes": [
+    "Static release gate. Browser click tests should be run in a real browser with tests/smoke_test_v94.html."
+  ],
+  "summary": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5,
+    "new_content_added": 0,
+    "content_removed": 0
+  }
+}

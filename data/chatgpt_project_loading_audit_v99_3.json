@@ -1,0 +1,12 @@
+{
+  "schema_version": "v99.3-openai-project-loading-audit",
+  "generated_at": "2026-05-02T12:55:00Z",
+  "fixes": [
+    "Added optional OpenAI Admin API key support for real organization project list",
+    "/api/openai/projects now returns OpenAI Admin projects when admin key is configured",
+    "Falls back to local project profiles with explicit admin_note when no admin key is configured",
+    "Project selection persists in runtime_config/openai_config.local.json"
+  ],
+  "known_constraint": "Regular OpenAI API keys are scoped to projects and do not enumerate all organization projects; listing projects requires an OpenAI Admin API key.",
+  "status": "implemented"
+}

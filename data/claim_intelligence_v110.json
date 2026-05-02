@@ -1,0 +1,430 @@
+{
+  "schema_version": "v110.claim-intelligence",
+  "release": "v110.0",
+  "generated_at": "2026-05-02T13:29:47.031523Z",
+  "summary": {
+    "claims": 14,
+    "high_priority_claims": 7,
+    "medium_priority_claims": 5,
+    "linked_items_total": 1516
+  },
+  "verification_matrix": [
+    {
+      "status": "unverified",
+      "count": 13
+    },
+    {
+      "status": "contextual",
+      "count": 1
+    }
+  ],
+  "type_distribution": [
+    {
+      "claim_type": "narrative",
+      "count": 8
+    },
+    {
+      "claim_type": "incident_cluster",
+      "count": 6
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "claim_nar_pop_culture_memetic",
+      "text": "Pop-culture memetic persuasion",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 363,
+      "evidence_count": 200,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_creator_infrastructure",
+      "text": "Creator/source infrastructure",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 193,
+      "evidence_count": 193,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_social_amplification",
+      "text": "Community repost and social amplification cluster",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 174,
+      "evidence_count": 174,
+      "incident_count": 3,
+      "incident_ids": [
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_us_humiliation",
+      "text": "US humiliation / incompetence",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 157,
+      "evidence_count": 157,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_core_explosive_media",
+      "text": "Explosive Media core distribution cluster",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 153,
+      "evidence_count": 153,
+      "incident_count": 3,
+      "incident_ids": [
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "text": "Platform moderation, takedowns and mirror persistence",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 94,
+      "evidence_count": 94,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_alt_creator_networks",
+      "text": "Alternative creator-network clusters",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 77,
+      "evidence_count": 77,
+      "incident_count": 2,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors"
+      ],
+      "review_priority": "high",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_media_coverage",
+      "text": "International media and expert coverage cluster",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 65,
+      "evidence_count": 65,
+      "incident_count": 4,
+      "incident_ids": [
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "medium",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_platform_moderation",
+      "text": "Platform moderation / takedown",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 42,
+      "evidence_count": 42,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "medium",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_revenge_deterrence",
+      "text": "Revenge / deterrence",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 32,
+      "evidence_count": 32,
+      "incident_count": 5,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "medium",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_inc_2026_iran_lego_creator_source_discovery",
+      "text": "Creator and source discovery cluster",
+      "claim_type": "incident_cluster",
+      "verification_status": "unverified",
+      "item_count": 28,
+      "evidence_count": 28,
+      "incident_count": 2,
+      "incident_ids": [
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors"
+      ],
+      "review_priority": "medium",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_unverified_claim",
+      "text": "Unverified or claim-heavy content",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 26,
+      "evidence_count": 26,
+      "incident_count": 3,
+      "incident_ids": [
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors"
+      ],
+      "review_priority": "medium",
+      "suggested_questions": [
+        "Welke primaire bron introduceerde deze claim?",
+        "Welke evidence ontbreekt?"
+      ]
+    },
+    {
+      "claim_id": "claim_nar_media_analysis",
+      "text": "Media analysis / research coverage",
+      "claim_type": "narrative",
+      "verification_status": "contextual",
+      "item_count": 95,
+      "evidence_count": 95,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "low",
+      "suggested_questions": []
+    },
+    {
+      "claim_id": "claim_nar_israel_dependency",
+      "text": "US–Israel dependency frame",
+      "claim_type": "narrative",
+      "verification_status": "unverified",
+      "item_count": 17,
+      "evidence_count": 17,
+      "incident_count": 6,
+      "incident_ids": [
+        "inc_2026_iran_lego_alt_creator_networks",
+        "inc_2026_iran_lego_core_explosive_media",
+        "inc_2026_iran_lego_creator_source_discovery",
+        "inc_2026_iran_lego_media_coverage",
+        "inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "inc_2026_iran_lego_social_amplification"
+      ],
+      "review_priority": "low",
+      "suggested_questions": []
+    }
+  ],
+  "review_tasks": [
+    {
+      "task_id": "claimtask_claim_nar_pop_culture_memetic",
+      "claim_id": "claim_nar_pop_culture_memetic",
+      "title": "Pop-culture memetic persuasion",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 363,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_nar_creator_infrastructure",
+      "claim_id": "claim_nar_creator_infrastructure",
+      "title": "Creator/source infrastructure",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 193,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_social_amplification",
+      "claim_id": "claim_inc_2026_iran_lego_social_amplification",
+      "title": "Community repost and social amplification cluster",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 174,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_nar_us_humiliation",
+      "claim_id": "claim_nar_us_humiliation",
+      "title": "US humiliation / incompetence",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 157,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_core_explosive_media",
+      "claim_id": "claim_inc_2026_iran_lego_core_explosive_media",
+      "title": "Explosive Media core distribution cluster",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 153,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "claim_id": "claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "title": "Platform moderation, takedowns and mirror persistence",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 94,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_alt_creator_networks",
+      "claim_id": "claim_inc_2026_iran_lego_alt_creator_networks",
+      "title": "Alternative creator-network clusters",
+      "priority": "high",
+      "verification_status": "unverified",
+      "item_count": 77,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_media_coverage",
+      "claim_id": "claim_inc_2026_iran_lego_media_coverage",
+      "title": "International media and expert coverage cluster",
+      "priority": "medium",
+      "verification_status": "unverified",
+      "item_count": 65,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_nar_platform_moderation",
+      "claim_id": "claim_nar_platform_moderation",
+      "title": "Platform moderation / takedown",
+      "priority": "medium",
+      "verification_status": "unverified",
+      "item_count": 42,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_nar_revenge_deterrence",
+      "claim_id": "claim_nar_revenge_deterrence",
+      "title": "Revenge / deterrence",
+      "priority": "medium",
+      "verification_status": "unverified",
+      "item_count": 32,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_inc_2026_iran_lego_creator_source_discovery",
+      "claim_id": "claim_inc_2026_iran_lego_creator_source_discovery",
+      "title": "Creator and source discovery cluster",
+      "priority": "medium",
+      "verification_status": "unverified",
+      "item_count": 28,
+      "action": "review_claim_evidence"
+    },
+    {
+      "task_id": "claimtask_claim_nar_unverified_claim",
+      "claim_id": "claim_nar_unverified_claim",
+      "title": "Unverified or claim-heavy content",
+      "priority": "medium",
+      "verification_status": "unverified",
+      "item_count": 26,
+      "action": "review_claim_evidence"
+    }
+  ],
+  "policy": {
+    "claims_are_not_fact_checks": true,
+    "human_review_required": true,
+    "ai_suggestions_candidate_only": true
+  }
+}

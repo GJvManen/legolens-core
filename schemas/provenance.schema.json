@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legolens.local/schemas/provenance.schema.json",
+  "title": "Provenance metadata",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "role",
+    "relationship",
+    "source_id",
+    "source_family_id",
+    "evidence_urls",
+    "confidence",
+    "review_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "primary",
+        "repost",
+        "mirror",
+        "coverage",
+        "candidate",
+        "source_reference",
+        "unclassified"
+      ]
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "canonical_item_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_group_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_family_id": {
+      "type": "string"
+    },
+    "parent_source_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "accepted",
+        "accepted_context",
+        "merged",
+        "pending_review",
+        "rejected",
+        "resolved_lossless"
+      ]
+    },
+    "reviewed_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "duplicate_resolution_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

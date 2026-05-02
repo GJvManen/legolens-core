@@ -1,0 +1,41 @@
+{
+  "schema_version": "legolens.release-manifest.v1",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "project": "LegoLens Core",
+  "release": "v1.0.0",
+  "version": "1.0.0",
+  "release_name": "Stable Community Release",
+  "official_entrypoint": "index.html",
+  "central_version_file": "data/version.json",
+  "release_path": "legolens_core_v1_0_bundle.zip",
+  "case_packs": [
+    "case-packs/iran/case.json",
+    "case-packs/demo/case.json"
+  ],
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "source_families": 10,
+    "evidence": 476,
+    "claims": 14,
+    "incidents": 6
+  },
+  "features": [
+    "core/case-pack split",
+    "review-first workflow",
+    "evidence and confidence model",
+    "graph explorer",
+    "reporting templates",
+    "community documentation",
+    "responsible-use governance",
+    "GitHub and ChatGPT integration guides",
+    "release gate and checksums"
+  ],
+  "security_defaults": {
+    "api_keys_in_frontend": false,
+    "cors_default": "localhost_only",
+    "direct_publication": false,
+    "human_review_required": true
+  },
+  "status": "stable"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "v116.report-builder-audit",
+  "release": "v116.1-hotfix",
+  "generated_at": "2026-05-02T14:03:09.472535Z",
+  "checks": {
+    "interactive_preview": true,
+    "export_html": true,
+    "export_markdown": true,
+    "export_json": true,
+    "export_csv": true,
+    "scope_selectors": 17,
+    "chart_options": 12,
+    "release_notes_not_in_operational_preview": true
+  },
+  "status": "PASS"
+}

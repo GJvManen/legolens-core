@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legolens.local/schemas/legolens_actor.schema.json",
+  "title": "LegoLens Actor",
+  "type": "object",
+  "additionalProperties": true
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "legolens-v120.1-hotfix-report",
+  "release": "v120.1",
+  "generated_at": "2026-05-02T16:05:00Z",
+  "fixes": [
+    {
+      "id": "approval-promotion",
+      "status": "PASS",
+      "detail": "candidate-approve now promotes item/content candidates to state.items, appends evidence, updates search index, and records promoted_item_id."
+    },
+    {
+      "id": "preview-hardening",
+      "status": "PASS",
+      "detail": "thumbnail resolution now prioritizes generated data previews for local approved candidates and validates bundled preview candidates."
+    },
+    {
+      "id": "offline-preview-coverage",
+      "status": "PASS",
+      "detail": "All existing bundled items have matching assets/previews/<item_id>.jpg files."
+    }
+  ],
+  "manual_note": "Changes are local-session safe; use Export session or Export review patch after approving items."
+}

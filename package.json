@@ -1,0 +1,16 @@
+{
+  "name": "legolens-core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source, review-first intelligence framework with the LegoLens Iran case pack.",
+  "scripts": {
+    "dev": "node backend/server.mjs",
+    "validate": "node scripts/validate_v1_release.mjs",
+    "test": "node tests/data_integrity_test.mjs && node tests/graph_explorer_test.mjs && node tests/report_builder_test.mjs && node tests/update_flow_test.mjs && node tests/candidate_approval_test.mjs && node tests/preview_assets_test.mjs && node tests/case_pack_test.mjs && node tests/security_config_test.mjs && node tests/docs_test.mjs",
+    "build": "node scripts/build_bootstrap.mjs && node scripts/generate_checksums.mjs",
+    "package": "node scripts/package_v1.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {}
+}

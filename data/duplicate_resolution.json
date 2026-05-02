@@ -1,0 +1,237 @@
+[
+  {
+    "duplicate_group_id": "dup_0001",
+    "original_canonical_id": "ig:item:DXagOumjPGw",
+    "item_ids": [
+      "itm_00195",
+      "itm_00273"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00195": "ig:item:DXagOumjPGw",
+      "itm_00273": "ig:item:DXagOumjPGw"
+    },
+    "canonical_ids_after": {
+      "itm_00195": "ig:reel:DXagOumjPGw",
+      "itm_00273": "ig:p:DXagOumjPGw"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00195",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "ig:item:DXagOumjPGw",
+        "to": "ig:reel:DXagOumjPGw"
+      },
+      {
+        "item_id": "itm_00273",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "ig:item:DXagOumjPGw",
+        "to": "ig:p:DXagOumjPGw"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0002",
+    "original_canonical_id": "ig:item:DXiP2yjgpLl",
+    "item_ids": [
+      "itm_00362",
+      "itm_00363"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00362": "ig:item:DXiP2yjgpLl",
+      "itm_00363": "ig:item:DXiP2yjgpLl"
+    },
+    "canonical_ids_after": {
+      "itm_00362": "ig:p:DXiP2yjgpLl",
+      "itm_00363": "ig:reel:DXiP2yjgpLl"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00362",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "ig:item:DXiP2yjgpLl",
+        "to": "ig:p:DXiP2yjgpLl"
+      },
+      {
+        "item_id": "itm_00363",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "ig:item:DXiP2yjgpLl",
+        "to": "ig:reel:DXiP2yjgpLl"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0003",
+    "original_canonical_id": "ig:profile:explosivemediaa",
+    "item_ids": [
+      "itm_00260",
+      "itm_00261"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00260": "ig:profile:explosivemediaa",
+      "itm_00261": "ig:profile:explosivemediaa"
+    },
+    "canonical_ids_after": {
+      "itm_00260": "ig:profile:explosivemediaa",
+      "itm_00261": "url:www.instagram.com/explosivemediaa/reel/DW2c-NPgme9"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00261",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "ig:profile:explosivemediaa",
+        "to": "url:www.instagram.com/explosivemediaa/reel/DW2c-NPgme9"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0004",
+    "original_canonical_id": "threads:profile:tag",
+    "item_ids": [
+      "itm_00036",
+      "itm_00112",
+      "itm_00166"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00036": "threads:profile:tag",
+      "itm_00112": "threads:profile:tag",
+      "itm_00166": "threads:profile:tag"
+    },
+    "canonical_ids_after": {
+      "itm_00036": "threads:tag:threads-video",
+      "itm_00112": "threads:tag:loopy-meme",
+      "itm_00166": "threads:tag:kkkarolineleavitt"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00036",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "threads:profile:tag",
+        "to": "threads:tag:threads-video"
+      },
+      {
+        "item_id": "itm_00112",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "threads:profile:tag",
+        "to": "threads:tag:loopy-meme"
+      },
+      {
+        "item_id": "itm_00166",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "threads:profile:tag",
+        "to": "threads:tag:kkkarolineleavitt"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0005",
+    "original_canonical_id": "yt:channel:@brickbeatbattalion",
+    "item_ids": [
+      "itm_00288",
+      "itm_00350"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00288": "yt:channel:@brickbeatbattalion",
+      "itm_00350": "yt:channel:@brickbeatbattalion"
+    },
+    "canonical_ids_after": {
+      "itm_00288": "yt:channel:@brickbeatbattalion",
+      "itm_00350": "yt:channel:@brickbeatbattalion:videos"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00350",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "yt:channel:@brickbeatbattalion",
+        "to": "yt:channel:@brickbeatbattalion:videos"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0006",
+    "original_canonical_id": "yt:channel:@iranlegodaily",
+    "item_ids": [
+      "itm_00432",
+      "itm_00433"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00432": "yt:channel:@iranlegodaily",
+      "itm_00433": "yt:channel:@iranlegodaily"
+    },
+    "canonical_ids_after": {
+      "itm_00432": "yt:channel:@iranlegodaily",
+      "itm_00433": "yt:channel:@iranlegodaily:videos"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00433",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "yt:channel:@iranlegodaily",
+        "to": "yt:channel:@iranlegodaily:videos"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0007",
+    "original_canonical_id": "yt:channel:@militarylegoai",
+    "item_ids": [
+      "itm_00062",
+      "itm_00063"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00062": "yt:channel:@militarylegoai",
+      "itm_00063": "yt:channel:@militarylegoai"
+    },
+    "canonical_ids_after": {
+      "itm_00062": "yt:channel:@militarylegoai",
+      "itm_00063": "yt:channel:@militarylegoai:videos"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00063",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "yt:channel:@militarylegoai",
+        "to": "yt:channel:@militarylegoai:videos"
+      }
+    ]
+  },
+  {
+    "duplicate_group_id": "dup_0008",
+    "original_canonical_id": "yt:channel:@rockidofficial",
+    "item_ids": [
+      "itm_00305",
+      "itm_00338"
+    ],
+    "status": "resolved_lossless",
+    "content_removed": 0,
+    "canonical_ids_before": {
+      "itm_00305": "yt:channel:@rockidofficial",
+      "itm_00338": "yt:channel:@rockidofficial"
+    },
+    "canonical_ids_after": {
+      "itm_00305": "yt:channel:@rockidofficial",
+      "itm_00338": "yt:channel:@rockidofficial:videos"
+    },
+    "actions": [
+      {
+        "item_id": "itm_00338",
+        "action": "canonical_id_normalized_to_url_variant",
+        "from": "yt:channel:@rockidofficial",
+        "to": "yt:channel:@rockidofficial:videos"
+      }
+    ]
+  }
+]

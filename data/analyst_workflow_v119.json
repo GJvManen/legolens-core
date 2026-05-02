@@ -1,0 +1,85 @@
+{
+  "schema_version": "v119.analyst-workflow",
+  "generated_at": "2026-05-02T15:45:00Z",
+  "routes": [
+    {
+      "id": "overview-hub",
+      "label": "Today",
+      "purpose": "Dagstart, release health, open risico’s en high-priority review work."
+    },
+    {
+      "id": "monitor-hub",
+      "label": "Monitor",
+      "purpose": "Nieuwe candidates, source families, evidence gaps en monitoringstatus."
+    },
+    {
+      "id": "investigate-hub",
+      "label": "Investigate",
+      "purpose": "Item/source/claim context, graph-adjacent analyse en lineage."
+    },
+    {
+      "id": "review-hub",
+      "label": "Review",
+      "purpose": "Menselijke validatie van candidates, evidence, source families en confidence bands."
+    },
+    {
+      "id": "report-hub",
+      "label": "Report",
+      "purpose": "Executive brief, evidence appendix, graph snapshots en machine-readable exports."
+    },
+    {
+      "id": "admin-hub",
+      "label": "Admin",
+      "purpose": "Release manifest, update flow, backend hardening, audit en tests."
+    }
+  ],
+  "saved_filters": [
+    {
+      "id": "needs_archive",
+      "label": "Needs archive capture",
+      "filter": {
+        "has_archive": false
+      }
+    },
+    {
+      "id": "low_confidence",
+      "label": "Low confidence",
+      "filter": {
+        "band": "low"
+      }
+    },
+    {
+      "id": "archive_first_seen",
+      "label": "Archive-first-seen dates",
+      "filter": {
+        "date_quality": "archive-first-seen"
+      }
+    },
+    {
+      "id": "family_review",
+      "label": "Source families needing review",
+      "filter": {
+        "family_status": "needs_review"
+      }
+    }
+  ],
+  "keyboard_shortcuts": [
+    {
+      "key": "/",
+      "action": "focus global search"
+    },
+    {
+      "key": "g t",
+      "action": "open Today"
+    },
+    {
+      "key": "g r",
+      "action": "open Review"
+    },
+    {
+      "key": "g p",
+      "action": "open Report"
+    }
+  ],
+  "review_queue_policy": "single-item approval; no bulk publication without exportable review patch"
+}

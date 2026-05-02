@@ -1,0 +1,60 @@
+{
+  "schema_version": "v91.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "report_types": [
+    "incident_brief",
+    "weekly_monitoring_brief",
+    "source_dossier",
+    "evidence_appendix",
+    "executive_summary",
+    "machine_readable_export"
+  ],
+  "executive_summary": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "incidents": 6,
+    "needs_review_families": [
+      "fam_brick_beat_battalion",
+      "fam_community_reposts",
+      "fam_militarylego_ai_x_network",
+      "fam_persiaboi_studios",
+      "fam_rock_id_official"
+    ],
+    "candidate_queue": 38,
+    "evidence_records": 476
+  },
+  "templates": {
+    "incident_brief": [
+      "summary",
+      "timeline",
+      "primary source",
+      "mirrors/reposts",
+      "coverage",
+      "amplification",
+      "narratives",
+      "TTPs",
+      "evidence status",
+      "uncertainties",
+      "review decisions",
+      "recommended next step"
+    ],
+    "weekly_monitoring_brief": [
+      "new candidates",
+      "active incidents",
+      "high priority evidence gaps",
+      "source risk changes",
+      "review backlog",
+      "next scans"
+    ],
+    "source_dossier": [
+      "source profile",
+      "family",
+      "reliability history",
+      "items",
+      "incidents",
+      "evidence",
+      "open questions"
+    ]
+  }
+}

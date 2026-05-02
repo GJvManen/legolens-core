@@ -1,0 +1,33 @@
+{
+  "schema_version": "v87.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "database_path": "db/legolens_review_v94.sqlite",
+  "tables": [
+    "items",
+    "sources",
+    "families",
+    "candidates",
+    "review_actions",
+    "evidence",
+    "incidents",
+    "update_sessions",
+    "audit_log",
+    "claims",
+    "actors",
+    "infrastructure"
+  ],
+  "policy": {
+    "json_export_remains_source_of_exchange": true,
+    "browser_direct_writes": false,
+    "patch_first": true
+  },
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "candidates": 38,
+    "review_actions": 23,
+    "evidence": 476,
+    "incidents": 6
+  }
+}

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "nar_us_humiliation",
+    "label": "US humiliation / incompetence",
+    "description": "Content mocking US decision-makers, military competence or political messaging.",
+    "risk": "medium",
+    "keywords": [
+      "trump",
+      "america",
+      "american",
+      "u.s.",
+      "us ",
+      "white house",
+      "loser",
+      "humiliation"
+    ]
+  },
+  {
+    "id": "nar_israel_dependency",
+    "label": "US–Israel dependency frame",
+    "description": "Narrative that US decision-making is subordinate to Israeli interests or escalation.",
+    "risk": "medium",
+    "keywords": [
+      "israel",
+      "netanyahu",
+      "zionist",
+      "tel aviv"
+    ]
+  },
+  {
+    "id": "nar_revenge_deterrence",
+    "label": "Revenge / deterrence",
+    "description": "Retaliation, target lists, strikes, threat projection and deterrence messaging.",
+    "risk": "high",
+    "keywords": [
+      "revenge",
+      "vengeance",
+      "target",
+      "strike",
+      "missile",
+      "bunker",
+      "hormuz",
+      "loaded",
+      "attack"
+    ]
+  },
+  {
+    "id": "nar_pop_culture_memetic",
+    "label": "Pop-culture memetic persuasion",
+    "description": "Use of Lego-like visuals, songs, parody, blockbuster references or meme tropes to reach audiences beyond news followers.",
+    "risk": "medium",
+    "keywords": [
+      "lego",
+      "meme",
+      "song",
+      "rap",
+      "diss",
+      "blockbuster",
+      "movie",
+      "viral"
+    ]
+  },
+  {
+    "id": "nar_platform_moderation",
+    "label": "Platform moderation / takedown",
+    "description": "Coverage or records about platform removals, bans, mirrors or reuploads.",
+    "risk": "medium",
+    "keywords": [
+      "youtube bans",
+      "ban",
+      "removed",
+      "takedown",
+      "suspended",
+      "mirror",
+      "reupload"
+    ]
+  },
+  {
+    "id": "nar_creator_infrastructure",
+    "label": "Creator/source infrastructure",
+    "description": "Source pages, creator clusters, channels and infrastructure used for production or distribution.",
+    "risk": "medium",
+    "keywords": [
+      "channel",
+      "creator",
+      "source page",
+      "videos tab",
+      "studio",
+      "explosive media"
+    ]
+  },
+  {
+    "id": "nar_media_analysis",
+    "label": "Media analysis / research coverage",
+    "description": "Journalistic, expert or academic analysis of the Lego-style campaign and its effects.",
+    "risk": "low",
+    "keywords": [
+      "analysis",
+      "coverage",
+      "news",
+      "article",
+      "university",
+      "analyst",
+      "propaganda war",
+      "information warfare"
+    ]
+  },
+  {
+    "id": "nar_unverified_claim",
+    "label": "Unverified or claim-heavy content",
+    "description": "Records with claims that need separate verification or evidentiary support.",
+    "risk": "high",
+    "keywords": [
+      "claim",
+      "alleged",
+      "unverified",
+      "needs verification"
+    ]
+  }
+]

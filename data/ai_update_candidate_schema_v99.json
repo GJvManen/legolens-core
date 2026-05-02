@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LegoLens AI Update Candidate Package",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "policy",
+    "candidates"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "v94.2-ai-update-candidates"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "policy": {
+      "type": "object",
+      "required": [
+        "direct_publication",
+        "human_review_required"
+      ],
+      "properties": {
+        "direct_publication": {
+          "const": false
+        },
+        "human_review_required": {
+          "const": true
+        },
+        "max_candidates": {
+          "type": "integer"
+        }
+      }
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "candidate_id",
+          "candidate_type",
+          "title",
+          "confidence",
+          "risk_flags",
+          "review_status",
+          "evidence"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "candidate_type": {
+            "enum": [
+              "item",
+              "source",
+              "claim",
+              "incident_link",
+              "evidence_gap",
+              "duplicate_hint",
+              "report"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "suggested_source_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "suggested_incident_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "risk_flags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "review_status": {
+            "const": "pending_review"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      }
+    }
+  }
+}

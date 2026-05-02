@@ -1,0 +1,19 @@
+{
+  "schema_version": "legolens.update-manifest.v1",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "latest_release": "v1.0.0",
+  "latest_version": "1.0.0",
+  "channel": "stable",
+  "package": "data/update_package_v1_0.json",
+  "minimum_supported_release": "v120.1",
+  "upgrade_path": [
+    "v120.1",
+    "v1.0.0"
+  ],
+  "policy": {
+    "direct_publication": false,
+    "human_review_required": true,
+    "rollback_available": true
+  },
+  "checksums": "checksums.sha256"
+}

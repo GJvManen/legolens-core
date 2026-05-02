@@ -1,0 +1,137 @@
+[
+  {
+    "review_id": "rev_v74_1_import",
+    "entity_type": "release",
+    "entity_id": "v74.1",
+    "action": "baseline_imported",
+    "reviewer": "system",
+    "reason": "v74.1 resolved bundle used as lossless baseline.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v74_2_incidents",
+    "entity_type": "release",
+    "entity_id": "v74.2",
+    "action": "incident_layer_added",
+    "reviewer": "system",
+    "reason": "All items assigned to one or more incident clusters; no content removed.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v75_admin",
+    "entity_type": "release",
+    "entity_id": "v75.0",
+    "action": "admin_patch_flow_added",
+    "reviewer": "system",
+    "reason": "Patch-first admin mode, workflows and protected fields added.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v75_1_evidence",
+    "entity_type": "release",
+    "entity_id": "v75.1",
+    "action": "evidence_register_added",
+    "reviewer": "system",
+    "reason": "Evidence shell added for each item without claiming platform screenshots where only generated previews exist.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v76_similarity",
+    "entity_type": "release",
+    "entity_id": "v76.0",
+    "action": "similarity_dashboard_added",
+    "reviewer": "system",
+    "reason": "Similarity candidates generated as review hints, not merges.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v77_discovery",
+    "entity_type": "release",
+    "entity_id": "v77.0",
+    "action": "scheduled_discovery_config_added",
+    "reviewer": "system",
+    "reason": "Discovery jobs output to candidate queue only.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_v78_reports",
+    "entity_type": "release",
+    "entity_id": "v78.0",
+    "action": "report_generator_added",
+    "reviewer": "system",
+    "reason": "Incident report payloads, Markdown briefs, narrative labels and TTP taxonomy added.",
+    "created_at": "2026-05-01T18:45:00Z"
+  },
+  {
+    "review_id": "rev_dup_0001",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0001",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0002",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0002",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0003",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0003",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0004",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0004",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0005",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0005",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0006",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0006",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0007",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0007",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  },
+  {
+    "review_id": "rev_dup_0008",
+    "entity_type": "duplicate_cluster",
+    "entity_id": "dup_0008",
+    "action": "resolved_lossless",
+    "reviewer": "system",
+    "reason": "Preserved as lossless duplicate-resolution audit trail.",
+    "created_at": "2026-05-01T17:05:00Z"
+  }
+]

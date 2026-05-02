@@ -1,0 +1,19 @@
+{
+  "version": "v72",
+  "title": "Interface cleanup",
+  "date": "2026-05-01",
+  "changes": [
+    "Removed visible v69 homepage implementation note from the interface",
+    "Moved technical update notes to changelog files",
+    "Simplified top-left branding to 🇮🇷 Iran Lego Movies",
+    "Kept What’s New visible on the homepage",
+    "Kept the dedicated source registry layout functional",
+    "Removed macOS/localhost/file-mode instructions from the visible interface and kept them in README"
+  ],
+  "moved_from_interface": [
+    "v69 homepage: Grotere contentrails, minder tekst op cards en automatische leader-rotatie met thematische achtergronden.",
+    "Technische updategeschiedenis staat nu in data/changelog_v71.json. Het compacte What’s New-overzicht blijft bovenaan de hoofdpagina.",
+    "macOS Tahoe gebruik / localhost / file:// help text"
+  ],
+  "previous_changelog_reference": "See changelog.json and changelog_v71.json for earlier entries."
+}

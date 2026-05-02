@@ -1,0 +1,16 @@
+{
+  "schema_version": "v99.1-thumbnail-audit",
+  "generated_at": "2026-05-02T12:20:00Z",
+  "items": 476,
+  "preview_assets": 476,
+  "missing_thumbnail_refs": [],
+  "fallback_chain": [
+    "thumbnail_url",
+    "preview_path",
+    "assets/previews/<item_id>.jpg",
+    "thumbnail_fallback_url",
+    "assets/fallback.jpg"
+  ],
+  "content_card_render": "imgAttrs(item) with window.legolensImageFallback",
+  "status": "pass"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "v75.0",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "patch_id": "patch_example_v75",
+  "status": "template",
+  "merge_policy": "manual_after_review",
+  "operations": [
+    {
+      "op": "update",
+      "entity_type": "item",
+      "entity_id": "itm_00000",
+      "changes": {
+        "field": "value"
+      },
+      "reason": "Required for audit."
+    },
+    {
+      "op": "create",
+      "entity_type": "evidence",
+      "entity_id": "ev_itm_00000_screenshot",
+      "changes": {},
+      "reason": "Evidence captured."
+    },
+    {
+      "op": "link",
+      "entity_type": "item_incident",
+      "entity_id": "itm_00000:inc_...",
+      "changes": {
+        "incident_id": "inc_..."
+      },
+      "reason": "Incident relationship reviewed."
+    }
+  ],
+  "validation_required": [
+    "schema",
+    "orphan_refs",
+    "lossless_audit",
+    "family_status_preservation"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v74.2",
+  "title": "Incident layer",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "changes": [
+    "Added incidents.json with 6 incident/campaign clusters.",
+    "Linked all 476 items to incident_ids and primary_incident_id.",
+    "Added narrative_ids and ttp_ids scaffold to every item.",
+    "No content removed; 5 needs_review families preserved."
+  ]
+}

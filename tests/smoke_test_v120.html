@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>LegoLens v120 smoke test</title>
+<script src="../data/bootstrap.js"></script>
+<script>
+const d = window.LEGOLENS_BOOTSTRAP.data;
+const checks = [
+  ['version', d.version.release === 'v120.1'],
+  ['release gate', d.release_gate_v120.status === 'pass'],
+  ['confidence coverage', d.confidence_scores_v118.items.length === d.items.length],
+  ['report runtime', d.report_export_runtime_v120.exports.includes('pptx-ready-outline')]
+];
+document.body.innerHTML = '<h1>LegoLens v120 smoke test</h1>' + checks.map(([n,ok]) => `<p>${ok?'PASS':'FAIL'} ${n}</p>`).join('');
+if (checks.some(([,ok])=>!ok)) throw new Error('v120 smoke test failed');
+</script>

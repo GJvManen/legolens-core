@@ -1,0 +1,59 @@
+{
+  "schema_version": "v116.release-gate",
+  "release": "v116.1-hotfix",
+  "generated_at": "2026-05-02T14:03:09.472535Z",
+  "status": "PASS",
+  "checks": {
+    "items_retained": {
+      "expected": 476,
+      "actual": 476,
+      "pass": true
+    },
+    "sources_retained": {
+      "expected": 382,
+      "actual": 382,
+      "pass": true
+    },
+    "families_retained": {
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    "needs_review_families_retained": {
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    "preview_assets": {
+      "expected": 476,
+      "actual": 476,
+      "missing": [],
+      "pass": true
+    },
+    "graph_dashboard_v116": {
+      "pass": true,
+      "charts": 12
+    },
+    "layout_cleanup_overrides": {
+      "pass": true
+    },
+    "release_messages_moved_to_changelog": {
+      "pass": true,
+      "changelog": "changelog_v116.json"
+    },
+    "graph_explorer_runtime_fix": {
+      "pass": true,
+      "audit": "graph_explorer_audit_v116.json"
+    },
+    "report_builder_runtime_fix": {
+      "pass": true,
+      "audit": "report_builder_audit_v116.json"
+    }
+  },
+  "policy": {
+    "local_first": true,
+    "backend_required": false,
+    "direct_publication": false,
+    "content_loss_allowed": false
+  }
+}

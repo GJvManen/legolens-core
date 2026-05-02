@@ -1,0 +1,5743 @@
+{
+  "schema_version": "v88.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "summary": {
+    "partial": 476
+  },
+  "filters": [
+    {
+      "id": "missing_archive_url",
+      "label": "Zonder archive URL",
+      "count": 476
+    },
+    {
+      "id": "missing_screenshot",
+      "label": "Zonder screenshot/preview",
+      "count": 0
+    },
+    {
+      "id": "missing_transcript",
+      "label": "Zonder transcript",
+      "count": 476
+    },
+    {
+      "id": "missing_hash",
+      "label": "Zonder perceptual hash",
+      "count": 476
+    }
+  ],
+  "work_queue": [
+    {
+      "evidence_id": "ev_itm_00001",
+      "entity_id": "itm_00001",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00002",
+      "entity_id": "itm_00002",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00003",
+      "entity_id": "itm_00003",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00004",
+      "entity_id": "itm_00004",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00005",
+      "entity_id": "itm_00005",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00006",
+      "entity_id": "itm_00006",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00007",
+      "entity_id": "itm_00007",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00008",
+      "entity_id": "itm_00008",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00009",
+      "entity_id": "itm_00009",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00010",
+      "entity_id": "itm_00010",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00011",
+      "entity_id": "itm_00011",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00012",
+      "entity_id": "itm_00012",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00013",
+      "entity_id": "itm_00013",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00014",
+      "entity_id": "itm_00014",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00015",
+      "entity_id": "itm_00015",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00016",
+      "entity_id": "itm_00016",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00017",
+      "entity_id": "itm_00017",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00018",
+      "entity_id": "itm_00018",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00019",
+      "entity_id": "itm_00019",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00020",
+      "entity_id": "itm_00020",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00021",
+      "entity_id": "itm_00021",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00022",
+      "entity_id": "itm_00022",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00023",
+      "entity_id": "itm_00023",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00024",
+      "entity_id": "itm_00024",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00025",
+      "entity_id": "itm_00025",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00026",
+      "entity_id": "itm_00026",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00027",
+      "entity_id": "itm_00027",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00028",
+      "entity_id": "itm_00028",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00029",
+      "entity_id": "itm_00029",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00030",
+      "entity_id": "itm_00030",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00031",
+      "entity_id": "itm_00031",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00032",
+      "entity_id": "itm_00032",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00033",
+      "entity_id": "itm_00033",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00034",
+      "entity_id": "itm_00034",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00035",
+      "entity_id": "itm_00035",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00036",
+      "entity_id": "itm_00036",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00037",
+      "entity_id": "itm_00037",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00038",
+      "entity_id": "itm_00038",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00039",
+      "entity_id": "itm_00039",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00040",
+      "entity_id": "itm_00040",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00041",
+      "entity_id": "itm_00041",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00042",
+      "entity_id": "itm_00042",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00043",
+      "entity_id": "itm_00043",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00044",
+      "entity_id": "itm_00044",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00045",
+      "entity_id": "itm_00045",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00046",
+      "entity_id": "itm_00046",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00047",
+      "entity_id": "itm_00047",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00048",
+      "entity_id": "itm_00048",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00049",
+      "entity_id": "itm_00049",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00050",
+      "entity_id": "itm_00050",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00051",
+      "entity_id": "itm_00051",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00052",
+      "entity_id": "itm_00052",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00053",
+      "entity_id": "itm_00053",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00054",
+      "entity_id": "itm_00054",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00055",
+      "entity_id": "itm_00055",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00056",
+      "entity_id": "itm_00056",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00057",
+      "entity_id": "itm_00057",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00058",
+      "entity_id": "itm_00058",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00059",
+      "entity_id": "itm_00059",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00060",
+      "entity_id": "itm_00060",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00061",
+      "entity_id": "itm_00061",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00062",
+      "entity_id": "itm_00062",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00063",
+      "entity_id": "itm_00063",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00064",
+      "entity_id": "itm_00064",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00065",
+      "entity_id": "itm_00065",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00066",
+      "entity_id": "itm_00066",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00067",
+      "entity_id": "itm_00067",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00068",
+      "entity_id": "itm_00068",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00069",
+      "entity_id": "itm_00069",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00070",
+      "entity_id": "itm_00070",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00071",
+      "entity_id": "itm_00071",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00072",
+      "entity_id": "itm_00072",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00073",
+      "entity_id": "itm_00073",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00074",
+      "entity_id": "itm_00074",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00075",
+      "entity_id": "itm_00075",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00076",
+      "entity_id": "itm_00076",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00077",
+      "entity_id": "itm_00077",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00078",
+      "entity_id": "itm_00078",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00079",
+      "entity_id": "itm_00079",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00080",
+      "entity_id": "itm_00080",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00081",
+      "entity_id": "itm_00081",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00082",
+      "entity_id": "itm_00082",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00083",
+      "entity_id": "itm_00083",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00084",
+      "entity_id": "itm_00084",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00085",
+      "entity_id": "itm_00085",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00086",
+      "entity_id": "itm_00086",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00087",
+      "entity_id": "itm_00087",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00088",
+      "entity_id": "itm_00088",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00089",
+      "entity_id": "itm_00089",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00090",
+      "entity_id": "itm_00090",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00091",
+      "entity_id": "itm_00091",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00092",
+      "entity_id": "itm_00092",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00093",
+      "entity_id": "itm_00093",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00094",
+      "entity_id": "itm_00094",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00095",
+      "entity_id": "itm_00095",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00096",
+      "entity_id": "itm_00096",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00097",
+      "entity_id": "itm_00097",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00098",
+      "entity_id": "itm_00098",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00099",
+      "entity_id": "itm_00099",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00100",
+      "entity_id": "itm_00100",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00101",
+      "entity_id": "itm_00101",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00102",
+      "entity_id": "itm_00102",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00103",
+      "entity_id": "itm_00103",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00104",
+      "entity_id": "itm_00104",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00105",
+      "entity_id": "itm_00105",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00106",
+      "entity_id": "itm_00106",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00107",
+      "entity_id": "itm_00107",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00108",
+      "entity_id": "itm_00108",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00109",
+      "entity_id": "itm_00109",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00110",
+      "entity_id": "itm_00110",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00111",
+      "entity_id": "itm_00111",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00112",
+      "entity_id": "itm_00112",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00113",
+      "entity_id": "itm_00113",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00114",
+      "entity_id": "itm_00114",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00115",
+      "entity_id": "itm_00115",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00116",
+      "entity_id": "itm_00116",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00117",
+      "entity_id": "itm_00117",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00118",
+      "entity_id": "itm_00118",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00119",
+      "entity_id": "itm_00119",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00120",
+      "entity_id": "itm_00120",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00121",
+      "entity_id": "itm_00121",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00122",
+      "entity_id": "itm_00122",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00123",
+      "entity_id": "itm_00123",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00124",
+      "entity_id": "itm_00124",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00125",
+      "entity_id": "itm_00125",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00126",
+      "entity_id": "itm_00126",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00127",
+      "entity_id": "itm_00127",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00128",
+      "entity_id": "itm_00128",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00129",
+      "entity_id": "itm_00129",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00130",
+      "entity_id": "itm_00130",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00131",
+      "entity_id": "itm_00131",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00132",
+      "entity_id": "itm_00132",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00133",
+      "entity_id": "itm_00133",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00134",
+      "entity_id": "itm_00134",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00135",
+      "entity_id": "itm_00135",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00136",
+      "entity_id": "itm_00136",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00137",
+      "entity_id": "itm_00137",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00138",
+      "entity_id": "itm_00138",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00139",
+      "entity_id": "itm_00139",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00140",
+      "entity_id": "itm_00140",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00141",
+      "entity_id": "itm_00141",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00142",
+      "entity_id": "itm_00142",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00143",
+      "entity_id": "itm_00143",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00144",
+      "entity_id": "itm_00144",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00145",
+      "entity_id": "itm_00145",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00146",
+      "entity_id": "itm_00146",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00147",
+      "entity_id": "itm_00147",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00148",
+      "entity_id": "itm_00148",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00149",
+      "entity_id": "itm_00149",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00150",
+      "entity_id": "itm_00150",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00151",
+      "entity_id": "itm_00151",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00152",
+      "entity_id": "itm_00152",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00153",
+      "entity_id": "itm_00153",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00154",
+      "entity_id": "itm_00154",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00155",
+      "entity_id": "itm_00155",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00156",
+      "entity_id": "itm_00156",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00157",
+      "entity_id": "itm_00157",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00158",
+      "entity_id": "itm_00158",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00159",
+      "entity_id": "itm_00159",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00160",
+      "entity_id": "itm_00160",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00161",
+      "entity_id": "itm_00161",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00162",
+      "entity_id": "itm_00162",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00163",
+      "entity_id": "itm_00163",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00164",
+      "entity_id": "itm_00164",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00165",
+      "entity_id": "itm_00165",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00166",
+      "entity_id": "itm_00166",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00167",
+      "entity_id": "itm_00167",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00168",
+      "entity_id": "itm_00168",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00169",
+      "entity_id": "itm_00169",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00170",
+      "entity_id": "itm_00170",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00171",
+      "entity_id": "itm_00171",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00172",
+      "entity_id": "itm_00172",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00173",
+      "entity_id": "itm_00173",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00174",
+      "entity_id": "itm_00174",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00175",
+      "entity_id": "itm_00175",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00176",
+      "entity_id": "itm_00176",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00177",
+      "entity_id": "itm_00177",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00178",
+      "entity_id": "itm_00178",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00179",
+      "entity_id": "itm_00179",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00180",
+      "entity_id": "itm_00180",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00181",
+      "entity_id": "itm_00181",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00182",
+      "entity_id": "itm_00182",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00183",
+      "entity_id": "itm_00183",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00184",
+      "entity_id": "itm_00184",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00185",
+      "entity_id": "itm_00185",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00186",
+      "entity_id": "itm_00186",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00187",
+      "entity_id": "itm_00187",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00188",
+      "entity_id": "itm_00188",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00189",
+      "entity_id": "itm_00189",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00190",
+      "entity_id": "itm_00190",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00191",
+      "entity_id": "itm_00191",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00192",
+      "entity_id": "itm_00192",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00193",
+      "entity_id": "itm_00193",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00194",
+      "entity_id": "itm_00194",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00195",
+      "entity_id": "itm_00195",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00196",
+      "entity_id": "itm_00196",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00197",
+      "entity_id": "itm_00197",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00198",
+      "entity_id": "itm_00198",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00199",
+      "entity_id": "itm_00199",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00200",
+      "entity_id": "itm_00200",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00201",
+      "entity_id": "itm_00201",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00202",
+      "entity_id": "itm_00202",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00203",
+      "entity_id": "itm_00203",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00204",
+      "entity_id": "itm_00204",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00205",
+      "entity_id": "itm_00205",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00206",
+      "entity_id": "itm_00206",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00207",
+      "entity_id": "itm_00207",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00208",
+      "entity_id": "itm_00208",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00209",
+      "entity_id": "itm_00209",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00210",
+      "entity_id": "itm_00210",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00211",
+      "entity_id": "itm_00211",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00212",
+      "entity_id": "itm_00212",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00213",
+      "entity_id": "itm_00213",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00214",
+      "entity_id": "itm_00214",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00215",
+      "entity_id": "itm_00215",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00216",
+      "entity_id": "itm_00216",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00217",
+      "entity_id": "itm_00217",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00218",
+      "entity_id": "itm_00218",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00219",
+      "entity_id": "itm_00219",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00220",
+      "entity_id": "itm_00220",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00221",
+      "entity_id": "itm_00221",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00222",
+      "entity_id": "itm_00222",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00223",
+      "entity_id": "itm_00223",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00224",
+      "entity_id": "itm_00224",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00225",
+      "entity_id": "itm_00225",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00226",
+      "entity_id": "itm_00226",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00227",
+      "entity_id": "itm_00227",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00228",
+      "entity_id": "itm_00228",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00229",
+      "entity_id": "itm_00229",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00230",
+      "entity_id": "itm_00230",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00231",
+      "entity_id": "itm_00231",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00232",
+      "entity_id": "itm_00232",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00233",
+      "entity_id": "itm_00233",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00234",
+      "entity_id": "itm_00234",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00235",
+      "entity_id": "itm_00235",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00236",
+      "entity_id": "itm_00236",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00237",
+      "entity_id": "itm_00237",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00238",
+      "entity_id": "itm_00238",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00239",
+      "entity_id": "itm_00239",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00240",
+      "entity_id": "itm_00240",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00241",
+      "entity_id": "itm_00241",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00242",
+      "entity_id": "itm_00242",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00243",
+      "entity_id": "itm_00243",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00244",
+      "entity_id": "itm_00244",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00245",
+      "entity_id": "itm_00245",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00246",
+      "entity_id": "itm_00246",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00247",
+      "entity_id": "itm_00247",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00248",
+      "entity_id": "itm_00248",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00249",
+      "entity_id": "itm_00249",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00250",
+      "entity_id": "itm_00250",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00251",
+      "entity_id": "itm_00251",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00252",
+      "entity_id": "itm_00252",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00253",
+      "entity_id": "itm_00253",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00254",
+      "entity_id": "itm_00254",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00255",
+      "entity_id": "itm_00255",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00256",
+      "entity_id": "itm_00256",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00257",
+      "entity_id": "itm_00257",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00258",
+      "entity_id": "itm_00258",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00259",
+      "entity_id": "itm_00259",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00260",
+      "entity_id": "itm_00260",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00261",
+      "entity_id": "itm_00261",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00262",
+      "entity_id": "itm_00262",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00263",
+      "entity_id": "itm_00263",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00264",
+      "entity_id": "itm_00264",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00265",
+      "entity_id": "itm_00265",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00266",
+      "entity_id": "itm_00266",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00267",
+      "entity_id": "itm_00267",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00268",
+      "entity_id": "itm_00268",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00269",
+      "entity_id": "itm_00269",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00270",
+      "entity_id": "itm_00270",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00271",
+      "entity_id": "itm_00271",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00272",
+      "entity_id": "itm_00272",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00273",
+      "entity_id": "itm_00273",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00274",
+      "entity_id": "itm_00274",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00275",
+      "entity_id": "itm_00275",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00276",
+      "entity_id": "itm_00276",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00277",
+      "entity_id": "itm_00277",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00278",
+      "entity_id": "itm_00278",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00279",
+      "entity_id": "itm_00279",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00280",
+      "entity_id": "itm_00280",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00281",
+      "entity_id": "itm_00281",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00282",
+      "entity_id": "itm_00282",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00283",
+      "entity_id": "itm_00283",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00284",
+      "entity_id": "itm_00284",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00285",
+      "entity_id": "itm_00285",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00286",
+      "entity_id": "itm_00286",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00287",
+      "entity_id": "itm_00287",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00288",
+      "entity_id": "itm_00288",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00289",
+      "entity_id": "itm_00289",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00290",
+      "entity_id": "itm_00290",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00291",
+      "entity_id": "itm_00291",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00292",
+      "entity_id": "itm_00292",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00293",
+      "entity_id": "itm_00293",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00294",
+      "entity_id": "itm_00294",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00295",
+      "entity_id": "itm_00295",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00296",
+      "entity_id": "itm_00296",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00297",
+      "entity_id": "itm_00297",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00298",
+      "entity_id": "itm_00298",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00299",
+      "entity_id": "itm_00299",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00300",
+      "entity_id": "itm_00300",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00301",
+      "entity_id": "itm_00301",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00302",
+      "entity_id": "itm_00302",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00303",
+      "entity_id": "itm_00303",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00304",
+      "entity_id": "itm_00304",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00305",
+      "entity_id": "itm_00305",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00306",
+      "entity_id": "itm_00306",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00307",
+      "entity_id": "itm_00307",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00308",
+      "entity_id": "itm_00308",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00309",
+      "entity_id": "itm_00309",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00310",
+      "entity_id": "itm_00310",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00311",
+      "entity_id": "itm_00311",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00312",
+      "entity_id": "itm_00312",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00313",
+      "entity_id": "itm_00313",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00314",
+      "entity_id": "itm_00314",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00315",
+      "entity_id": "itm_00315",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00316",
+      "entity_id": "itm_00316",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00317",
+      "entity_id": "itm_00317",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00318",
+      "entity_id": "itm_00318",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00319",
+      "entity_id": "itm_00319",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00320",
+      "entity_id": "itm_00320",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00321",
+      "entity_id": "itm_00321",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00322",
+      "entity_id": "itm_00322",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00323",
+      "entity_id": "itm_00323",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00324",
+      "entity_id": "itm_00324",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00325",
+      "entity_id": "itm_00325",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00326",
+      "entity_id": "itm_00326",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00327",
+      "entity_id": "itm_00327",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00328",
+      "entity_id": "itm_00328",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00329",
+      "entity_id": "itm_00329",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00330",
+      "entity_id": "itm_00330",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00331",
+      "entity_id": "itm_00331",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00332",
+      "entity_id": "itm_00332",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00333",
+      "entity_id": "itm_00333",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00334",
+      "entity_id": "itm_00334",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00335",
+      "entity_id": "itm_00335",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00336",
+      "entity_id": "itm_00336",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00337",
+      "entity_id": "itm_00337",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00338",
+      "entity_id": "itm_00338",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00339",
+      "entity_id": "itm_00339",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00340",
+      "entity_id": "itm_00340",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00341",
+      "entity_id": "itm_00341",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00342",
+      "entity_id": "itm_00342",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00343",
+      "entity_id": "itm_00343",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00344",
+      "entity_id": "itm_00344",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00345",
+      "entity_id": "itm_00345",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00346",
+      "entity_id": "itm_00346",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00347",
+      "entity_id": "itm_00347",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00348",
+      "entity_id": "itm_00348",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00349",
+      "entity_id": "itm_00349",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00350",
+      "entity_id": "itm_00350",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00351",
+      "entity_id": "itm_00351",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00352",
+      "entity_id": "itm_00352",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00353",
+      "entity_id": "itm_00353",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00354",
+      "entity_id": "itm_00354",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00355",
+      "entity_id": "itm_00355",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00356",
+      "entity_id": "itm_00356",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00357",
+      "entity_id": "itm_00357",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00358",
+      "entity_id": "itm_00358",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00359",
+      "entity_id": "itm_00359",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00360",
+      "entity_id": "itm_00360",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00361",
+      "entity_id": "itm_00361",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00362",
+      "entity_id": "itm_00362",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00363",
+      "entity_id": "itm_00363",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00364",
+      "entity_id": "itm_00364",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00365",
+      "entity_id": "itm_00365",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00366",
+      "entity_id": "itm_00366",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00367",
+      "entity_id": "itm_00367",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00368",
+      "entity_id": "itm_00368",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00369",
+      "entity_id": "itm_00369",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00370",
+      "entity_id": "itm_00370",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00371",
+      "entity_id": "itm_00371",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00372",
+      "entity_id": "itm_00372",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00373",
+      "entity_id": "itm_00373",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00374",
+      "entity_id": "itm_00374",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00375",
+      "entity_id": "itm_00375",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00376",
+      "entity_id": "itm_00376",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00377",
+      "entity_id": "itm_00377",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00378",
+      "entity_id": "itm_00378",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00379",
+      "entity_id": "itm_00379",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00380",
+      "entity_id": "itm_00380",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00381",
+      "entity_id": "itm_00381",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00382",
+      "entity_id": "itm_00382",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00383",
+      "entity_id": "itm_00383",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00384",
+      "entity_id": "itm_00384",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00385",
+      "entity_id": "itm_00385",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00386",
+      "entity_id": "itm_00386",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00387",
+      "entity_id": "itm_00387",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00388",
+      "entity_id": "itm_00388",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00389",
+      "entity_id": "itm_00389",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00390",
+      "entity_id": "itm_00390",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00391",
+      "entity_id": "itm_00391",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00392",
+      "entity_id": "itm_00392",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00393",
+      "entity_id": "itm_00393",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00394",
+      "entity_id": "itm_00394",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00395",
+      "entity_id": "itm_00395",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00396",
+      "entity_id": "itm_00396",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00397",
+      "entity_id": "itm_00397",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00398",
+      "entity_id": "itm_00398",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00399",
+      "entity_id": "itm_00399",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00400",
+      "entity_id": "itm_00400",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00401",
+      "entity_id": "itm_00401",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00402",
+      "entity_id": "itm_00402",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00403",
+      "entity_id": "itm_00403",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00404",
+      "entity_id": "itm_00404",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00405",
+      "entity_id": "itm_00405",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00406",
+      "entity_id": "itm_00406",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00407",
+      "entity_id": "itm_00407",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00408",
+      "entity_id": "itm_00408",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00409",
+      "entity_id": "itm_00409",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00410",
+      "entity_id": "itm_00410",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00411",
+      "entity_id": "itm_00411",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00412",
+      "entity_id": "itm_00412",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00413",
+      "entity_id": "itm_00413",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00414",
+      "entity_id": "itm_00414",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00415",
+      "entity_id": "itm_00415",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00416",
+      "entity_id": "itm_00416",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00417",
+      "entity_id": "itm_00417",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00418",
+      "entity_id": "itm_00418",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00419",
+      "entity_id": "itm_00419",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00420",
+      "entity_id": "itm_00420",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00421",
+      "entity_id": "itm_00421",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00422",
+      "entity_id": "itm_00422",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00423",
+      "entity_id": "itm_00423",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00424",
+      "entity_id": "itm_00424",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00425",
+      "entity_id": "itm_00425",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00426",
+      "entity_id": "itm_00426",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00427",
+      "entity_id": "itm_00427",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00428",
+      "entity_id": "itm_00428",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00429",
+      "entity_id": "itm_00429",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00430",
+      "entity_id": "itm_00430",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00431",
+      "entity_id": "itm_00431",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00432",
+      "entity_id": "itm_00432",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00433",
+      "entity_id": "itm_00433",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00434",
+      "entity_id": "itm_00434",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00435",
+      "entity_id": "itm_00435",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00436",
+      "entity_id": "itm_00436",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00437",
+      "entity_id": "itm_00437",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00438",
+      "entity_id": "itm_00438",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00439",
+      "entity_id": "itm_00439",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00440",
+      "entity_id": "itm_00440",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00441",
+      "entity_id": "itm_00441",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00442",
+      "entity_id": "itm_00442",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00443",
+      "entity_id": "itm_00443",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00444",
+      "entity_id": "itm_00444",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00445",
+      "entity_id": "itm_00445",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00446",
+      "entity_id": "itm_00446",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00447",
+      "entity_id": "itm_00447",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00448",
+      "entity_id": "itm_00448",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00449",
+      "entity_id": "itm_00449",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00450",
+      "entity_id": "itm_00450",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00451",
+      "entity_id": "itm_00451",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00452",
+      "entity_id": "itm_00452",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00453",
+      "entity_id": "itm_00453",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00454",
+      "entity_id": "itm_00454",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00455",
+      "entity_id": "itm_00455",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00456",
+      "entity_id": "itm_00456",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00457",
+      "entity_id": "itm_00457",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00458",
+      "entity_id": "itm_00458",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00459",
+      "entity_id": "itm_00459",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00460",
+      "entity_id": "itm_00460",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00461",
+      "entity_id": "itm_00461",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00462",
+      "entity_id": "itm_00462",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00463",
+      "entity_id": "itm_00463",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00464",
+      "entity_id": "itm_00464",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00465",
+      "entity_id": "itm_00465",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00466",
+      "entity_id": "itm_00466",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00467",
+      "entity_id": "itm_00467",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00468",
+      "entity_id": "itm_00468",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00469",
+      "entity_id": "itm_00469",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00470",
+      "entity_id": "itm_00470",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00471",
+      "entity_id": "itm_00471",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00472",
+      "entity_id": "itm_00472",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00473",
+      "entity_id": "itm_00473",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00474",
+      "entity_id": "itm_00474",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00475",
+      "entity_id": "itm_00475",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    },
+    {
+      "evidence_id": "ev_itm_00476",
+      "entity_id": "itm_00476",
+      "status": "partial",
+      "score": 1,
+      "next_actions": [
+        "archive_url",
+        "transcript",
+        "perceptual_hash"
+      ],
+      "priority": "high"
+    }
+  ]
+}

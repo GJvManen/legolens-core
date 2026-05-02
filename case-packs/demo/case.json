@@ -1,0 +1,27 @@
+{
+  "schema_version": "legolens.case-pack.v1",
+  "case_id": "demo",
+  "title": "Demo Case Pack Template",
+  "version": "1.0.0",
+  "description": "Template for building a new case pack.",
+  "framework": "LegoLens Core",
+  "framework_version": "1.0.0",
+  "language": [
+    "nl",
+    "en"
+  ],
+  "counts": {
+    "items": 0,
+    "sources": 0,
+    "source_families": 0,
+    "evidence": 0,
+    "claims": 0,
+    "incidents": 0
+  },
+  "data_files": {},
+  "asset_paths": {},
+  "sensitivity": "research",
+  "publication_policy": "review_first_no_direct_publication",
+  "license_note": "Core code is intended for open-source use. Third-party source material and screenshots retain their original rights; verify before redistribution.",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00"
+}

@@ -1,0 +1,716 @@
+{
+  "schema_version": "v94.2-dashboard-metrics",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "summary": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "candidates": 38,
+    "claims": 14,
+    "actors": 10,
+    "infrastructure_nodes": 41,
+    "network_nodes": 925,
+    "network_edges": 1803
+  },
+  "series": {
+    "platform_mix": [
+      {
+        "label": "YouTube",
+        "value": 141
+      },
+      {
+        "label": "Instagram",
+        "value": 104
+      },
+      {
+        "label": "X",
+        "value": 87
+      },
+      {
+        "label": "Facebook",
+        "value": 74
+      },
+      {
+        "label": "Threads",
+        "value": 27
+      },
+      {
+        "label": "Telegram",
+        "value": 18
+      },
+      {
+        "label": "Web",
+        "value": 18
+      },
+      {
+        "label": "other",
+        "value": 6
+      },
+      {
+        "label": "BitChute",
+        "value": 1
+      }
+    ],
+    "content_roles": [
+      {
+        "label": "repost",
+        "value": 288
+      },
+      {
+        "label": "official",
+        "value": 69
+      },
+      {
+        "label": "coverage",
+        "value": 50
+      },
+      {
+        "label": "monitoring",
+        "value": 23
+      },
+      {
+        "label": "playlist",
+        "value": 14
+      },
+      {
+        "label": "coverage_analysis",
+        "value": 8
+      },
+      {
+        "label": "mirror",
+        "value": 7
+      },
+      {
+        "label": "source_page",
+        "value": 5
+      },
+      {
+        "label": "coverage_platform_policy",
+        "value": 4
+      },
+      {
+        "label": "primary_creator",
+        "value": 2
+      },
+      {
+        "label": "candidate_primary_creator",
+        "value": 2
+      },
+      {
+        "label": "linkhub",
+        "value": 1
+      },
+      {
+        "label": "analysis",
+        "value": 1
+      },
+      {
+        "label": "coverage_clip_reference",
+        "value": 1
+      },
+      {
+        "label": "coverage_wire",
+        "value": 1
+      }
+    ],
+    "source_kinds": [
+      {
+        "label": "repost",
+        "value": 249
+      },
+      {
+        "label": "coverage",
+        "value": 48
+      },
+      {
+        "label": "official",
+        "value": 33
+      },
+      {
+        "label": "playlist",
+        "value": 13
+      },
+      {
+        "label": "coverage_analysis",
+        "value": 8
+      },
+      {
+        "label": "mirror",
+        "value": 7
+      },
+      {
+        "label": "source_page",
+        "value": 4
+      },
+      {
+        "label": "coverage_platform_policy",
+        "value": 4
+      },
+      {
+        "label": "amplifier",
+        "value": 3
+      },
+      {
+        "label": "primary_distribution",
+        "value": 2
+      },
+      {
+        "label": "official_social",
+        "value": 2
+      },
+      {
+        "label": "linkhub",
+        "value": 1
+      },
+      {
+        "label": "monitor_only",
+        "value": 1
+      },
+      {
+        "label": "platform_removed",
+        "value": 1
+      },
+      {
+        "label": "needs_verification",
+        "value": 1
+      },
+      {
+        "label": "coverage_wire",
+        "value": 1
+      },
+      {
+        "label": "coverage_clip_reference",
+        "value": 1
+      },
+      {
+        "label": "primary_creator",
+        "value": 1
+      },
+      {
+        "label": "candidate_primary_creator",
+        "value": 1
+      },
+      {
+        "label": "analysis",
+        "value": 1
+      }
+    ],
+    "source_reliability": [
+      {
+        "label": "unknown",
+        "value": 280
+      },
+      {
+        "label": "contextual_coverage",
+        "value": 62
+      },
+      {
+        "label": "medium",
+        "value": 40
+      }
+    ],
+    "evidence_status": [
+      {
+        "label": "partial",
+        "value": 476
+      }
+    ],
+    "claim_verification": [
+      {
+        "label": "unverified",
+        "value": 13
+      },
+      {
+        "label": "contextual",
+        "value": 1
+      }
+    ],
+    "infrastructure_types": [
+      {
+        "label": "domain_or_platform",
+        "value": 41
+      }
+    ],
+    "actor_types": [
+      {
+        "label": "source_family",
+        "value": 10
+      }
+    ],
+    "candidate_risk": [
+      {
+        "label": "medium",
+        "value": 28
+      },
+      {
+        "label": "low",
+        "value": 7
+      },
+      {
+        "label": "high",
+        "value": 3
+      }
+    ],
+    "candidate_confidence_buckets": [
+      {
+        "label": "0.60–0.79",
+        "value": 32
+      },
+      {
+        "label": "0.80–1.00",
+        "value": 3
+      },
+      {
+        "label": "0.40–0.59",
+        "value": 3
+      }
+    ],
+    "incident_volume": [
+      {
+        "incident_id": null,
+        "title": "Community repost and social amplification cluster",
+        "items": 174,
+        "sources": 166,
+        "confidence": 0.68
+      },
+      {
+        "incident_id": null,
+        "title": "Explosive Media core distribution cluster",
+        "items": 153,
+        "sources": 116,
+        "confidence": 0.82
+      },
+      {
+        "incident_id": null,
+        "title": "Platform moderation, takedowns and mirror persistence",
+        "items": 94,
+        "sources": 64,
+        "confidence": 0.7
+      },
+      {
+        "incident_id": null,
+        "title": "Alternative creator-network clusters",
+        "items": 77,
+        "sources": 54,
+        "confidence": 0.54
+      },
+      {
+        "incident_id": null,
+        "title": "International media and expert coverage cluster",
+        "items": 65,
+        "sources": 64,
+        "confidence": 0.9
+      },
+      {
+        "incident_id": null,
+        "title": "Creator and source discovery cluster",
+        "items": 28,
+        "sources": 3,
+        "confidence": 0.56
+      }
+    ],
+    "top_infrastructure": [
+      {
+        "id": "infra_youtube",
+        "label": "youtube",
+        "items": 109,
+        "sources": 107,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_instagram",
+        "label": "instagram",
+        "items": 102,
+        "sources": 99,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_x",
+        "label": "x",
+        "items": 69,
+        "sources": 31,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_facebook",
+        "label": "facebook",
+        "items": 43,
+        "sources": 38,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_youtube_com",
+        "label": "youtube.com",
+        "items": 31,
+        "sources": 25,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_facebook_com",
+        "label": "facebook.com",
+        "items": 31,
+        "sources": 6,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_threads",
+        "label": "threads",
+        "items": 20,
+        "sources": 16,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_x_com",
+        "label": "x.com",
+        "items": 18,
+        "sources": 6,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_t_me",
+        "label": "t.me",
+        "items": 15,
+        "sources": 18,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_threads_com",
+        "label": "threads.com",
+        "items": 6,
+        "sources": 1,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_aljazeera_com",
+        "label": "aljazeera.com",
+        "items": 2,
+        "sources": 2,
+        "type": "domain_or_platform"
+      },
+      {
+        "id": "infra_instagram_com",
+        "label": "instagram.com",
+        "items": 2,
+        "sources": 2,
+        "type": "domain_or_platform"
+      }
+    ],
+    "narrative_ttp_matrix": [
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 363
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 267
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 257
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 196
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_language_bridging",
+        "count": 165
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_review_risk",
+        "count": 80
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 57
+      },
+      {
+        "narrative_id": "nar_pop_culture_memetic",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 48
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 184
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_language_bridging",
+        "count": 144
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 121
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 97
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_review_risk",
+        "count": 92
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 37
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 19
+      },
+      {
+        "narrative_id": "nar_creator_infrastructure",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 14
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 157
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 135
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 103
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_language_bridging",
+        "count": 67
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 65
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 65
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_review_risk",
+        "count": 20
+      },
+      {
+        "narrative_id": "nar_us_humiliation",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 13
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 81
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 52
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_language_bridging",
+        "count": 50
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 42
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 37
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_review_risk",
+        "count": 32
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 15
+      },
+      {
+        "narrative_id": "nar_media_analysis",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 15
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 41
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 27
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 26
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_language_bridging",
+        "count": 24
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 18
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_review_risk",
+        "count": 12
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 6
+      },
+      {
+        "narrative_id": "nar_platform_moderation",
+        "ttp_id": "ttp_mirror_reupload",
+        "count": 6
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 32
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 27
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 23
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 14
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_language_bridging",
+        "count": 11
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 10
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_review_risk",
+        "count": 6
+      },
+      {
+        "narrative_id": "nar_revenge_deterrence",
+        "ttp_id": "ttp_news_coverage_leverage",
+        "count": 3
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 20
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 20
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 19
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_language_bridging",
+        "count": 13
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 5
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_review_risk",
+        "count": 2
+      },
+      {
+        "narrative_id": "nar_unverified_claim",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 1
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_ai_visual_memes",
+        "count": 17
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_cross_platform_seeding",
+        "count": 12
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_source_obfuscation",
+        "count": 12
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_amplifier_repost",
+        "count": 11
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_language_bridging",
+        "count": 8
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_review_risk",
+        "count": 4
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_mirror_reupload",
+        "count": 3
+      },
+      {
+        "narrative_id": "nar_israel_dependency",
+        "ttp_id": "ttp_emotional_mockery",
+        "count": 1
+      }
+    ]
+  }
+}

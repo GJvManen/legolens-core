@@ -1,0 +1,19 @@
+{
+  "schema_version": "v110-build-validation",
+  "release": "v110.0",
+  "generated_at": "2026-05-02T13:29:47.031523Z",
+  "status": "PASS",
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5,
+    "evidence_tasks": 476,
+    "graph_nodes": 925,
+    "graph_edges": 1803,
+    "claim_tasks": 12,
+    "workbench_tasks": 132
+  },
+  "content_loss": false,
+  "backend_optional": true
+}

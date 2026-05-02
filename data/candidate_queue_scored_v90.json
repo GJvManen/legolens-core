@@ -1,0 +1,916 @@
+[
+  {
+    "candidate_id": "cand_0001",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: ig:item:DXagOumjPGw",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00195",
+        "url": "https://www.instagram.com/reel/DXagOumjPGw/",
+        "source_kind": "repost",
+        "title": "The target list is locked and loaded. Wanna gamble again ..."
+      },
+      {
+        "item_id": "itm_00273",
+        "url": "https://www.instagram.com/p/DXagOumjPGw/",
+        "source_kind": "repost",
+        "title": "explosivemediaa — The target list is locked and loaded. Wanna gamble again ..."
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0002",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: ig:item:DXiP2yjgpLl",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00362",
+        "url": "https://www.instagram.com/p/DXiP2yjgpLl/",
+        "source_kind": "repost",
+        "title": "explosivemediaa — Our New Lego-style video, A summary of the past few days"
+      },
+      {
+        "item_id": "itm_00363",
+        "url": "https://www.instagram.com/reel/DXiP2yjgpLl/",
+        "source_kind": "repost",
+        "title": "explosivemediaa / A summary of the past few days (reel variant)"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0003",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: ig:profile:explosivemediaa",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00260",
+        "url": "https://www.instagram.com/explosivemediaa/",
+        "source_kind": "official",
+        "title": "explosivemediaa profile"
+      },
+      {
+        "item_id": "itm_00261",
+        "url": "https://www.instagram.com/explosivemediaa/reel/DW2c-NPgme9/",
+        "source_kind": "official",
+        "title": "explosivemediaa — Trump Surrendered. IRAN WON. TACO will always remain TACO"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0004",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: threads:profile:tag",
+    "score": 0.82,
+    "risk": "medium",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00036",
+        "url": "https://www.threads.net/tag/Threads-video",
+        "source_kind": "coverage",
+        "title": "Explosive Media released another Lego-themed video..."
+      },
+      {
+        "item_id": "itm_00112",
+        "url": "https://www.threads.net/tag/loopy-meme",
+        "source_kind": "repost",
+        "title": "Explosive Media (@explosivemediaa) introduction post surfaced via tag page"
+      },
+      {
+        "item_id": "itm_00166",
+        "url": "https://www.threads.net/tag/Kkkarolineleavitt",
+        "source_kind": "repost",
+        "title": "Explosive Media introduction quote via Threads tag page"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.75,
+    "review_priority": "high"
+  },
+  {
+    "candidate_id": "cand_0005",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: yt:channel:@brickbeatbattalion",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00288",
+        "url": "https://www.youtube.com/@BrickBeatBattalion",
+        "source_kind": "official",
+        "title": "Brick Beat Battalion (channel)"
+      },
+      {
+        "item_id": "itm_00350",
+        "url": "https://www.youtube.com/@BrickBeatBattalion/videos",
+        "source_kind": "official",
+        "title": "Brick Beat Battalion (videos tab)"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0006",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: yt:channel:@iranlegodaily",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00432",
+        "url": "https://www.youtube.com/@IranLegoDaily",
+        "source_kind": "official",
+        "title": "Explosive Iran (@IranLegoDaily) (channel)"
+      },
+      {
+        "item_id": "itm_00433",
+        "url": "https://www.youtube.com/@IranLegoDaily/videos",
+        "source_kind": "official",
+        "title": "Explosive Iran (@IranLegoDaily) (videos tab)"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0007",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: yt:channel:@militarylegoai",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00062",
+        "url": "https://www.youtube.com/@militarylegoai",
+        "source_kind": "official",
+        "title": "Military Lego ai (channel)"
+      },
+      {
+        "item_id": "itm_00063",
+        "url": "https://www.youtube.com/@militarylegoai/videos",
+        "source_kind": "official",
+        "title": "Military Lego ai (videos tab)"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0008",
+    "candidate_type": "duplicate_cluster",
+    "title": "Duplicate review: yt:channel:@rockidofficial",
+    "score": 0.74,
+    "risk": "low",
+    "review_status": "resolved_lossless",
+    "proposed_action": "review_cluster_then_mark_mirrors_or_split",
+    "evidence": [
+      {
+        "item_id": "itm_00305",
+        "url": "https://www.youtube.com/@Rockidofficial",
+        "source_kind": "official",
+        "title": "Rock ID Official (channel)"
+      },
+      {
+        "item_id": "itm_00338",
+        "url": "https://www.youtube.com/@Rockidofficial/videos",
+        "source_kind": "official",
+        "title": "Rock ID Official (videos tab)"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "resolution": {
+      "resolved_at": "2026-05-01T17:05:00Z",
+      "method": "lossless_duplicate_resolution",
+      "note": "No item deleted; duplicate group resolved by canonical URL-variant semantics and provenance flags."
+    },
+    "v90_confidence_score": 0.67,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0009",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — This new AI LEGO movie is such a masterpiece",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00169",
+        "url": "https://x.com/FurkanGozukara/status/2041682119252988030",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0010",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Iranians just published the new very banger LEGO AI movie",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00170",
+        "url": "https://x.com/FurkanGozukara/status/2043106684847960514",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0011",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — This Iranian LEGO song must go viral in USA and around the globe!",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00377",
+        "url": "https://x.com/FurkanGozukara/status/2046969814980100159",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0012",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Iran better win a grammy for best new artist and album of the year",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00379",
+        "url": "https://x.com/FurkanGozukara/status/2047299365899817399",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0013",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Wow this gave me goosebumps",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00380",
+        "url": "https://x.com/FurkanGozukara/status/2048535904873074963",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0014",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — LMAO I swear this was the most brutal roasting of Trump so far",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00381",
+        "url": "https://x.com/FurkanGozukara/status/2047129815476535644",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0015",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — LMAO don't make Trump see this LEGO movie",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00382",
+        "url": "https://x.com/FurkanGozukara/status/2047062784605593633",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0016",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — LMAO they made LEGO movie of the famous Bibi Files via Lego_AI_X",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00391",
+        "url": "https://x.com/FurkanGozukara/status/2049265366321225944",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0017",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — additional recent X post (user-provided exact URL)",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00404",
+        "url": "https://x.com/FurkanGozukara/status/2049823509136753042",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0018",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Iran just published a new Lego animation that will make Israel ...",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00405",
+        "url": "https://x.com/FurkanGozukara/status/2035751869465739760",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0019",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — CNA correspondent Poh Kok Ing dismantles Western ...",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00406",
+        "url": "https://x.com/FurkanGozukara/status/2046935222692786449",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0020",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — A new AI generated Lego music video from Iran brilliantly ...",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00407",
+        "url": "https://x.com/FurkanGozukara/status/2044509023517466753",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0021",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — One detail stands out: YouTube claims a pro-Iran LEGO ...",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00408",
+        "url": "https://x.com/FurkanGozukara/status/2043102234234224680",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0022",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Official news agency of Iran just published this new LEGO movie",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00409",
+        "url": "https://x.com/FurkanGozukara/status/2047268299327652300",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0023",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Official Ghana embassy of Iran published this LEGO video",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00410",
+        "url": "https://x.com/FurkanGozukara/status/2046223575548358855",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0024",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — We are literally following the developments ... through LEGO movies",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00411",
+        "url": "https://x.com/FurkanGozukara/status/2043669678053032104",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0025",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — LMAO who made this a new Hollywood quality Iranian LEGO movie",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00412",
+        "url": "https://x.com/FurkanGozukara/status/2047064409940382025",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0026",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Iran's new Lego film just published. Israel and the Lego company ...",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00413",
+        "url": "https://x.com/FurkanGozukara/status/2035715069049200692",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0027",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — New Iranian LEGO movie roasting hypocrisy so hardcore",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00441",
+        "url": "https://x.com/FurkanGozukara/status/2042778790116339917",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0028",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — Man, these songs are getting better and better",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00442",
+        "url": "https://x.com/FurkanGozukara/status/2044773444588331193",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0029",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — exact user-provided recent X post",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00444",
+        "url": "https://x.com/FurkanGozukara/status/2050161618730819805",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0030",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — The Epstein Files repost",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00445",
+        "url": "https://x.com/FurkanGozukara/status/2049976288354476330",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0031",
+    "candidate_type": "source_or_item",
+    "title": "FurkanGozukara — New LEGO Diss From IRAN is brutal via The Story Of Things",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00446",
+        "url": "https://x.com/FurkanGozukara/status/2049992196904951999",
+        "source_kind": "monitoring",
+        "source_id": "src_x_furkangozukara"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_0032",
+    "candidate_type": "source_or_item",
+    "title": "CNN IRAN LEGO (channel)",
+    "score": 0.4,
+    "risk": "high",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00469",
+        "url": "https://www.youtube.com/@CNNIRANLEGO",
+        "source_kind": "candidate_primary_creator",
+        "source_id": "src_youtube_cnniranlego"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.52,
+    "review_priority": "low"
+  },
+  {
+    "candidate_id": "cand_0033",
+    "candidate_type": "source_or_item",
+    "title": "CNN IRAN LEGO (videos tab)",
+    "score": 0.4,
+    "risk": "high",
+    "review_status": "pending",
+    "proposed_action": "verify_source_identity_before_primary_classification",
+    "evidence": [
+      {
+        "item_id": "itm_00470",
+        "url": "https://www.youtube.com/@CNNIRANLEGO/videos",
+        "source_kind": "candidate_primary_creator",
+        "source_id": "src_youtube_cnniranlego"
+      }
+    ],
+    "created_at": "2026-05-01T16:20:00Z",
+    "v90_confidence_score": 0.52,
+    "review_priority": "low"
+  },
+  {
+    "candidate_id": "cand_v77_0034",
+    "candidate_type": "coverage_candidate",
+    "title": "ABC News — Meme warfare and 'slopaganda' are defining the AI-era information war",
+    "score": 0.82,
+    "risk": "medium",
+    "review_status": "pending_review",
+    "proposed_action": "verify_then_add_as_coverage_or_mark_syndication_duplicate",
+    "proposed_item": {
+      "url": "https://www.abc.net.au/news/2026-04-22/us-israel-strikes-on-iran-propaganda/106585244",
+      "platform": "Web",
+      "source_name": "ABC News",
+      "source_kind": "coverage_candidate",
+      "date_label": "2026-04-21",
+      "date_quality": "web-search-result",
+      "source_family_id": "fam_media_coverage"
+    },
+    "evidence": [
+      {
+        "url": "https://www.abc.net.au/news/2026-04-22/us-israel-strikes-on-iran-propaganda/106585244",
+        "source": "ABC News",
+        "title": "ABC News — Meme warfare and 'slopaganda' are defining the AI-era information war",
+        "published_at": "2026-04-21",
+        "note": "Search result indicates broader ABC article not present; related ABC video is already in items."
+      }
+    ],
+    "created_at": "2026-05-01T18:45:00Z",
+    "discovery_job_id": "job_broad_web_coverage_weekly",
+    "release": "v77",
+    "v90_confidence_score": 0.62,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_v77_0035",
+    "candidate_type": "coverage_candidate",
+    "title": "Fortune — AI-savvy pro-Iran groups troll America with Lego Movie-style videos",
+    "score": 0.72,
+    "risk": "medium",
+    "review_status": "pending_review",
+    "proposed_action": "verify_then_add_as_coverage_or_mark_syndication_duplicate",
+    "proposed_item": {
+      "url": "https://fortune.com/2026/04/09/what-are-lego-videos-ai-generated-iran-propaganda/",
+      "platform": "Web",
+      "source_name": "Fortune",
+      "source_kind": "coverage_candidate",
+      "date_label": "2026-04-09",
+      "date_quality": "web-search-result",
+      "source_family_id": "fam_media_coverage"
+    },
+    "evidence": [
+      {
+        "url": "https://fortune.com/2026/04/09/what-are-lego-videos-ai-generated-iran-propaganda/",
+        "source": "Fortune",
+        "title": "Fortune — AI-savvy pro-Iran groups troll America with Lego Movie-style videos",
+        "published_at": "2026-04-09",
+        "note": "Syndicated/coverage candidate; verify overlap with AP item before adding as item."
+      }
+    ],
+    "created_at": "2026-05-01T18:45:00Z",
+    "discovery_job_id": "job_broad_web_coverage_weekly",
+    "release": "v77",
+    "v90_confidence_score": 0.6,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_v77_0036",
+    "candidate_type": "coverage_candidate",
+    "title": "Euronews — Pro-Iran groups using AI to troll Trump and control war narrative",
+    "score": 0.7,
+    "risk": "medium",
+    "review_status": "pending_review",
+    "proposed_action": "verify_then_add_as_coverage_or_mark_syndication_duplicate",
+    "proposed_item": {
+      "url": "https://www.euronews.com/2026/04/09/pro-iran-groups-using-ai-to-troll-trump-and-try-to-control-war-narrative-analysts-say",
+      "platform": "Web",
+      "source_name": "Euronews",
+      "source_kind": "coverage_candidate",
+      "date_label": "2026-04-09",
+      "date_quality": "web-search-result",
+      "source_family_id": "fam_media_coverage"
+    },
+    "evidence": [
+      {
+        "url": "https://www.euronews.com/2026/04/09/pro-iran-groups-using-ai-to-troll-trump-and-try-to-control-war-narrative-analysts-say",
+        "source": "Euronews",
+        "title": "Euronews — Pro-Iran groups using AI to troll Trump and control war narrative",
+        "published_at": "2026-04-09",
+        "note": "Coverage candidate; likely overlaps AP but may add European syndication provenance."
+      }
+    ],
+    "created_at": "2026-05-01T18:45:00Z",
+    "discovery_job_id": "job_broad_web_coverage_weekly",
+    "release": "v77",
+    "v90_confidence_score": 0.59,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_v77_0037",
+    "candidate_type": "coverage_candidate",
+    "title": "The Soufan Center — Iran's use of information warfare in the conflict against the United States",
+    "score": 0.8,
+    "risk": "medium",
+    "review_status": "pending_review",
+    "proposed_action": "verify_then_add_as_coverage_or_mark_syndication_duplicate",
+    "proposed_item": {
+      "url": "https://thesoufancenter.org/intelbrief-2026-april-24/",
+      "platform": "Web",
+      "source_name": "The Soufan Center",
+      "source_kind": "coverage_candidate",
+      "date_label": "2026-04-24",
+      "date_quality": "web-search-result",
+      "source_family_id": "fam_media_coverage"
+    },
+    "evidence": [
+      {
+        "url": "https://thesoufancenter.org/intelbrief-2026-april-24/",
+        "source": "The Soufan Center",
+        "title": "The Soufan Center — Iran's use of information warfare in the conflict against the United States",
+        "published_at": "2026-04-24",
+        "note": "Research/intelbrief candidate mentioning Explosive Media and information warfare."
+      }
+    ],
+    "created_at": "2026-05-01T18:45:00Z",
+    "discovery_job_id": "job_broad_web_coverage_weekly",
+    "release": "v77",
+    "v90_confidence_score": 0.62,
+    "review_priority": "medium"
+  },
+  {
+    "candidate_id": "cand_v77_0038",
+    "candidate_type": "coverage_candidate",
+    "title": "The Sun — Iran shares LEGO war propaganda video showing Dubai and RAF base scenarios",
+    "score": 0.48,
+    "risk": "high",
+    "review_status": "pending_review",
+    "proposed_action": "verify_then_add_as_coverage_or_mark_syndication_duplicate",
+    "proposed_item": {
+      "url": "https://www.thesun.co.uk/news/38456797/iran-lego-propaganda-dubai-britain-raf/",
+      "platform": "Web",
+      "source_name": "The Sun",
+      "source_kind": "coverage_candidate",
+      "date_label": "2026-04-01",
+      "date_quality": "web-search-result",
+      "source_family_id": "fam_media_coverage"
+    },
+    "evidence": [
+      {
+        "url": "https://www.thesun.co.uk/news/38456797/iran-lego-propaganda-dubai-britain-raf/",
+        "source": "The Sun",
+        "title": "The Sun — Iran shares LEGO war propaganda video showing Dubai and RAF base scenarios",
+        "published_at": "2026-04-01",
+        "note": "Low-confidence/tabloid candidate; needs verification before use."
+      }
+    ],
+    "created_at": "2026-05-01T18:45:00Z",
+    "discovery_job_id": "job_broad_web_coverage_weekly",
+    "release": "v77",
+    "v90_confidence_score": 0.54,
+    "review_priority": "low"
+  }
+]

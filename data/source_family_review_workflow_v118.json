@@ -1,0 +1,148 @@
+{
+  "schema_version": "v118.source-family-review-workflow",
+  "generated_at": "2026-05-02T15:45:00Z",
+  "policy": {
+    "review_first": true,
+    "do_not_auto_promote_needs_review": true,
+    "required_checks": [
+      "identity_resolution",
+      "platform_consistency",
+      "archive_coverage",
+      "exact_date_coverage",
+      "source_kind_validation"
+    ]
+  },
+  "summary": {
+    "families": 10,
+    "active": 5,
+    "needs_review": 5,
+    "total_items": 476
+  },
+  "families": [
+    {
+      "family_id": "fam_brick_beat_battalion",
+      "name": "Brick Beat Battalion",
+      "current_status": "needs_review",
+      "item_count": 9,
+      "exact_date_ratio": 0.222,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt",
+        "familie vereist handmatige review"
+      ],
+      "review_state": "needs_human_review",
+      "next_action": "complete identity/date/archive review checklist"
+    },
+    {
+      "family_id": "fam_community_reposts",
+      "name": "Community / Reposts",
+      "current_status": "needs_review",
+      "item_count": 168,
+      "exact_date_ratio": 0.095,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt",
+        "familie vereist handmatige review"
+      ],
+      "review_state": "needs_human_review",
+      "next_action": "complete identity/date/archive review checklist"
+    },
+    {
+      "family_id": "fam_explosive_media",
+      "name": "Explosive Media",
+      "current_status": "active",
+      "item_count": 153,
+      "exact_date_ratio": 0.255,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt"
+      ],
+      "review_state": "ready_for_periodic_review",
+      "next_action": "monitor drift and new evidence gaps"
+    },
+    {
+      "family_id": "fam_furkangozukara",
+      "name": "FurkanGozukara",
+      "current_status": "active",
+      "item_count": 24,
+      "exact_date_ratio": 0.958,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt"
+      ],
+      "review_state": "ready_for_periodic_review",
+      "next_action": "monitor drift and new evidence gaps"
+    },
+    {
+      "family_id": "fam_media_coverage",
+      "name": "Media Coverage",
+      "current_status": "active",
+      "item_count": 44,
+      "exact_date_ratio": 0.5,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt"
+      ],
+      "review_state": "ready_for_periodic_review",
+      "next_action": "monitor drift and new evidence gaps"
+    },
+    {
+      "family_id": "fam_militarylego_ai_x_network",
+      "name": "Militarylego AI X Network",
+      "current_status": "needs_review",
+      "item_count": 29,
+      "exact_date_ratio": 0.0,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt",
+        "familie vereist handmatige review"
+      ],
+      "review_state": "needs_human_review",
+      "next_action": "complete identity/date/archive review checklist"
+    },
+    {
+      "family_id": "fam_mirrors_linkhub",
+      "name": "Mirrors & Linkhub",
+      "current_status": "active",
+      "item_count": 6,
+      "exact_date_ratio": 0.333,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt"
+      ],
+      "review_state": "ready_for_periodic_review",
+      "next_action": "monitor drift and new evidence gaps"
+    },
+    {
+      "family_id": "fam_persiaboi_studios",
+      "name": "PersiaBoi Studios",
+      "current_status": "needs_review",
+      "item_count": 28,
+      "exact_date_ratio": 0.286,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt",
+        "familie vereist handmatige review"
+      ],
+      "review_state": "needs_human_review",
+      "next_action": "complete identity/date/archive review checklist"
+    },
+    {
+      "family_id": "fam_rock_id_official",
+      "name": "Rock ID Official",
+      "current_status": "needs_review",
+      "item_count": 11,
+      "exact_date_ratio": 0.182,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt",
+        "familie vereist handmatige review"
+      ],
+      "review_state": "needs_human_review",
+      "next_action": "complete identity/date/archive review checklist"
+    },
+    {
+      "family_id": "fam_youtube_creators",
+      "name": "YouTube creators",
+      "current_status": "active",
+      "item_count": 4,
+      "exact_date_ratio": 0.0,
+      "warnings": [
+        "sommige publicatiedatums ontbreken; archiefdatum gebruikt"
+      ],
+      "review_state": "ready_for_periodic_review",
+      "next_action": "monitor drift and new evidence gaps"
+    }
+  ]
+}

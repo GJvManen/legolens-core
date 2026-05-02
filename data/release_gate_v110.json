@@ -1,0 +1,66 @@
+{
+  "schema_version": "v110.release-gate",
+  "release": "v110.0",
+  "generated_at": "2026-05-02T13:29:47.031523Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "items_retained",
+      "passed": true,
+      "actual": 476,
+      "expected": 476
+    },
+    {
+      "id": "sources_retained",
+      "passed": true,
+      "actual": 382,
+      "expected": 382
+    },
+    {
+      "id": "families_retained",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "id": "needs_review_families_retained",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "id": "evidence_workbench_generated",
+      "passed": true,
+      "actual": 476
+    },
+    {
+      "id": "graph_analytics_generated",
+      "passed": true,
+      "actual": {
+        "nodes": 925,
+        "edges": 1803
+      }
+    },
+    {
+      "id": "claim_intelligence_generated",
+      "passed": true,
+      "actual": 14
+    },
+    {
+      "id": "analyst_workbench_generated",
+      "passed": true,
+      "actual": 132
+    },
+    {
+      "id": "auto_publication_disabled",
+      "passed": true
+    },
+    {
+      "id": "backend_optional",
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Local-first architecture preserved. No item/source/family content removed."
+  ]
+}

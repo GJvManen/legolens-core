@@ -1,0 +1,27 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const root = process.cwd();
+const read = f => JSON.parse(fs.readFileSync(path.join(root, 'data', f), 'utf8'));
+const fail = [];
+const version = read('version.json');
+const manifest = read('release_manifest.json');
+const gate = read('release_gate_v120.json');
+const items = read('items.json');
+const sources = read('sources.json');
+const evidence = read('evidence.json');
+const confidence = read('confidence_scores_v118.json');
+const update = read('update_manifest.json');
+if (version.release !== 'v120.1') fail.push('version.json release is not v120.1');
+if (manifest.release !== version.release) fail.push('release manifest does not match version.json');
+if (update.latest_release !== version.release) fail.push('update manifest latest_release mismatch');
+if (gate.status !== 'pass') fail.push('release gate status not pass');
+if (items.length !== 476) fail.push(`items count changed: ${items.length}`);
+if (sources.length !== 382) fail.push(`sources count changed: ${sources.length}`);
+if (evidence.length !== 476) fail.push(`evidence count changed: ${evidence.length}`);
+if ((confidence.items||[]).length !== items.length) fail.push('confidence score coverage mismatch');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+for (const req of ['v120_overrides.js','v120_overrides.css','data/bootstrap.js']) if (!html.includes(req)) fail.push(`index missing ${req}`);
+const bootstrap = fs.readFileSync(path.join(root, 'data', 'bootstrap.js'), 'utf8');
+if (!bootstrap.includes('confidence_scores_v118') || !bootstrap.includes('release_gate_v120')) fail.push('bootstrap missing v120 data');
+if (fail.length) { console.error('FAIL LegoLens v120 validation'); for (const f of fail) console.error('-', f); process.exit(1); }
+console.log('PASS LegoLens v120 release validation');

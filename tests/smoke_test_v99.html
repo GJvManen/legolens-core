@@ -1,0 +1,10 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>LegoLens v99 smoke test</title><style>body{font-family:system-ui;background:#111;color:#eee;padding:24px}.pass{color:#4ade80}.fail{color:#f87171}code{background:#222;padding:2px 6px}</style></head><body><h1>LegoLens v99 Smoke Test</h1><ol id="out"></ol><script src="../data/bootstrap.js"></script><script>
+const out=document.getElementById('out'); const data=window.LEGOLENS_BOOTSTRAP.data; function check(name, ok){ const li=document.createElement('li'); li.className=ok?'pass':'fail'; li.innerHTML=(ok?'✓ ':'✗ ')+name; out.appendChild(li); }
+check('items loaded: '+data.items.length, data.items.length===476);
+check('sources loaded: '+data.sources.length, data.sources.length===382);
+check('families loaded: '+data.source_families.length, data.source_families.length===10);
+check('needs_review families preserved: '+data.source_families.filter(f=>f.status==='needs_review').length, data.source_families.filter(f=>f.status==='needs_review').length===5);
+check('ChatGPT auth config present', !!data.chatgpt_authorization_config_v99);
+check('OpenAI project registry has choices', (data.openai_project_registry_v99.projects||[]).length>=1);
+check('v99 release gate pass', data.release_gate_v99.status==='pass');
+</script></body></html>

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LegoLens Incident",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "item_ids",
+    "source_ids",
+    "family_ids",
+    "review_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "dormant",
+        "resolved"
+      ]
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    },
+    "item_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "family_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "primary_narratives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ttp_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

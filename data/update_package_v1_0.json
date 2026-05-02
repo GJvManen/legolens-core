@@ -1,0 +1,35 @@
+{
+  "schema_version": "legolens.update-package.v1",
+  "package_type": "legolens_update_package",
+  "target": "v1.0.0",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "content_policy": {
+    "direct_publication": false,
+    "human_review_required": true,
+    "ai_outputs_candidate_only": true
+  },
+  "operations": [
+    {
+      "op": "set_version",
+      "path": "data/version.json",
+      "release": "v1.0.0"
+    },
+    {
+      "op": "add_case_pack",
+      "path": "case-packs/iran/case.json"
+    },
+    {
+      "op": "add_docs",
+      "path": "docs/"
+    },
+    {
+      "op": "add_governance",
+      "path": "ETHICS.md"
+    }
+  ],
+  "rollback": {
+    "previous_release": "v120.1",
+    "strategy": "restore v120.1 bundle or apply inverse patch"
+  },
+  "notes": "Stable community release; non-destructive upgrade from v120.1."
+}

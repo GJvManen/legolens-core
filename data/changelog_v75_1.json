@@ -1,0 +1,10 @@
+{
+  "version": "v75.1",
+  "title": "Evidence capture register",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "changes": [
+    "Added evidence.json with one evidence shell per item.",
+    "Added evidence_capture_plan.json with archive/screenshot priorities.",
+    "Generated metadata previews remain clearly labeled as non-platform screenshots."
+  ]
+}

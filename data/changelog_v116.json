@@ -1,0 +1,50 @@
+{
+  "schema_version": "v116.changelog",
+  "release": "v116.1-hotfix",
+  "generated_at": "2026-05-02T14:03:09.472535Z",
+  "changes": [
+    {
+      "type": "ui",
+      "scope": "layout",
+      "description": "Interface layout cleanup: responsive grids, consistent card spacing, statusbar cleanup, overflow fixes."
+    },
+    {
+      "type": "ui",
+      "scope": "messages",
+      "description": "Release/update announcements removed from operational interface and moved to changelog/release report."
+    },
+    {
+      "type": "analysis",
+      "scope": "graph-explorer",
+      "description": "Graph Explorer expanded with node/edge charts, degree histogram, centrality, platform mix, family risk, incident connectivity, claim-incident matrix and evidence readiness."
+    },
+    {
+      "type": "data",
+      "scope": "graph-dashboard",
+      "description": "Added graph_dashboard_v116.json derived from local dataset; no item/source/family records changed."
+    },
+    {
+      "type": "fix",
+      "scope": "graph-explorer",
+      "description": "Replaced broken v116 Graph Explorer override with syntax-checked implementation and working filters/export."
+    },
+    {
+      "type": "fix",
+      "scope": "report-builder",
+      "description": "Rebuilt Report Builder as a local workflow with preview and HTML/Markdown/JSON/CSV export."
+    },
+    {
+      "type": "ui",
+      "scope": "layout",
+      "description": "Cleaned operational release/update text from interface; changelog/release reports remain the place for update notes."
+    }
+  ],
+  "content_changes": {
+    "items_added": 0,
+    "items_removed": 0,
+    "sources_added": 0,
+    "sources_removed": 0,
+    "families_changed": 0
+  },
+  "notes": "Operational update/release messages should be documented here and in RELEASE_REPORT files, not rendered as dashboard announcement panels."
+}

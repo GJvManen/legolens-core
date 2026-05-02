@@ -1,0 +1,19 @@
+{
+  "schema_version": "v78.3",
+  "generated_at": "2026-05-01T20:40:00Z",
+  "title": "UI restoration patch",
+  "changes": [
+    "Update/check-now restored",
+    "Import JSON restored",
+    "Thumbnail previews restored",
+    "Sliding hero banner restored",
+    "Iranian flag restored",
+    "No content removed"
+  ],
+  "content_policy": {
+    "items_removed": 0,
+    "sources_removed": 0,
+    "families_removed": 0,
+    "direct_publication": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "v112.unified-detail-panel",
+  "release": "v115.0",
+  "generated_at": "2026-05-02T13:40:23.891663Z",
+  "entity_types": [
+    "item",
+    "source",
+    "incident",
+    "claim",
+    "infrastructure"
+  ],
+  "tabs": [
+    "summary",
+    "evidence",
+    "provenance",
+    "claims",
+    "graph",
+    "review",
+    "history"
+  ],
+  "default_entity_type": "item",
+  "default_item_id": "itm_00467",
+  "sidebar_context": [
+    "source",
+    "incident_links",
+    "claim_links",
+    "evidence_status",
+    "review_status",
+    "actions"
+  ],
+  "actions": [
+    "open_original",
+    "export_entity",
+    "add_review_note",
+    "mark_needs_evidence",
+    "link_to_incident",
+    "compare_side_by_side"
+  ],
+  "policy": {
+    "direct_publication": false,
+    "writes": "patch_or_runtime_only"
+  }
+}

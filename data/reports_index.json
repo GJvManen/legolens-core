@@ -1,0 +1,103 @@
+{
+  "schema_version": "v94.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "reports": [
+    {
+      "report_id": "rpt_inc_2026_iran_lego_core_explosive_media",
+      "incident_id": "inc_2026_iran_lego_core_explosive_media",
+      "title": "Explosive Media core distribution cluster",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_core_explosive_media.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_inc_2026_iran_lego_media_coverage",
+      "incident_id": "inc_2026_iran_lego_media_coverage",
+      "title": "International media and expert coverage cluster",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_media_coverage.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_inc_2026_iran_lego_social_amplification",
+      "incident_id": "inc_2026_iran_lego_social_amplification",
+      "title": "Community repost and social amplification cluster",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_social_amplification.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_inc_2026_iran_lego_creator_source_discovery",
+      "incident_id": "inc_2026_iran_lego_creator_source_discovery",
+      "title": "Creator and source discovery cluster",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_creator_source_discovery.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_inc_2026_iran_lego_alt_creator_networks",
+      "incident_id": "inc_2026_iran_lego_alt_creator_networks",
+      "title": "Alternative creator-network clusters",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_alt_creator_networks.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "incident_id": "inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "title": "Platform moderation, takedowns and mirror persistence",
+      "format": "markdown",
+      "path": "reports/incident_inc_2026_iran_lego_platform_moderation_and_mirrors.md",
+      "generated_at": "2026-05-01T18:45:00Z"
+    },
+    {
+      "report_id": "rpt_v85_executive_summary",
+      "title": "v85 Executive Monitoring Summary",
+      "format": "markdown",
+      "path": "reports/v85_executive_summary.md",
+      "generated_at": "2026-05-02T08:30:00Z"
+    },
+    {
+      "report_id": "rpt_v85_weekly_monitoring_brief",
+      "title": "v85 Weekly Monitoring Brief Template",
+      "format": "markdown",
+      "path": "reports/v85_weekly_monitoring_brief.md",
+      "generated_at": "2026-05-02T08:30:00Z"
+    },
+    {
+      "report_id": "report_v91_weekly_monitoring_brief",
+      "title": "Weekly Monitoring Brief v91",
+      "path": "reports/v91_weekly_monitoring_brief.md",
+      "format": "markdown",
+      "release": "v91"
+    },
+    {
+      "report_id": "report_v91_evidence_appendix",
+      "title": "Evidence Appendix v91",
+      "path": "reports/v91_evidence_appendix.md",
+      "format": "markdown",
+      "release": "v91"
+    },
+    {
+      "report_id": "report_v91_machine_readable_export",
+      "title": "Machine-readable Export Notes v91",
+      "path": "reports/v91_machine_readable_export.md",
+      "format": "markdown",
+      "release": "v91"
+    },
+    {
+      "report_id": "report_v93_claim_register",
+      "title": "Claim Register v93",
+      "path": "reports/v93_claim_register.md",
+      "format": "markdown",
+      "release": "v93"
+    },
+    {
+      "report_id": "report_v94_actor_infrastructure_dossier",
+      "title": "Actor & Infrastructure Dossier v94",
+      "path": "reports/v94_actor_infrastructure_dossier.md",
+      "format": "markdown",
+      "release": "v94"
+    }
+  ]
+}

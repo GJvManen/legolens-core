@@ -1,0 +1,170 @@
+{
+  "schema_version": "v94.2-dashboard-graphics-catalog",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "graphics": [
+    {
+      "id": "infrastructure_graph",
+      "name": "Infrastructure graph",
+      "type": "network",
+      "priority": "P0",
+      "answers": [
+        "Welke infrastructuurknooppunten verbinden bronnen, actors en incidents?",
+        "Welke nodes hebben de hoogste degree?"
+      ],
+      "data_sources": [
+        "network_graph.json",
+        "infrastructure_v94.json",
+        "actors_v94.json",
+        "sources.json"
+      ],
+      "ui_section": "Network / Dashboard Graphics"
+    },
+    {
+      "id": "propagation_sankey",
+      "name": "Propagation chain Sankey",
+      "type": "sankey",
+      "priority": "P0",
+      "answers": [
+        "Hoe stroomt content van primary source naar mirror, coverage en amplifier?"
+      ],
+      "data_sources": [
+        "items.json",
+        "provenance_chains.json",
+        "incidents.json"
+      ]
+    },
+    {
+      "id": "incident_timeline",
+      "name": "Incident timeline",
+      "type": "timeline",
+      "priority": "P0",
+      "answers": [
+        "Wanneer startte een incident, wanneer volgden mirrors en coverage?"
+      ],
+      "data_sources": [
+        "items.json",
+        "incidents.json"
+      ]
+    },
+    {
+      "id": "evidence_funnel",
+      "name": "Evidence completeness funnel",
+      "type": "funnel/bar",
+      "priority": "P0",
+      "answers": [
+        "Welke items missen archive, screenshot, transcript of review?"
+      ],
+      "data_sources": [
+        "evidence.json",
+        "evidence_workbench_v88.json"
+      ]
+    },
+    {
+      "id": "candidate_triage",
+      "name": "Candidate triage dashboard",
+      "type": "stacked bars/scatter",
+      "priority": "P0",
+      "answers": [
+        "Welke candidates hebben hoge confidence maar hoge risico’s?"
+      ],
+      "data_sources": [
+        "candidate_queue.json",
+        "monitoring_scoring_v90.json"
+      ]
+    },
+    {
+      "id": "source_reliability_distribution",
+      "name": "Source reliability distribution",
+      "type": "bar",
+      "priority": "P1",
+      "answers": [
+        "Waar zitten needs_review en low-confidence bronnen?"
+      ],
+      "data_sources": [
+        "source_reliability_history_v92.json",
+        "sources.json"
+      ]
+    },
+    {
+      "id": "claim_verification_matrix",
+      "name": "Claim verification matrix",
+      "type": "matrix",
+      "priority": "P1",
+      "answers": [
+        "Welke claims blijven unverified of disputed en welke items dragen die?"
+      ],
+      "data_sources": [
+        "claims_v93.json",
+        "claims_index_v93.json"
+      ]
+    },
+    {
+      "id": "narrative_ttp_heatmap",
+      "name": "Narrative × TTP heatmap",
+      "type": "heatmap",
+      "priority": "P1",
+      "answers": [
+        "Welke narratieven gebruiken welke verspreidingstechnieken?"
+      ],
+      "data_sources": [
+        "items.json",
+        "narratives.json",
+        "ttp_taxonomy.json"
+      ]
+    },
+    {
+      "id": "update_integrity_panel",
+      "name": "Update integrity panel",
+      "type": "diff/audit",
+      "priority": "P0",
+      "answers": [
+        "Is de update lossless? Welke bestanden veranderen?"
+      ],
+      "data_sources": [
+        "update_manifest.json",
+        "update_package_v94_2.json",
+        "release_gate_v94_2.json"
+      ]
+    },
+    {
+      "id": "platform_coverage_mix",
+      "name": "Platform and coverage mix",
+      "type": "bar/donut",
+      "priority": "P1",
+      "answers": [
+        "Op welke platformen zitten primaire content, mirrors en coverage?"
+      ],
+      "data_sources": [
+        "items.json",
+        "sources.json"
+      ]
+    },
+    {
+      "id": "review_throughput",
+      "name": "Review throughput / SLA",
+      "type": "line/burndown",
+      "priority": "P2",
+      "answers": [
+        "Hoe snel worden candidates verwerkt? Waar ontstaan review-backlogs?"
+      ],
+      "data_sources": [
+        "review_log.json",
+        "candidate_queue.json"
+      ]
+    },
+    {
+      "id": "actor_infrastructure_map",
+      "name": "Actor–Infrastructure map",
+      "type": "bipartite graph",
+      "priority": "P1",
+      "answers": [
+        "Welke actorlabels zijn verbonden met welke infrastructuur?"
+      ],
+      "data_sources": [
+        "actor_infrastructure_map_v94.json",
+        "actors_v94.json",
+        "infrastructure_v94.json"
+      ]
+    }
+  ]
+}

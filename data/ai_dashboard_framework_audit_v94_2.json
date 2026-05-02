@@ -1,0 +1,14 @@
+{
+  "schema_version": "v94.2-build-validation",
+  "generated_at": "2026-05-02T10:45:00Z",
+  "items": 476,
+  "sources": 382,
+  "families": 10,
+  "needs_review_families": 5,
+  "new_content_items_added": 0,
+  "ai_connector_files_present": true,
+  "dashboard_graphics_files_present": true,
+  "update_package": "update_package_v94_2.json",
+  "browser_api_key_field_present": false,
+  "direct_publication_allowed": false
+}

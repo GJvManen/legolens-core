@@ -1,0 +1,10 @@
+{
+  "version": "v77.0",
+  "title": "Scheduled discovery",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "changes": [
+    "Added discovery_schedule.json, discovery_seed_queries.json and scheduled_discovery_log.json.",
+    "Added v77 web-discovery findings as candidate_queue entries only.",
+    "All discovery jobs are review-first and never auto-publish."
+  ]
+}

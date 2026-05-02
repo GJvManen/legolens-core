@@ -1,0 +1,323 @@
+{
+  "schema_version": "v75.1",
+  "generated_at": "2026-05-01T18:45:00Z",
+  "priority_order": [
+    "archive_url",
+    "platform_screenshot",
+    "transcript_or_caption",
+    "perceptual_hash",
+    "source_metadata_snapshot"
+  ],
+  "policy": {
+    "do_not_replace_generated_previews_with_unverified_images": true,
+    "do_not_scrape_restricted_content_without_permission": true,
+    "keep_generated_previews_labeled": true
+  },
+  "counts": {
+    "evidence_records": 476,
+    "needs_archive_capture": 476,
+    "generated_metadata_previews": 367
+  },
+  "next_batch": [
+    {
+      "evidence_id": "ev_itm_00467",
+      "item_id": "itm_00467",
+      "url": "https://www.youtube.com/@flowlego",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00468",
+      "item_id": "itm_00468",
+      "url": "https://www.youtube.com/@flowlego/videos",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00469",
+      "item_id": "itm_00469",
+      "url": "https://www.youtube.com/@CNNIRANLEGO",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00470",
+      "item_id": "itm_00470",
+      "url": "https://www.youtube.com/@CNNIRANLEGO/videos",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00008",
+      "item_id": "itm_00008",
+      "url": "https://t.me/ExplosiveMedia/7093",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00009",
+      "item_id": "itm_00009",
+      "url": "https://t.me/ExplosiveMedia/7092",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00010",
+      "item_id": "itm_00010",
+      "url": "https://t.me/ExplosiveMedia/7091",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00011",
+      "item_id": "itm_00011",
+      "url": "https://t.me/ExplosiveMedia/7090",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00012",
+      "item_id": "itm_00012",
+      "url": "https://t.me/ExplosiveMedia/7089",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00013",
+      "item_id": "itm_00013",
+      "url": "https://t.me/ExplosiveMedia/7088",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00014",
+      "item_id": "itm_00014",
+      "url": "https://t.me/ExplosiveMedia/7087",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00015",
+      "item_id": "itm_00015",
+      "url": "https://t.me/ExplosiveMedia/7086",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00016",
+      "item_id": "itm_00016",
+      "url": "https://t.me/ExplosiveMedia/7085",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00017",
+      "item_id": "itm_00017",
+      "url": "https://t.me/ExplosiveMedia/7084",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00018",
+      "item_id": "itm_00018",
+      "url": "https://t.me/ExplosiveMedia/7080",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00019",
+      "item_id": "itm_00019",
+      "url": "https://t.me/ExplosiveMedia/7079",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00020",
+      "item_id": "itm_00020",
+      "url": "https://t.me/ExplosiveMedia/7075",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00021",
+      "item_id": "itm_00021",
+      "url": "https://t.me/ExplosiveMedia/7074",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00022",
+      "item_id": "itm_00022",
+      "url": "https://www.facebook.com/deutschewellenews/videos/dozens-of-lego-themed-ai-videos-have-flooded-social-media-pushing-pro-iranian-me/979705308336515/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00023",
+      "item_id": "itm_00023",
+      "url": "https://www.facebook.com/Reuters/posts/lego-style-animated-videos-coming-out-of-iran-that-mock-us-president-donald-trum/1515214330469294/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00024",
+      "item_id": "itm_00024",
+      "url": "https://www.facebook.com/TruthAgainstHate/posts/iran-drops-another-lego-style-videotitle-liar/1356923079805999/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00025",
+      "item_id": "itm_00025",
+      "url": "https://www.instagram.com/reel/DVns0EIjfc2/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00026",
+      "item_id": "itm_00026",
+      "url": "https://www.instagram.com/reel/DW-Fw5ejIrR/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00027",
+      "item_id": "itm_00027",
+      "url": "https://www.instagram.com/reel/DW9NSuSmSsH/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00028",
+      "item_id": "itm_00028",
+      "url": "https://www.instagram.com/reel/DWfwtgZOhQi/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00029",
+      "item_id": "itm_00029",
+      "url": "https://www.instagram.com/reel/DWyymjcDnxG/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00030",
+      "item_id": "itm_00030",
+      "url": "https://www.instagram.com/reel/DWffJh4Dq9c/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00031",
+      "item_id": "itm_00031",
+      "url": "https://www.instagram.com/reel/DWQ12ssjcbx/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00032",
+      "item_id": "itm_00032",
+      "url": "https://www.instagram.com/reel/DWyhZRRiSb9/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00033",
+      "item_id": "itm_00033",
+      "url": "https://www.instagram.com/reel/DXAn7eyDKkC/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00034",
+      "item_id": "itm_00034",
+      "url": "https://www.instagram.com/reel/DWtSFwMAj_E/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00035",
+      "item_id": "itm_00035",
+      "url": "https://www.instagram.com/reel/DW3EUNYEzFT/",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00036",
+      "item_id": "itm_00036",
+      "url": "https://www.threads.net/tag/Threads-video",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00037",
+      "item_id": "itm_00037",
+      "url": "https://www.threads.net/@yuking_0819/post/DG4rmpFS8i_",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00038",
+      "item_id": "itm_00038",
+      "url": "https://www.youtube.com/watch?v=sUrveflgWhk",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00039",
+      "item_id": "itm_00039",
+      "url": "https://www.youtube.com/watch?v=6GRv9x6Xf84",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00040",
+      "item_id": "itm_00040",
+      "url": "https://www.youtube.com/watch?v=ayzvXPsyIh8",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00041",
+      "item_id": "itm_00041",
+      "url": "https://www.youtube.com/watch?v=7fvJH_q_6Ps",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00042",
+      "item_id": "itm_00042",
+      "url": "https://www.youtube.com/watch?v=5G9DNx7xIIc",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00043",
+      "item_id": "itm_00043",
+      "url": "https://www.youtube.com/watch?v=eIkjYceEDNg",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00044",
+      "item_id": "itm_00044",
+      "url": "https://www.youtube.com/watch?v=yDENea4MMGk",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00045",
+      "item_id": "itm_00045",
+      "url": "https://www.youtube.com/watch?v=aOEC1yLAns0",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00046",
+      "item_id": "itm_00046",
+      "url": "https://www.youtube.com/watch?v=YXZy5bwMNK4",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00047",
+      "item_id": "itm_00047",
+      "url": "https://www.youtube.com/watch?v=dYVGJs3g_VM",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00048",
+      "item_id": "itm_00048",
+      "url": "https://www.youtube.com/watch?v=JeY0HD9mgio",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00049",
+      "item_id": "itm_00049",
+      "url": "https://www.youtube.com/watch?v=YXwWkz4ybDA",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00050",
+      "item_id": "itm_00050",
+      "url": "https://www.youtube.com/watch?v=uk9TRJ3M7bA",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00051",
+      "item_id": "itm_00051",
+      "url": "https://www.youtube.com/watch?v=Xsmhz2eRtfk",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00052",
+      "item_id": "itm_00052",
+      "url": "https://music.youtube.com/playlist?list=PLGZrSeCW-ppcoVfGUoOzYrUREWQwS-gFj",
+      "reason": "Archive URL and screenshot still missing"
+    },
+    {
+      "evidence_id": "ev_itm_00053",
+      "item_id": "itm_00053",
+      "url": "https://www.youtube.com/watch?v=SaEGGjJgHpY",
+      "reason": "Archive URL and screenshot still missing"
+    }
+  ]
+}

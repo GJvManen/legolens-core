@@ -1,0 +1,166 @@
+{
+  "schema_version": "v97.0-evidence-automation",
+  "generated_at": "2026-05-02T11:45:00Z",
+  "policy": {
+    "auto_capture_allowed": false,
+    "human_review_required_before_publication": true,
+    "respect_platform_terms": true
+  },
+  "jobs": [
+    {
+      "job_id": "ev_auto_archive_candidates",
+      "label": "Archive URL candidate capture",
+      "input": "items without archive_url",
+      "output": "evidence_jobs pending_review"
+    },
+    {
+      "job_id": "ev_auto_screenshot_queue",
+      "label": "Screenshot queue",
+      "input": "items with stable source_url",
+      "output": "manual/automated capture task"
+    },
+    {
+      "job_id": "ev_auto_transcript_queue",
+      "label": "Transcript extraction queue",
+      "input": "video/audio items",
+      "output": "transcript candidate"
+    },
+    {
+      "job_id": "ev_auto_hash_queue",
+      "label": "Perceptual hash/fingerprint",
+      "input": "preview/screenshot files",
+      "output": "similarity fingerprint"
+    }
+  ],
+  "work_queue_sample": [
+    {
+      "evidence_id": "ev_itm_00467",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00468",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00469",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00470",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00008",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00009",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00010",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00011",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00012",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00013",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00014",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00015",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00016",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00017",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00018",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00019",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00020",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00021",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00022",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00023",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00024",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00025",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00026",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00027",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    },
+    {
+      "evidence_id": "ev_itm_00028",
+      "item_id": null,
+      "next_action": "collect_archive_url_or_screenshot"
+    }
+  ],
+  "metrics": {
+    "evidence_records": 476,
+    "sample_missing_archive": 25
+  }
+}

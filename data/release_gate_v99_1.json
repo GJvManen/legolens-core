@@ -1,0 +1,77 @@
+{
+  "schema_version": "v99.1-release-gate",
+  "generated_at": "2026-05-02T12:28:00Z",
+  "status": "pass",
+  "blocking_checks": [
+    {
+      "id": "lossless_items",
+      "passed": true,
+      "actual": 476,
+      "expected": 476
+    },
+    {
+      "id": "lossless_sources",
+      "passed": true,
+      "actual": 382,
+      "expected": 382
+    },
+    {
+      "id": "lossless_families",
+      "passed": true,
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "id": "needs_review_families_preserved",
+      "passed": true,
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "id": "admin_api_key_entry_present",
+      "passed": true
+    },
+    {
+      "id": "api_key_not_stored_in_browser_data",
+      "passed": true,
+      "note": "Backend returns masked key only; browser localStorage stores metadata."
+    },
+    {
+      "id": "server_side_runtime_config_endpoint",
+      "passed": true
+    },
+    {
+      "id": "project_selection_after_key_save",
+      "passed": true
+    },
+    {
+      "id": "thumbnail_refs_available",
+      "passed": true,
+      "missing": 0
+    },
+    {
+      "id": "thumbnail_fallback_chain_present",
+      "passed": true
+    },
+    {
+      "id": "new_public_content_added",
+      "passed": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "id": "v99_1_build_validation",
+      "passed": false,
+      "checks": 16
+    },
+    {
+      "id": "v99_1_build_validation",
+      "passed": true,
+      "checks": 16
+    }
+  ],
+  "notes": [
+    "v99.1 adds server-side API-key configuration from Admin and restores robust thumbnail rendering.",
+    "No published content was added or removed."
+  ]
+}

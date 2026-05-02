@@ -1,0 +1,2307 @@
+{
+  "schema_version": "v94.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "summary": {
+    "actors": 10,
+    "infrastructure": 41,
+    "edges": 382
+  },
+  "edges": [
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_brickbeatbattalion",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_an_iranian_american_telling_the_truth_about_us_lego_rap_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_answers_usa_blockade_in_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_legos_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_world_is_watching_you_trump_lego_rap_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_what_iranians_actually_think_of_america_lego_rap_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_brick_beat_battalion",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_why_iran_will_never_fall_lego_rap_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_elephantnewsgh",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_fara_farhan_142",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_marius_comper",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_mo_of_everything",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_photo_php",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_reallyamerican",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_taylorplorenz",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_theaustoday",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_truthagainsthate",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_a_2_minute_lego_style_animation_is_making_rounds_online",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_a_new_iranian_production_titled_stone_age_uses_lego_to_draw",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_a_viral_lego_style_animation_mocks_president",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_are_iranian_lego_satire_videos_hitting_too_close_to_home",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_come_closer",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_creative_iranian_youth_portray_realities_of_us_israeli_war_on_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_deeply_unshakably_rooted_enough_of_injustice",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_dozens_of_lego_themed_ai_videos_have_flooded_social_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_enn_entertainment_global_viral_update_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_for_the_first_time_a_viral_lego_style_creator_has_admitted_links",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_from_iranian_lego_videos_mocking_trump_to_the_white",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_geopolitics_the_target_list_is_locked_and_loaded_wanna",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_good_bye_oil_lego_trump_iran_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_goodbye_oil_legofan_legogram",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_how_lego_iran_changed_the_world",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_i_trust_these_lego_videos_more_than_our_own_government",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_just_dropped_a_full_on_lego_music_video_straight_out",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_just_published_a_new_lego_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_on_war_lego_goodbye_oil_target_list_is_locked_and_loaded",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_releases_a_new_lego_style_video_after_the_ceasefire",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_uploaded_a_new_lego_video_showing_locked_target_on_oil_refineries",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_s_lego_style_propaganda_video_targets",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_s_meme_campaign_is_increasingly_leveraging_ai",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_s_state_media_has_reportedly_released_yet_another_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_is_trump_losing_the_meme_war_with_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_khamenei_again_repost",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_lego_animation_praising_resistance_axis_circulates",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_lego_style_music_video_from_iran_s_brix_axis_studio_titled",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_lego_inspired_slopaganda_depicting_the_us_and_israel_s",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_mirza_golam_abbas_shahneel_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_animation_honors_resistance_front_operations_in",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_drop_hits_social_media_meme_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_music_video_drops_the_professor",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_viral_iranian_lego_video_title_stone_age",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_oil_thief_lego_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_presiden_trump_berencana_menguasai_minyak_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_pro_iran_ai_generated_lego_propaganda_has_been_flooding_social_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_rescuing_american_pilot_in_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_the_target_list_is_locked_and_loaded_wanna_gamble_again",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_the_us_and_iran_war_s_secret_weapon",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_the_us_and_iran_war_s_secret_weapon_memes",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_thepaperlessbd_locked_target_on_oil_refineries",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_tim_krearif_iran_merilis_video_lego_propaganda",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_times_now_iran_has_released_yet_another_lego_style",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_times_now_iran_releases_viral_ai_generated_lego_rap",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_times_now_missiles_on_pause_but_iran_s_lego_war_on_trump",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_times_now_viral_ai_lego_video_turns_us_regime_change",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_turn_conflict_into_content_people_want_to_watch",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_wait_we_want_to_give_you_kebab",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_when_the_war_is_over_i_will_come_to_india_and_meet",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_ejblackerby",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_ahmadzakijp",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_alexshams",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_borzou",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_bpinewsorg",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_irtruepromise",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_its_mrh3",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_marcowenjones",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_x_nadeemnaqvinng",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_owlcottage63",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_paddystinian",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_ryanrozbiani",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_x_shivaat",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_has_trump_surrendered_iran_s_viral_lego_style_video_after_the_ceasefire",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iranlego_on_youtube",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_600m_wasted_iran_uses_lego_animation_video_to_mock",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_15_min_of_lego_animation_mocking_trump_as_us",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_persian_lego_studio",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_a_deeper_dive_into_trump_s_iran_strategy_and_their_lego_style_pushback",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_a_history_lesson_in_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_ai_slopaganda_lego_style_ai_videos_bring_new_dimension_to_conflict",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_animated_trump_satire_videos_show_new_frontier_in_iran_s_battle",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_animation_videos_mocking_trump_show_step_change_in_state",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_back_to_stone_age_new_lego_video_from_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_call_him_what_he_is_liar_iran_vibing_online_for_the_lego_video_on_trump",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_decoding_iran_s_symbolic_attack_on_trump_and_netanyahu",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_global_oil_crisis_strait_of_hormuz_explained_in_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_animation_video_the_veil_is_thinning",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_answers_trump_s_blockade_with_a_lego_diss_track",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_drops_lego_diss_tracks_internet_can_t_stop_watching",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_drops_savage_lego_video_mocking_pete_hegseth",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_just_dropped_another_lego_video_this_one_hits_hard",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_just_dropped_another_savage_lego_troll_on_trump",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_launches_onslaught_of_lego_inspired_propaganda",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_music_youtube_com",
+      "source_id": "src_youtube_iran_lego_compilation_lol_youtube_music_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_propaganda_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_lego_video_the_cost_of_one_mistake",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_lego_video_compilation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_lego_video_of_diss_track_for_pete_hegseth_secretary_of_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_lego_video_from_missiles_to_media_ai_videos_open_new_front_in_iran_us_te",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_videos_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_vids_dissing_washington_dc_dumpster_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_legowars_rap_video_compilation_come_closer",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_made_a_lego_war_video_the_whitehouse_was_not_amused",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_new_ai_war_crimes_stone_age_lego_rap_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_releases_another_lego_animation_mocking_trump_as",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_releases_new_lego_footage_you_won_t_believe_this",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_releases_news_like_lego_footage_threatens_western",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_trolls_trump_by_releasing_another_lego_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_us_peace_talks_fail_is_the_joke_on_trump_meet_team",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_compilation_lego_movies_of_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_lego_animation_mocks_trump_what_it_really_means_for_strait_of_hormuz_cr",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_lego_animation_shows_us_israel_as_devils_calls_on_muslim_nations_and",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_lego_mv_dissin_pete_hegseth_goes_viral",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_target_list_new_lego_movie_from_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_s_viral_ai_lego_video_showing_trump_s_surrender",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_another_lego_video_the_professor",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iranian_ego_tracks_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iranian_lego_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iranian_state_media_lego_themed_that_depicts_u_s_new_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iranian_state_media_releases_another_war_themed_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_israel_started_it_iran_stood_up_for_its_own_dignity",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_latest_iranian_lego_animation_movie_depicting_good_vs_evil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_latest_iranian_lego_video_animation_movie_trolling_the_us",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_lego_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_lego_iran_animation_compilation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_lego_iran_war_rise_up_full_length",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_lego_videos_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_lego_style_propaganda_new_digital_war_targets_trump_world_news",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_live_inside_iran_s_viral_lego_style_videos_meet_the_team",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_meet_the_team_behind_the_viral_iranian_ai_lego_videos",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_mojtaba_s_meme_army_goes_viral_as_ai_videos_turn_trump",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iran_lego_style_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_animation_movie_back_to_the_stone_age",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_video_animation_movie",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_video_come_closer",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_video_zero",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_lego_animations_here_who_is_behind_iran_s_viral_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_nothing_like_this_seen_before_iranian_lego_videos_mock",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_pete_hegseth_vs_samuel_l_jackson_lego_iran_vs_america_showdown",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_rise_up_message_iran_s_viral_lego_animation_explained",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_stone_age_lego_music_video_ancient_persia_vs_usa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_difference_between_iran_and_america_in_the_stone_age",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_fake_clown_iran_s_newest_lego_music_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_longest_latest_lego_animation_produced_by",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_strait_key_explained_what_s_really_happening_lego_rap_story",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_this_lego_video_from_iran_broke_the_internet_viral_ai_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_trump_surrendered_iran_won_new_brutal_iran_lego_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_trump_vs_iran_lego_war_strait_of_hormuz_crisis_gets_real",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_until_the_blood_is_out_ayatollah_ali_khamenei_vs_donald",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_until_the_blood_is_out_we_still_stand",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_utterly_immoral_ai_supercharges_iran_us_propaganda_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation_apt_mirror",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_watching_the_latest_iranian_ai_lego_animations_rb_ham",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_we_will_fight",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_when_donald_trump_threatened_to_bomb_iran_back_to_stone_age",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_tasnim_telegram_monitor",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_rt_x_monitor",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_community_reposts",
+      "infrastructure_id": "infra_revayatfath_ir",
+      "source_id": "src_revayatefath_monitor",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_61575357008681",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_61583871074283",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_alaraby_en",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_bbcsounds",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_inflics",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_lisa_baker_1460",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_mintpressnews",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_muslimvillage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_nadeemnaqvinng",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_palestinefoundationpakistan",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_purpleroompolitics",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_roguednncc",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_royanewsenglish",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_thedailypolitik",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_warfrontupdatesme",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_the_iranian_propaganda_team_has",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_a_summary_of_the_past_few_days_by_explosivemedia",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_ai_videos_dominate_us_iran_propaganda_war",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_an_iran_linked_media_group_has_released_a_lego_style",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_annnnd_of_course_there_s_already_a_legovideo_on_the",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_another_clip_from_our_interview_with_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_cnn_on_instagram_after_decades_of_outdated_propaganda",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosive_media_account_reel_overview",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosive_media_is_at_it_again_with_a_video_titled_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosive_media_released",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram_com",
+      "source_id": "src_instagram_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_a_summary_of_the_past_few_days_reel_variant",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_explosivemediaa_dropping_explosive_news",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_a_summary_of_the_past_few_days",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_get_straight_out_of_hormuz_little_orange_man",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_our_new_lego_style_video_a_summary_of_the_past_few_days",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_the_target_list_is_locked_and_loaded_wanna_gamble_again",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_explosivemediaa_we_are_the_team_that_creates_lego_style_animations",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_i_spoke_to_explosive_media_one_of_groups_making_iranian_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_has_condemned_a_ban_imposed_by_youtube_on_a_pro",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_pamer_kekuatan_video_rudal_balistik_khorramshahr",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_linked_media_group_explosive_media_has_released_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_iran_lego_video_l_i_a_r_by_explosive_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_animation_video_from_explosive_media_team_in",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_music_video_from_explosive_media_title",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_video_from_iran_waiting_for_your_white_flag_trump",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_video_just_dropped",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_video_from_explosive_media_titled_summary_since_15_april_a_sum",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_original_page_explosivemediaa_a_summary_of_the_past_few_days",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_our_full_interview_with_explosivemediaa_creator_of_the_viral_iranian_ai_lego_v",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_the_iranian_affiliated_group_explosive_media_released_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_the_pro_iran_media_group_explosive_media_has_released",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_video_terbaru_dari_explosive_media_bertajuk_goodbye_oil",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_when_matt_shea_pressed_a_representative_of_explosive_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_explosive_media_telegram_channel",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_in_48_hours_you_learned_the_truth",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_iran_won",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_l_o_s_e_r",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_loser_2_liar_official_teaser",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_meet_iran_s_negotiation_lineup",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_minab_girls",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_one_man_one_tar_one_homeland",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_path_of_blood",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_phoenix_awakened",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_resistance",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_strait_of_hormuz",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_ir_tgstat_com",
+      "source_id": "src_telegram_tgstat_channel_mirror_explosive_media_stone_age_goodbye_oil_visible",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_ir_tgstat_com",
+      "source_id": "src_telegram_tgstat_mirror_goodbye_oil_post_7121",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_the_kabab_is_ready",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_your_blood_is_our_blood",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_telegram_we_will_not_leave_lebanon",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_anniejkoshy",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_egeuckan",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads_com",
+      "source_id": "src_threads_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_hitmagazinehaiti",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_mattnavarra",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_njmr91",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_parkerortolani",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_political_satirical",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_tag",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_tobiaschito",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_tr_spider_dijon",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads_net",
+      "source_id": "src_threads_velglarn",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_wired",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_yangblog",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_yuking_0819",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_alihmourad",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_arstechnica",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_cduhaime",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_desota",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_x_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_furkangozukara",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_harryslaststand",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_iraninhyderabad",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_x_jose04152",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_kaedotcom",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_marionawfal",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_muscat_daily",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_normanjam67",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_pugsandco",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_stljoe2",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_walterdossier",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_1_minute_summary_of_the_past_few_days_explosive_media_news",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_haider_iranian_lego_animation_by_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_history_lesson_iran_stone_age_courtesy_of_explosive_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_how_ai_legos_became_iran_s_secret_weapon",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_how_explosive_media_started_the_iran_lego_rap_trend",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_inside_iran_war_s_viral_lego_war_videos",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_lego_music_video_meme_by_explosive_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iranian_lego_war_themed_video_by_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_l_i_a_r_explosive_media_iran_lego_music_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iran_lego_videos_rt_interviewed_the_wrong_guy",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_video_animation_rise_up",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_new_iranian_lego_videos_explosive_media_strikes_again",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_this_lego_video_from_iran_broke_the_internet",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_viral_lego_style_videos_mock_donald_trump_amid_iran_us",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_lnk_bio",
+      "source_id": "src_other_explosivemediaa_lnk_bio",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_tg_explosivemedia",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_t_me",
+      "source_id": "src_tg_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_instagram_com",
+      "source_id": "src_instagram_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_tiktok_com",
+      "source_id": "src_tiktok_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_upscrolled_com",
+      "source_id": "src_upscrolled_explosivemediaa",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_explosive_media",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_explosive_media_removed",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_9newsqueensland",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_abscbnnews",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_afpnewsenglish",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_aljazeera",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_ancalerts",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_animationmagazine",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_arabnews",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_cgtneuropeofficial",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_cnn",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_deutschewellenews",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_lovinmalta",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_middleeasteye",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_newyorker",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_reuters",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_theguardian",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_cnn_reel_covering_the_lego_style_propaganda_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_cnn_iranian_embassies_are_flooding_social_media",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_hunterstires",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_nehabnk",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_reuters",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_viral_lego_creator_admits_relationship_with_iranian_state_for_the_first_time",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_other",
+      "source_id": "src_other_abc_news_video_iran_s_ai_lego_propaganda",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_aljazeera_com",
+      "source_id": "src_aljazeera_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_aljazeera_com",
+      "source_id": "src_aljazeera_policy_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_wired_com",
+      "source_id": "src_wired_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_newyorker_com",
+      "source_id": "src_newyorker_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_theverge_com",
+      "source_id": "src_verge_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_theverge_com",
+      "source_id": "src_verge_policy_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_apnews_com",
+      "source_id": "src_ap_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_thenationalnews_com",
+      "source_id": "src_thenational_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_al_monitor_com",
+      "source_id": "src_almonitor_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_abc_net_au",
+      "source_id": "src_abc_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_forbes_com",
+      "source_id": "src_forbes_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_lemonde_fr",
+      "source_id": "src_lemonde_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_salon_com",
+      "source_id": "src_salon_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_jpost_com",
+      "source_id": "src_jpost_coverage",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_nos_nl",
+      "source_id": "src_web_nos_nieuwsuur",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_ndtv_com",
+      "source_id": "src_web_ndtv",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_manchester_ac_uk",
+      "source_id": "src_web_manchester_university",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_thetimes_com",
+      "source_id": "src_web_thetimes",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_france24_english",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_media_coverage",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_cnn_news18",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_61567236192838",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_animasi_lego_iran_yang_baru_memanggang_netanyahu_bibi_files",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_iran_government_released_this_video_it_shows_benjamin",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_rickykurniawanc",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_threads",
+      "source_id": "src_threads_ruypenalvadefarianeto",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iranlegodaily",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_militarylego_ai_x",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_militarylegoai",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_netanyahu_s_lego_nightmare_the_bibi_files_iran_dropped_another_lego_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_strait_is_open_but_locked_militarylegoai",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_bibi_files_iran_dropped_another_lego_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_trump_loses_by_militarylegoai",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_ucjfsyquuvetxvdmu4uuehcw",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_militarylego_ai_x_network",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_ucs0rqv_qdx0nokijvcis18a",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_bitchute_com",
+      "source_id": "src_other_bitchute_united_states_of_israel_new_lego_video_from_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_dailymotion_com",
+      "source_id": "src_other_dailymotion_persia_boi_fake_peace_iran_lego_music_video",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_odysee_com",
+      "source_id": "src_other_odysee_united_states_of_israel_new_lego_video_from_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_rumble_com",
+      "source_id": "src_other_rumble_united_states_of_israel_new_lego_video_from_iran",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_api_bitchute_com",
+      "source_id": "src_bitchute_loser_mirror",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_mirrors_linkhub",
+      "infrastructure_id": "infra_telemetr_io",
+      "source_id": "src_telemetr_akhbarenfejari",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_facebook_com",
+      "source_id": "src_facebook_61571941029476",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_andy_davies_1232",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_facebook",
+      "source_id": "src_facebook_blisssalone",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_a_new_lego_style_music_video_titled_epstein_queen_is",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_enn_entertainment_brand_new_lego_style_music_video_from_iran_via_persiaboi_stu",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_jennalynnking_persiaboi_studios_sacred_defense_forever",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_lego_style_music_video_from_iran_via_persiaboi_studios_titled",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_lego_style_music_video_from_persiaboi_title_sacred_defense_forever",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_legos_persia_boi_refers_to_persiaboi_studios_an_iranian",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_music_video_from_iran_titled_minab_168",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_music_video_from_iran_via_persiaboi_studios",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_new_lego_style_music_video_you_declared_war_goes_viral",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_persia_boi_refers_to_persiaboi_studios_an_iranian",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_instagram",
+      "source_id": "src_instagram_persiaboi_just_dropped_the_heartbreaking_lego_animation_minab_168",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_masuzafi",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_shi4ni",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_x",
+      "source_id": "src_x_stevead13487346",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_epstein_queen_iran_lego_music_video_from_persiaboi_studios",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iran_diss_track_for_donald_trump_lego_style_animated_rap_banger_by_persiaboi_s",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_persiaboi_studios",
+      "infrastructure_id": "infra_x_com",
+      "source_id": "src_persiaboi_studios_candidate",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_rockidofficial",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_a_broken_system_the_song_that_shocks_the_world_animation_lego_politics",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_legends_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_iran_lego_video_playlist",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_iranian_story_lego_alliance_of_crazy_people",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_lego_animation_iran_story_oil_prices_skyrocket",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_no_more_tears_we_only_want_peace_lego_animation",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_the_land_of_iran_we_have_prepared_mass_graves_for",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_we_are_here_waiting_for_you_pete_hegseth",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_rock_id_official",
+      "infrastructure_id": "infra_youtube",
+      "source_id": "src_youtube_you_are_enslaved_by_the_devil_s_plan_the_story_of_iran_lego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_youtube_creators",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_flowlego",
+      "relationship": "uses_or_observed_on"
+    },
+    {
+      "actor_id": "actor_fam_youtube_creators",
+      "infrastructure_id": "infra_youtube_com",
+      "source_id": "src_youtube_cnniranlego",
+      "relationship": "uses_or_observed_on"
+    }
+  ],
+  "policy": {
+    "actor_labels_are_not_attribution_proof": true,
+    "needs_review_visible": true
+  }
+}

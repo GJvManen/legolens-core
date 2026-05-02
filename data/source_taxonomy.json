@@ -1,0 +1,77 @@
+[
+  {
+    "kind": "primary_creator",
+    "label": "Primary creator",
+    "description": "Original creator/group record; use only when source identity is verified."
+  },
+  {
+    "kind": "primary_distribution",
+    "label": "Primary distribution",
+    "description": "Channel used for first-party distribution such as Telegram."
+  },
+  {
+    "kind": "official_social",
+    "label": "Official social",
+    "description": "Account represented in reporting as official or self-identified official; verify periodically."
+  },
+  {
+    "kind": "platform_removed",
+    "label": "Platform removed",
+    "description": "Historical record of a source removed or suspended by a platform."
+  },
+  {
+    "kind": "mirror",
+    "label": "Mirror",
+    "description": "Third-party mirror or reupload; never treat as original source."
+  },
+  {
+    "kind": "amplifier",
+    "label": "Amplifier",
+    "description": "Account/outlet that amplifies or reposts content."
+  },
+  {
+    "kind": "coverage_analysis",
+    "label": "Coverage / analysis",
+    "description": "Journalistic analysis or explanatory coverage."
+  },
+  {
+    "kind": "coverage_wire",
+    "label": "Coverage / wire",
+    "description": "Wire report or syndicated factual coverage."
+  },
+  {
+    "kind": "coverage_platform_policy",
+    "label": "Coverage / platform policy",
+    "description": "Coverage of removals, bans, suspensions, or platform moderation."
+  },
+  {
+    "kind": "coverage_clip_reference",
+    "label": "Coverage / clip reference",
+    "description": "News item referencing or embedding a specific clip."
+  },
+  {
+    "kind": "source_page",
+    "label": "Source/statistics page",
+    "description": "Stats, directory, linkhub or non-primary discovery page."
+  },
+  {
+    "kind": "monitor_only",
+    "label": "Monitor only",
+    "description": "Watchlist source; not yet verified for inclusion as active source."
+  },
+  {
+    "kind": "needs_verification",
+    "label": "Needs verification",
+    "description": "Candidate source requiring manual verification."
+  },
+  {
+    "kind": "candidate_primary_creator",
+    "label": "Candidate primary creator",
+    "description": "Candidate creator/channel; requires manual verification before primary classification."
+  },
+  {
+    "kind": "verified_channel",
+    "label": "Verified channel",
+    "description": "Verified channel record used for discovery and source-family grouping."
+  }
+]

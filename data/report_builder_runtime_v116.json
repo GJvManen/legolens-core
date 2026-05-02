@@ -1,0 +1,259 @@
+{
+  "schema_version": "v116.report-builder-runtime",
+  "release": "v116.1-hotfix",
+  "generated_at": "2026-05-02T14:03:09.472535Z",
+  "description": "Interactive local report builder with preview and export actions. Release notes live in changelog files, not interface announcements.",
+  "report_types": [
+    {
+      "id": "incident_brief",
+      "label": "Incident brief",
+      "formats": [
+        "html",
+        "markdown",
+        "json"
+      ],
+      "sections": [
+        "summary",
+        "metrics",
+        "timeline",
+        "sources",
+        "claims",
+        "evidence",
+        "graph"
+      ]
+    },
+    {
+      "id": "weekly_monitoring",
+      "label": "Weekly monitoring brief",
+      "formats": [
+        "html",
+        "markdown",
+        "json"
+      ],
+      "sections": [
+        "summary",
+        "updates",
+        "candidates",
+        "evidence",
+        "risk"
+      ]
+    },
+    {
+      "id": "source_dossier",
+      "label": "Source dossier",
+      "formats": [
+        "html",
+        "markdown",
+        "json",
+        "csv"
+      ],
+      "sections": [
+        "source_profile",
+        "items",
+        "reliability",
+        "evidence"
+      ]
+    },
+    {
+      "id": "infrastructure_dossier",
+      "label": "Infrastructure dossier",
+      "formats": [
+        "html",
+        "markdown",
+        "json"
+      ],
+      "sections": [
+        "top_nodes",
+        "platforms",
+        "propagation",
+        "reuse"
+      ]
+    },
+    {
+      "id": "claim_review",
+      "label": "Claim review report",
+      "formats": [
+        "html",
+        "markdown",
+        "json",
+        "csv"
+      ],
+      "sections": [
+        "claims",
+        "verification",
+        "linked_items",
+        "evidence"
+      ]
+    },
+    {
+      "id": "executive_summary",
+      "label": "Executive summary",
+      "formats": [
+        "html",
+        "markdown",
+        "json"
+      ],
+      "sections": [
+        "overview",
+        "key_metrics",
+        "active_incidents",
+        "risks",
+        "recommendations"
+      ]
+    }
+  ],
+  "scopes": {
+    "project": [
+      {
+        "id": "project:all",
+        "label": "Hele project"
+      }
+    ],
+    "incidents": [
+      {
+        "id": "incident:inc_2026_iran_lego_core_explosive_media",
+        "label": "Explosive Media core distribution cluster"
+      },
+      {
+        "id": "incident:inc_2026_iran_lego_media_coverage",
+        "label": "International media and expert coverage cluster"
+      },
+      {
+        "id": "incident:inc_2026_iran_lego_social_amplification",
+        "label": "Community repost and social amplification cluster"
+      },
+      {
+        "id": "incident:inc_2026_iran_lego_creator_source_discovery",
+        "label": "Creator and source discovery cluster"
+      },
+      {
+        "id": "incident:inc_2026_iran_lego_alt_creator_networks",
+        "label": "Alternative creator-network clusters"
+      },
+      {
+        "id": "incident:inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "label": "Platform moderation, takedowns and mirror persistence"
+      }
+    ],
+    "families": [
+      {
+        "id": "family:fam_brick_beat_battalion",
+        "label": "Brick Beat Battalion"
+      },
+      {
+        "id": "family:fam_community_reposts",
+        "label": "Community / Reposts"
+      },
+      {
+        "id": "family:fam_explosive_media",
+        "label": "Explosive Media"
+      },
+      {
+        "id": "family:fam_furkangozukara",
+        "label": "FurkanGozukara"
+      },
+      {
+        "id": "family:fam_media_coverage",
+        "label": "Media Coverage"
+      },
+      {
+        "id": "family:fam_militarylego_ai_x_network",
+        "label": "Militarylego AI X Network"
+      },
+      {
+        "id": "family:fam_mirrors_linkhub",
+        "label": "Mirrors & Linkhub"
+      },
+      {
+        "id": "family:fam_persiaboi_studios",
+        "label": "PersiaBoi Studios"
+      },
+      {
+        "id": "family:fam_rock_id_official",
+        "label": "Rock ID Official"
+      },
+      {
+        "id": "family:fam_youtube_creators",
+        "label": "YouTube creators"
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim:claim_nar_us_humiliation",
+        "label": "US humiliation / incompetence"
+      },
+      {
+        "id": "claim:claim_nar_israel_dependency",
+        "label": "US–Israel dependency frame"
+      },
+      {
+        "id": "claim:claim_nar_revenge_deterrence",
+        "label": "Revenge / deterrence"
+      },
+      {
+        "id": "claim:claim_nar_pop_culture_memetic",
+        "label": "Pop-culture memetic persuasion"
+      },
+      {
+        "id": "claim:claim_nar_platform_moderation",
+        "label": "Platform moderation / takedown"
+      },
+      {
+        "id": "claim:claim_nar_creator_infrastructure",
+        "label": "Creator/source infrastructure"
+      },
+      {
+        "id": "claim:claim_nar_media_analysis",
+        "label": "Media analysis / research coverage"
+      },
+      {
+        "id": "claim:claim_nar_unverified_claim",
+        "label": "Unverified or claim-heavy content"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_core_explosive_media",
+        "label": "Explosive Media core distribution cluster"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_media_coverage",
+        "label": "International media and expert coverage cluster"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_social_amplification",
+        "label": "Community repost and social amplification cluster"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_creator_source_discovery",
+        "label": "Creator and source discovery cluster"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_alt_creator_networks",
+        "label": "Alternative creator-network clusters"
+      },
+      {
+        "id": "claim:claim_inc_2026_iran_lego_platform_moderation_and_mirrors",
+        "label": "Platform moderation, takedowns and mirror persistence"
+      }
+    ]
+  },
+  "chart_options": [
+    "executive_metrics",
+    "node_distribution",
+    "edge_distribution",
+    "top_centrality",
+    "platform_mix",
+    "infrastructure_reuse",
+    "incident_connectivity",
+    "family_risk",
+    "claim_incident_matrix",
+    "evidence_status",
+    "evidence_score",
+    "propagation_flow"
+  ],
+  "export_policy": {
+    "local_only": true,
+    "direct_publication": false,
+    "include_release_notes": false,
+    "changelog_reference": "data/changelog_v116.json"
+  }
+}

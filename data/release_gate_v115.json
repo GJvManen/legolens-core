@@ -1,0 +1,60 @@
+{
+  "schema_version": "v115.release-gate",
+  "release": "v115.0",
+  "generated_at": "2026-05-02T13:40:23.891663Z",
+  "status": "PASS",
+  "checks": {
+    "items_retained": {
+      "expected": 476,
+      "actual": 476,
+      "pass": true
+    },
+    "sources_retained": {
+      "expected": 382,
+      "actual": 382,
+      "pass": true
+    },
+    "families_retained": {
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    "needs_review_families_retained": {
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    "preview_assets": {
+      "expected": 476,
+      "actual": 476,
+      "missing": [],
+      "pass": true
+    },
+    "grouped_navigation_data": {
+      "pass": true,
+      "groups": 6
+    },
+    "unified_detail_panel_config": {
+      "pass": true,
+      "tabs": 7
+    },
+    "work_queues": {
+      "pass": true,
+      "tasks": 524
+    },
+    "report_builder": {
+      "pass": true,
+      "report_types": 6
+    },
+    "graph_explorer": {
+      "pass": true,
+      "sample_edges": 300
+    }
+  },
+  "policy": {
+    "local_first": true,
+    "backend_required": false,
+    "direct_publication": false,
+    "content_loss_allowed": false
+  }
+}

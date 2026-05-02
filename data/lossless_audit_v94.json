@@ -1,0 +1,33 @@
+{
+  "schema_version": "v94.0",
+  "generated_at": "2026-05-02T09:35:00Z",
+  "baseline": "v85",
+  "checks": {
+    "items_preserved": true,
+    "sources_preserved": true,
+    "families_preserved": true,
+    "needs_review_families_preserved": true,
+    "orphan_source_refs": 0,
+    "orphan_family_refs": 0,
+    "missing_thumbnail_refs": 0,
+    "missing_hero_assets": 0
+  },
+  "baseline_counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5
+  },
+  "current_counts": {
+    "items": 476,
+    "sources": 382,
+    "families": 10,
+    "needs_review_families": 5,
+    "candidate_queue": 38,
+    "evidence_records": 476,
+    "incidents": 6,
+    "claims": 14,
+    "actors": 10,
+    "infrastructure": 41
+  }
+}

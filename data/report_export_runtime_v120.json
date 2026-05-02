@@ -1,0 +1,72 @@
+{
+  "schema_version": "v120.report-runtime",
+  "generated_at": "2026-05-02T15:45:00Z",
+  "exports": [
+    "html",
+    "markdown",
+    "json",
+    "csv",
+    "docx-ready-markdown",
+    "pptx-ready-outline",
+    "pdf-ready-html"
+  ],
+  "templates": [
+    {
+      "id": "executive_brief",
+      "label": "Executive brief",
+      "sections": [
+        "summary",
+        "key_findings",
+        "confidence_overview",
+        "open_questions",
+        "recommended_actions"
+      ]
+    },
+    {
+      "id": "incident_report",
+      "label": "Incident report",
+      "sections": [
+        "incident_scope",
+        "timeline",
+        "claims",
+        "evidence_table",
+        "graph_context",
+        "review_status"
+      ]
+    },
+    {
+      "id": "evidence_appendix",
+      "label": "Evidence appendix",
+      "sections": [
+        "evidence_records",
+        "archive_status",
+        "preview_status",
+        "verification_status"
+      ]
+    },
+    {
+      "id": "source_reliability_appendix",
+      "label": "Source reliability appendix",
+      "sections": [
+        "source_families",
+        "review_checklist",
+        "reliability_history",
+        "known_gaps"
+      ]
+    },
+    {
+      "id": "presentation_outline",
+      "label": "PPTX-ready outline",
+      "sections": [
+        "title",
+        "release_health",
+        "data_quality",
+        "graph_insights",
+        "reporting_outputs",
+        "next_steps"
+      ]
+    }
+  ],
+  "watermark_policy": "All generated outputs are analyst drafts until human-reviewed.",
+  "default_scope": "project:all"
+}

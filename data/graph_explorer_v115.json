@@ -1,0 +1,2451 @@
+{
+  "schema_version": "v115.graph-explorer",
+  "release": "v115.0",
+  "generated_at": "2026-05-02T13:40:23.891663Z",
+  "summary": {
+    "nodes_total": 915,
+    "edges_total": 1803,
+    "visible_sample_edges": 300,
+    "top_node": {
+      "id": "inc_2026_iran_lego_social_amplification",
+      "label": "Community repost and social amplification cluster",
+      "type": "incident",
+      "degree": 226,
+      "in_degree": 0,
+      "out_degree": 226
+    }
+  },
+  "node_types": {
+    "family": 10,
+    "source": 382,
+    "item": 476,
+    "incident": 6,
+    "infrastructure": 41
+  },
+  "edge_types": {
+    "family_has_source": 382,
+    "incident_includes_family": 22,
+    "incident_includes_source": 253,
+    "source_published_or_contextualizes": 476,
+    "incident_includes_item": 591,
+    "canonical_to_variant": 9,
+    "actor_uses_infrastructure": 70
+  },
+  "top_nodes": [
+    {
+      "id": "inc_2026_iran_lego_social_amplification",
+      "label": "Community repost and social amplification cluster",
+      "type": "incident",
+      "degree": 226
+    },
+    {
+      "id": "inc_2026_iran_lego_core_explosive_media",
+      "label": "Explosive Media core distribution cluster",
+      "type": "incident",
+      "degree": 204
+    },
+    {
+      "id": "fam_community_reposts",
+      "label": "Community / Reposts",
+      "type": "family",
+      "degree": 163
+    },
+    {
+      "id": "inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "label": "Platform moderation, takedowns and mirror persistence",
+      "type": "incident",
+      "degree": 154
+    },
+    {
+      "id": "inc_2026_iran_lego_alt_creator_networks",
+      "label": "Alternative creator-network clusters",
+      "type": "incident",
+      "degree": 131
+    },
+    {
+      "id": "fam_explosive_media",
+      "label": "Explosive Media",
+      "type": "family",
+      "degree": 123
+    },
+    {
+      "id": "inc_2026_iran_lego_media_coverage",
+      "label": "International media and expert coverage cluster",
+      "type": "incident",
+      "degree": 118
+    },
+    {
+      "id": "fam_media_coverage",
+      "label": "Media Coverage",
+      "type": "family",
+      "degree": 44
+    },
+    {
+      "id": "inc_2026_iran_lego_creator_source_discovery",
+      "label": "Creator and source discovery cluster",
+      "type": "incident",
+      "degree": 33
+    },
+    {
+      "id": "src_x_furkangozukara",
+      "label": "FurkanGozukara",
+      "type": "source",
+      "degree": 29
+    },
+    {
+      "id": "fam_persiaboi_studios",
+      "label": "PersiaBoi Studios",
+      "type": "family",
+      "degree": 22
+    },
+    {
+      "id": "actor_fam_media_coverage",
+      "label": "actor_fam_media_coverage",
+      "type": "unknown",
+      "degree": 22
+    },
+    {
+      "id": "src_x_explosivemediaa",
+      "label": "ExplosiveMediaa",
+      "type": "source",
+      "degree": 17
+    },
+    {
+      "id": "fam_militarylego_ai_x_network",
+      "label": "Militarylego AI X Network",
+      "type": "family",
+      "degree": 16
+    },
+    {
+      "id": "src_facebook_61567236192838",
+      "label": "61567236192838",
+      "type": "source",
+      "degree": 16
+    },
+    {
+      "id": "actor_fam_explosive_media",
+      "label": "actor_fam_explosive_media",
+      "type": "unknown",
+      "degree": 16
+    },
+    {
+      "id": "fam_rock_id_official",
+      "label": "Rock ID Official",
+      "type": "family",
+      "degree": 12
+    },
+    {
+      "id": "src_facebook_explosivemediaa",
+      "label": "ExplosiveMediaa",
+      "type": "source",
+      "degree": 11
+    },
+    {
+      "id": "fam_brick_beat_battalion",
+      "label": "Brick Beat Battalion",
+      "type": "family",
+      "degree": 10
+    },
+    {
+      "id": "actor_fam_community_reposts",
+      "label": "actor_fam_community_reposts",
+      "type": "unknown",
+      "degree": 10
+    },
+    {
+      "id": "src_x_ryanrozbiani",
+      "label": "RyanRozbiani",
+      "type": "source",
+      "degree": 8
+    },
+    {
+      "id": "fam_mirrors_linkhub",
+      "label": "Mirrors & Linkhub",
+      "type": "family",
+      "degree": 8
+    },
+    {
+      "id": "src_facebook_61575357008681",
+      "label": "61575357008681",
+      "type": "source",
+      "degree": 7
+    },
+    {
+      "id": "src_threads_explosivemediaa",
+      "label": "explosivemediaa",
+      "type": "source",
+      "degree": 7
+    },
+    {
+      "id": "infra_youtube_com",
+      "label": "youtube.com",
+      "type": "infrastructure",
+      "degree": 7
+    },
+    {
+      "id": "infra_youtube",
+      "label": "youtube",
+      "type": "infrastructure",
+      "degree": 7
+    },
+    {
+      "id": "src_threads_tag",
+      "label": "tag",
+      "type": "source",
+      "degree": 6
+    },
+    {
+      "id": "actor_fam_mirrors_linkhub",
+      "label": "actor_fam_mirrors_linkhub",
+      "type": "unknown",
+      "degree": 6
+    },
+    {
+      "id": "actor_fam_persiaboi_studios",
+      "label": "actor_fam_persiaboi_studios",
+      "type": "unknown",
+      "degree": 6
+    },
+    {
+      "id": "src_youtube_brickbeatbattalion",
+      "label": "@BrickBeatBattalion",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_facebook_elephantnewsgh",
+      "label": "elephantnewsgh",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_iran_lego_video_the_cost_of_one_mistake",
+      "label": "Iran Lego Video : The Cost of One Mistake",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_facebook_bbcsounds",
+      "label": "BBCSounds",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_x_stljoe2",
+      "label": "STLJOE2",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_threads_rickykurniawanc",
+      "label": "rickykurniawanc",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_iranlegodaily",
+      "label": "@IranLegoDaily",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_militarylegoai",
+      "label": "@militarylegoai",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_rockidofficial",
+      "label": "@Rockidofficial",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_flowlego",
+      "label": "@flowlego",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_cnniranlego",
+      "label": "@CNNIRANLEGO",
+      "type": "source",
+      "degree": 5
+    },
+    {
+      "id": "itm_00036",
+      "label": "Explosive Media released another Lego-themed video...",
+      "type": "item",
+      "degree": 5
+    },
+    {
+      "id": "infra_instagram",
+      "label": "instagram",
+      "type": "infrastructure",
+      "degree": 5
+    },
+    {
+      "id": "actor_fam_militarylego_ai_x_network",
+      "label": "actor_fam_militarylego_ai_x_network",
+      "type": "unknown",
+      "degree": 5
+    },
+    {
+      "id": "src_youtube_iran_lego_playlist",
+      "label": "Iran LEGO (playlist)",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_legos_playlist",
+      "label": "Iran Legos (playlist)",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_instagram_a_2_minute_lego_style_animation_is_making_rounds_online",
+      "label": "A 2-minute LEGO-style animation is making rounds online",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_instagram_dozens_of_lego_themed_ai_videos_have_flooded_social_media",
+      "label": "Dozens of Lego-themed AI videos have flooded social media",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_x_marcowenjones",
+      "label": "marcowenjones",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_animated_trump_satire_videos_show_new_frontier_in_iran_s_battle",
+      "label": "Animated Trump satire videos show new frontier in Iran's battle",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_animation_videos_mocking_trump_show_step_change_in_state",
+      "label": "Animation videos mocking Trump show 'step change' in state ...",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_decoding_iran_s_symbolic_attack_on_trump_and_netanyahu",
+      "label": "Decoding Iran's Symbolic Attack on Trump and Netanyahu",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_animation_video_the_veil_is_thinning",
+      "label": "Iran Animation Video 'The veil is thinning'",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_lego_compilation_lol_youtube_music_playlist",
+      "label": "Iran Lego Compilation LOL!!! (YouTube Music playlist)",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_lego_videos_playlist",
+      "label": "Iran Lego Videos (playlist)",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_lego_vids_dissing_washington_dc_dumpster_playlist",
+      "label": "Iran LEGO Vids Dissing Washington DC Dumpster (playlist)",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_releases_another_lego_animation_mocking_trump_as",
+      "label": "Iran Releases Another LEGO Animation Mocking Trump as ...",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_us_peace_talks_fail_is_the_joke_on_trump_meet_team",
+      "label": "Iran US Peace Talks FAIL | Is The Joke on Trump? Meet Team ...",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iran_s_lego_mv_dissin_pete_hegseth_goes_viral",
+      "label": "Iran's LEGO MV dissin' Pete Hegseth Goes Viral",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_iranian_state_media_releases_another_war_themed_lego",
+      "label": "Iranian State Media Releases Another War Themed Lego ...",
+      "type": "source",
+      "degree": 4
+    },
+    {
+      "id": "src_youtube_israel_started_it_iran_stood_up_for_its_own_dignity",
+      "label": "Israel Started It - Iran Stood Up For Its Own Dignity",
+      "type": "source",
+      "degree": 4
+    }
+  ],
+  "visible_edges": [
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_brickbeatbattalion",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_an_iranian_american_telling_the_truth_about_us_lego_rap_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_iran_answers_usa_blockade_in_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_iran_lego_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_iran_legos_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_the_world_is_watching_you_trump_lego_rap_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_what_iranians_actually_think_of_america_lego_rap_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_brick_beat_battalion",
+      "target": "src_youtube_why_iran_will_never_fall_lego_rap_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_elephantnewsgh",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_fara_farhan_142",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_marius_comper",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_mo_of_everything",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_photo_php",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_reallyamerican",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_taylorplorenz",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_theaustoday",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_facebook_truthagainsthate",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_a_2_minute_lego_style_animation_is_making_rounds_online",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_a_new_iranian_production_titled_stone_age_uses_lego_to_draw",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_a_viral_lego_style_animation_mocks_president",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_are_iranian_lego_satire_videos_hitting_too_close_to_home",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_come_closer",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_creative_iranian_youth_portray_realities_of_us_israeli_war_on_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_deeply_unshakably_rooted_enough_of_injustice",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_dozens_of_lego_themed_ai_videos_have_flooded_social_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_enn_entertainment_global_viral_update_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_for_the_first_time_a_viral_lego_style_creator_has_admitted_links",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_from_iranian_lego_videos_mocking_trump_to_the_white",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_geopolitics_the_target_list_is_locked_and_loaded_wanna",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_good_bye_oil_lego_trump_iran_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_goodbye_oil_legofan_legogram",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_how_lego_iran_changed_the_world",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_i_trust_these_lego_videos_more_than_our_own_government",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_just_dropped_a_full_on_lego_music_video_straight_out",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_just_published_a_new_lego_animation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_on_war_lego_goodbye_oil_target_list_is_locked_and_loaded",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_releases_a_new_lego_style_video_after_the_ceasefire",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_uploaded_a_new_lego_video_showing_locked_target_on_oil_refineries",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_s_lego_style_propaganda_video_targets",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_s_meme_campaign_is_increasingly_leveraging_ai",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_iran_s_state_media_has_reportedly_released_yet_another_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_is_trump_losing_the_meme_war_with_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_khamenei_again_repost",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_lego_animation_praising_resistance_axis_circulates",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_lego_style_music_video_from_iran_s_brix_axis_studio_titled",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_lego_inspired_slopaganda_depicting_the_us_and_israel_s",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_mirza_golam_abbas_shahneel_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_new_lego_animation_honors_resistance_front_operations_in",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_new_lego_drop_hits_social_media_meme_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_new_lego_style_music_video_drops_the_professor",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_new_viral_iranian_lego_video_title_stone_age",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_oil_thief_lego_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_presiden_trump_berencana_menguasai_minyak_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_pro_iran_ai_generated_lego_propaganda_has_been_flooding_social_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_rescuing_american_pilot_in_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_the_target_list_is_locked_and_loaded_wanna_gamble_again",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_the_us_and_iran_war_s_secret_weapon",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_the_us_and_iran_war_s_secret_weapon_memes",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_thepaperlessbd_locked_target_on_oil_refineries",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_tim_krearif_iran_merilis_video_lego_propaganda",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_times_now_iran_has_released_yet_another_lego_style",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_times_now_iran_releases_viral_ai_generated_lego_rap",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_times_now_missiles_on_pause_but_iran_s_lego_war_on_trump",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_times_now_viral_ai_lego_video_turns_us_regime_change",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_turn_conflict_into_content_people_want_to_watch",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_wait_we_want_to_give_you_kebab",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_instagram_when_the_war_is_over_i_will_come_to_india_and_meet",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_threads_ejblackerby",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_ahmadzakijp",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_alexshams",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_borzou",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_bpinewsorg",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_irtruepromise",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_its_mrh3",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_marcowenjones",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_nadeemnaqvinng",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_owlcottage63",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_paddystinian",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_ryanrozbiani",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_x_shivaat",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_has_trump_surrendered_iran_s_viral_lego_style_video_after_the_ceasefire",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iranlego_on_youtube",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_600m_wasted_iran_uses_lego_animation_video_to_mock",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_15_min_of_lego_animation_mocking_trump_as_us",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_persian_lego_studio",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_a_deeper_dive_into_trump_s_iran_strategy_and_their_lego_style_pushback",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_a_history_lesson_in_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_ai_slopaganda_lego_style_ai_videos_bring_new_dimension_to_conflict",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_animated_trump_satire_videos_show_new_frontier_in_iran_s_battle",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_animation_videos_mocking_trump_show_step_change_in_state",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_back_to_stone_age_new_lego_video_from_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_call_him_what_he_is_liar_iran_vibing_online_for_the_lego_video_on_trump",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_decoding_iran_s_symbolic_attack_on_trump_and_netanyahu",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_global_oil_crisis_strait_of_hormuz_explained_in_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_animation_video_the_veil_is_thinning",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_answers_trump_s_blockade_with_a_lego_diss_track",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_drops_lego_diss_tracks_internet_can_t_stop_watching",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_drops_savage_lego_video_mocking_pete_hegseth",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_just_dropped_another_lego_video_this_one_hits_hard",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_just_dropped_another_savage_lego_troll_on_trump",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_launches_onslaught_of_lego_inspired_propaganda",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_compilation_lol_youtube_music_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_propaganda_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_video_the_cost_of_one_mistake",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_video_compilation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_video_of_diss_track_for_pete_hegseth_secretary_of_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_video_from_missiles_to_media_ai_videos_open_new_front_in_iran_us_te",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_videos_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_lego_vids_dissing_washington_dc_dumpster_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_legowars_rap_video_compilation_come_closer",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_made_a_lego_war_video_the_whitehouse_was_not_amused",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_new_ai_war_crimes_stone_age_lego_rap_video",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_releases_another_lego_animation_mocking_trump_as",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_releases_new_lego_footage_you_won_t_believe_this",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_releases_news_like_lego_footage_threatens_western",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_trolls_trump_by_releasing_another_lego_animation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_us_peace_talks_fail_is_the_joke_on_trump_meet_team",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_compilation_lego_movies_of_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_lego_animation_mocks_trump_what_it_really_means_for_strait_of_hormuz_cr",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_lego_animation_shows_us_israel_as_devils_calls_on_muslim_nations_and",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_lego_mv_dissin_pete_hegseth_goes_viral",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_target_list_new_lego_movie_from_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_s_viral_ai_lego_video_showing_trump_s_surrender",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iran_another_lego_video_the_professor",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iranian_ego_tracks_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iranian_lego_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iranian_state_media_lego_themed_that_depicts_u_s_new_iran",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_iranian_state_media_releases_another_war_themed_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_israel_started_it_iran_stood_up_for_its_own_dignity",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_latest_iranian_lego_animation_movie_depicting_good_vs_evil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_latest_iranian_lego_video_animation_movie_trolling_the_us",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_lego_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_lego_iran_animation_compilation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_lego_iran_war_rise_up_full_length",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_lego_videos_playlist",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_lego_style_propaganda_new_digital_war_targets_trump_world_news",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_live_inside_iran_s_viral_lego_style_videos_meet_the_team",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_meet_the_team_behind_the_viral_iranian_ai_lego_videos",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_mojtaba_s_meme_army_goes_viral_as_ai_videos_turn_trump",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_iran_lego_style_video",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_iranian_lego_animation_movie_back_to_the_stone_age",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_iranian_lego_video_animation_movie",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_iranian_lego_video_come_closer",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_iranian_lego_video_zero",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_new_lego_animations_here_who_is_behind_iran_s_viral_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_nothing_like_this_seen_before_iranian_lego_videos_mock",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_pete_hegseth_vs_samuel_l_jackson_lego_iran_vs_america_showdown",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_rise_up_message_iran_s_viral_lego_animation_explained",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_stone_age_lego_music_video_ancient_persia_vs_usa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_the_difference_between_iran_and_america_in_the_stone_age",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_the_fake_clown_iran_s_newest_lego_music_video",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_the_longest_latest_lego_animation_produced_by",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_the_strait_key_explained_what_s_really_happening_lego_rap_story",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_this_lego_video_from_iran_broke_the_internet_viral_ai_animation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_trump_surrendered_iran_won_new_brutal_iran_lego_animation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_trump_vs_iran_lego_war_strait_of_hormuz_crisis_gets_real",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_until_the_blood_is_out_ayatollah_ali_khamenei_vs_donald",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_until_the_blood_is_out_we_still_stand",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_utterly_immoral_ai_supercharges_iran_us_propaganda_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation_apt_mirror",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_watching_the_latest_iranian_ai_lego_animations_rb_ham",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_we_will_fight",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_community_reposts",
+      "target": "src_youtube_when_donald_trump_threatened_to_bomb_iran_back_to_stone_age",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_61575357008681",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_61583871074283",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_alaraby_en",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_bbcsounds",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_explosivemediaa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_inflics",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_lisa_baker_1460",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_mintpressnews",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_muslimvillage",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_nadeemnaqvinng",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_palestinefoundationpakistan",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_purpleroompolitics",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_roguednncc",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_royanewsenglish",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_thedailypolitik",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_facebook_warfrontupdatesme",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_the_iranian_propaganda_team_has",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_a_summary_of_the_past_few_days_by_explosivemedia",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_ai_videos_dominate_us_iran_propaganda_war",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_an_iran_linked_media_group_has_released_a_lego_style",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_annnnd_of_course_there_s_already_a_legovideo_on_the",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_another_clip_from_our_interview_with_explosivemediaa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_cnn_on_instagram_after_decades_of_outdated_propaganda",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosive_media_account_reel_overview",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosive_media_is_at_it_again_with_a_video_titled_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosive_media_released",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_a_summary_of_the_past_few_days_reel_variant",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_explosivemediaa_dropping_explosive_news",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_a_summary_of_the_past_few_days",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_get_straight_out_of_hormuz_little_orange_man",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_our_new_lego_style_video_a_summary_of_the_past_few_days",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_the_target_list_is_locked_and_loaded_wanna_gamble_again",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_explosivemediaa_we_are_the_team_that_creates_lego_style_animations",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_i_spoke_to_explosive_media_one_of_groups_making_iranian_lego",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_iran_has_condemned_a_ban_imposed_by_youtube_on_a_pro",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_iran_pamer_kekuatan_video_rudal_balistik_khorramshahr",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_iran_linked_media_group_explosive_media_has_released_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_iran_lego_video_l_i_a_r_by_explosive_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_lego_animation_video_from_explosive_media_team_in",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_lego_style_music_video_from_explosive_media_title",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_lego_video_from_iran_waiting_for_your_white_flag_trump",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_lego_video_just_dropped",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_new_lego_style_video_from_explosive_media_titled_summary_since_15_april_a_sum",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_original_page_explosivemediaa_a_summary_of_the_past_few_days",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_our_full_interview_with_explosivemediaa_creator_of_the_viral_iranian_ai_lego_v",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_the_iranian_affiliated_group_explosive_media_released_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_the_pro_iran_media_group_explosive_media_has_released",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_video_terbaru_dari_explosive_media_bertajuk_goodbye_oil",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_instagram_when_matt_shea_pressed_a_representative_of_explosive_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_explosive_media_telegram_channel",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_in_48_hours_you_learned_the_truth",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_iran_won",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_l_o_s_e_r",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_loser_2_liar_official_teaser",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_meet_iran_s_negotiation_lineup",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_minab_girls",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_one_man_one_tar_one_homeland",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_path_of_blood",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_phoenix_awakened",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_resistance",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_strait_of_hormuz",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_tgstat_channel_mirror_explosive_media_stone_age_goodbye_oil_visible",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_tgstat_mirror_goodbye_oil_post_7121",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_the_kabab_is_ready",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_your_blood_is_our_blood",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_telegram_we_will_not_leave_lebanon",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_anniejkoshy",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_egeuckan",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_explosivemediaa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_hitmagazinehaiti",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_mattnavarra",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_njmr91",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_parkerortolani",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_political_satirical",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_tag",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_tobiaschito",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_tr_spider_dijon",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_velglarn",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_wired",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_yangblog",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_threads_yuking_0819",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_akhbarenfejari",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_alihmourad",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_arstechnica",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_cduhaime",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_desota",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_explosivemediaa",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_furkangozukara",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_harryslaststand",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_iraninhyderabad",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_jose04152",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_kaedotcom",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_marionawfal",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_muscat_daily",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_normanjam67",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_pugsandco",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_stljoe2",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_x_walterdossier",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_1_minute_summary_of_the_past_few_days_explosive_media_news",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_haider_iranian_lego_animation_by_akhbarenfejari",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_history_lesson_iran_stone_age_courtesy_of_explosive_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_how_ai_legos_became_iran_s_secret_weapon",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_how_explosive_media_started_the_iran_lego_rap_trend",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_inside_iran_war_s_viral_lego_war_videos",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_iran_lego_music_video_meme_by_explosive_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_iranian_lego_war_themed_video_by_akhbarenfejari",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_l_i_a_r_explosive_media_iran_lego_music_video",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_new_iran_lego_videos_rt_interviewed_the_wrong_guy",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_new_iranian_lego_video_animation_rise_up",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_new_iranian_lego_videos_explosive_media_strikes_again",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_this_lego_video_from_iran_broke_the_internet",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_youtube_viral_lego_style_videos_mock_donald_trump_amid_iran_us",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_explosive_media",
+      "target": "src_other_explosivemediaa_lnk_bio",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_9newsqueensland",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_abscbnnews",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_afpnewsenglish",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_aljazeera",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_ancalerts",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_animationmagazine",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_arabnews",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_cgtneuropeofficial",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_cnn",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_deutschewellenews",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_lovinmalta",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_middleeasteye",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_newyorker",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_reuters",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_facebook_theguardian",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_instagram_cnn_reel_covering_the_lego_style_propaganda_video",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_instagram_cnn_iranian_embassies_are_flooding_social_media",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_x_hunterstires",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_x_nehabnk",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_x_reuters",
+      "relationship": "family_has_source"
+    },
+    {
+      "source": "fam_media_coverage",
+      "target": "src_youtube_viral_lego_creator_admits_relationship_with_iranian_state_for_the_first_time",
+      "relationship": "family_has_source"
+    }
+  ],
+  "nodes_index_sample": {
+    "inc_2026_iran_lego_social_amplification": {
+      "id": "inc_2026_iran_lego_social_amplification",
+      "type": "incident",
+      "label": "Community repost and social amplification cluster",
+      "item_count": 174
+    },
+    "inc_2026_iran_lego_core_explosive_media": {
+      "id": "inc_2026_iran_lego_core_explosive_media",
+      "type": "incident",
+      "label": "Explosive Media core distribution cluster",
+      "item_count": 153
+    },
+    "fam_community_reposts": {
+      "id": "fam_community_reposts",
+      "type": "family",
+      "label": "Community / Reposts"
+    },
+    "inc_2026_iran_lego_platform_moderation_and_mirrors": {
+      "id": "inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "type": "incident",
+      "label": "Platform moderation, takedowns and mirror persistence",
+      "item_count": 94
+    },
+    "inc_2026_iran_lego_alt_creator_networks": {
+      "id": "inc_2026_iran_lego_alt_creator_networks",
+      "type": "incident",
+      "label": "Alternative creator-network clusters",
+      "item_count": 77
+    },
+    "fam_explosive_media": {
+      "id": "fam_explosive_media",
+      "type": "family",
+      "label": "Explosive Media"
+    },
+    "inc_2026_iran_lego_media_coverage": {
+      "id": "inc_2026_iran_lego_media_coverage",
+      "type": "incident",
+      "label": "International media and expert coverage cluster",
+      "item_count": 65
+    },
+    "fam_media_coverage": {
+      "id": "fam_media_coverage",
+      "type": "family",
+      "label": "Media Coverage"
+    },
+    "inc_2026_iran_lego_creator_source_discovery": {
+      "id": "inc_2026_iran_lego_creator_source_discovery",
+      "type": "incident",
+      "label": "Creator and source discovery cluster",
+      "item_count": 28
+    },
+    "src_x_furkangozukara": {
+      "id": "src_x_furkangozukara",
+      "type": "source",
+      "label": "FurkanGozukara",
+      "platform": "X"
+    },
+    "fam_persiaboi_studios": {
+      "id": "fam_persiaboi_studios",
+      "type": "family",
+      "label": "PersiaBoi Studios"
+    },
+    "src_x_explosivemediaa": {
+      "id": "src_x_explosivemediaa",
+      "type": "source",
+      "label": "ExplosiveMediaa",
+      "platform": "X"
+    },
+    "fam_militarylego_ai_x_network": {
+      "id": "fam_militarylego_ai_x_network",
+      "type": "family",
+      "label": "Militarylego AI X Network"
+    },
+    "src_facebook_61567236192838": {
+      "id": "src_facebook_61567236192838",
+      "type": "source",
+      "label": "61567236192838",
+      "platform": "Facebook"
+    },
+    "fam_rock_id_official": {
+      "id": "fam_rock_id_official",
+      "type": "family",
+      "label": "Rock ID Official"
+    },
+    "src_facebook_explosivemediaa": {
+      "id": "src_facebook_explosivemediaa",
+      "type": "source",
+      "label": "ExplosiveMediaa",
+      "platform": "Facebook"
+    },
+    "fam_brick_beat_battalion": {
+      "id": "fam_brick_beat_battalion",
+      "type": "family",
+      "label": "Brick Beat Battalion"
+    },
+    "src_x_ryanrozbiani": {
+      "id": "src_x_ryanrozbiani",
+      "type": "source",
+      "label": "RyanRozbiani",
+      "platform": "X"
+    },
+    "fam_mirrors_linkhub": {
+      "id": "fam_mirrors_linkhub",
+      "type": "family",
+      "label": "Mirrors & Linkhub"
+    },
+    "src_facebook_61575357008681": {
+      "id": "src_facebook_61575357008681",
+      "type": "source",
+      "label": "61575357008681",
+      "platform": "Facebook"
+    },
+    "src_threads_explosivemediaa": {
+      "id": "src_threads_explosivemediaa",
+      "type": "source",
+      "label": "explosivemediaa",
+      "platform": "Threads"
+    },
+    "infra_youtube_com": {
+      "id": "infra_youtube_com",
+      "type": "infrastructure",
+      "label": "youtube.com",
+      "platforms": [
+        "YouTube"
+      ]
+    },
+    "infra_youtube": {
+      "id": "infra_youtube",
+      "type": "infrastructure",
+      "label": "youtube",
+      "platforms": [
+        "YouTube"
+      ]
+    },
+    "src_threads_tag": {
+      "id": "src_threads_tag",
+      "type": "source",
+      "label": "tag",
+      "platform": "Threads"
+    },
+    "src_youtube_brickbeatbattalion": {
+      "id": "src_youtube_brickbeatbattalion",
+      "type": "source",
+      "label": "@BrickBeatBattalion",
+      "platform": "YouTube"
+    },
+    "src_facebook_elephantnewsgh": {
+      "id": "src_facebook_elephantnewsgh",
+      "type": "source",
+      "label": "elephantnewsgh",
+      "platform": "Facebook"
+    },
+    "src_youtube_iran_lego_video_the_cost_of_one_mistake": {
+      "id": "src_youtube_iran_lego_video_the_cost_of_one_mistake",
+      "type": "source",
+      "label": "Iran Lego Video : The Cost of One Mistake",
+      "platform": "YouTube"
+    },
+    "src_facebook_bbcsounds": {
+      "id": "src_facebook_bbcsounds",
+      "type": "source",
+      "label": "BBCSounds",
+      "platform": "Facebook"
+    },
+    "src_x_stljoe2": {
+      "id": "src_x_stljoe2",
+      "type": "source",
+      "label": "STLJOE2",
+      "platform": "X"
+    },
+    "src_threads_rickykurniawanc": {
+      "id": "src_threads_rickykurniawanc",
+      "type": "source",
+      "label": "rickykurniawanc",
+      "platform": "Threads"
+    },
+    "src_youtube_iranlegodaily": {
+      "id": "src_youtube_iranlegodaily",
+      "type": "source",
+      "label": "@IranLegoDaily",
+      "platform": "YouTube"
+    },
+    "src_youtube_militarylegoai": {
+      "id": "src_youtube_militarylegoai",
+      "type": "source",
+      "label": "@militarylegoai",
+      "platform": "YouTube"
+    },
+    "src_youtube_rockidofficial": {
+      "id": "src_youtube_rockidofficial",
+      "type": "source",
+      "label": "@Rockidofficial",
+      "platform": "YouTube"
+    },
+    "src_youtube_flowlego": {
+      "id": "src_youtube_flowlego",
+      "type": "source",
+      "label": "@flowlego",
+      "platform": "YouTube"
+    },
+    "src_youtube_cnniranlego": {
+      "id": "src_youtube_cnniranlego",
+      "type": "source",
+      "label": "@CNNIRANLEGO",
+      "platform": "YouTube"
+    },
+    "itm_00036": {
+      "id": "itm_00036",
+      "type": "item",
+      "label": "Explosive Media released another Lego-themed video...",
+      "platform": "Threads",
+      "source_id": "src_threads_tag"
+    },
+    "infra_instagram": {
+      "id": "infra_instagram",
+      "type": "infrastructure",
+      "label": "instagram",
+      "platforms": [
+        "Instagram"
+      ]
+    },
+    "src_youtube_iran_lego_playlist": {
+      "id": "src_youtube_iran_lego_playlist",
+      "type": "source",
+      "label": "Iran LEGO (playlist)",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_legos_playlist": {
+      "id": "src_youtube_iran_legos_playlist",
+      "type": "source",
+      "label": "Iran Legos (playlist)",
+      "platform": "YouTube"
+    },
+    "src_instagram_a_2_minute_lego_style_animation_is_making_rounds_online": {
+      "id": "src_instagram_a_2_minute_lego_style_animation_is_making_rounds_online",
+      "type": "source",
+      "label": "A 2-minute LEGO-style animation is making rounds online",
+      "platform": "Instagram"
+    },
+    "src_instagram_dozens_of_lego_themed_ai_videos_have_flooded_social_media": {
+      "id": "src_instagram_dozens_of_lego_themed_ai_videos_have_flooded_social_media",
+      "type": "source",
+      "label": "Dozens of Lego-themed AI videos have flooded social media",
+      "platform": "Instagram"
+    },
+    "src_x_marcowenjones": {
+      "id": "src_x_marcowenjones",
+      "type": "source",
+      "label": "marcowenjones",
+      "platform": "X"
+    },
+    "src_youtube_animated_trump_satire_videos_show_new_frontier_in_iran_s_battle": {
+      "id": "src_youtube_animated_trump_satire_videos_show_new_frontier_in_iran_s_battle",
+      "type": "source",
+      "label": "Animated Trump satire videos show new frontier in Iran's battle",
+      "platform": "YouTube"
+    },
+    "src_youtube_animation_videos_mocking_trump_show_step_change_in_state": {
+      "id": "src_youtube_animation_videos_mocking_trump_show_step_change_in_state",
+      "type": "source",
+      "label": "Animation videos mocking Trump show 'step change' in state ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_decoding_iran_s_symbolic_attack_on_trump_and_netanyahu": {
+      "id": "src_youtube_decoding_iran_s_symbolic_attack_on_trump_and_netanyahu",
+      "type": "source",
+      "label": "Decoding Iran's Symbolic Attack on Trump and Netanyahu",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_animation_video_the_veil_is_thinning": {
+      "id": "src_youtube_iran_animation_video_the_veil_is_thinning",
+      "type": "source",
+      "label": "Iran Animation Video 'The veil is thinning'",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_lego_compilation_lol_youtube_music_playlist": {
+      "id": "src_youtube_iran_lego_compilation_lol_youtube_music_playlist",
+      "type": "source",
+      "label": "Iran Lego Compilation LOL!!! (YouTube Music playlist)",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_lego_videos_playlist": {
+      "id": "src_youtube_iran_lego_videos_playlist",
+      "type": "source",
+      "label": "Iran Lego Videos (playlist)",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_lego_vids_dissing_washington_dc_dumpster_playlist": {
+      "id": "src_youtube_iran_lego_vids_dissing_washington_dc_dumpster_playlist",
+      "type": "source",
+      "label": "Iran LEGO Vids Dissing Washington DC Dumpster (playlist)",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_releases_another_lego_animation_mocking_trump_as": {
+      "id": "src_youtube_iran_releases_another_lego_animation_mocking_trump_as",
+      "type": "source",
+      "label": "Iran Releases Another LEGO Animation Mocking Trump as ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_us_peace_talks_fail_is_the_joke_on_trump_meet_team": {
+      "id": "src_youtube_iran_us_peace_talks_fail_is_the_joke_on_trump_meet_team",
+      "type": "source",
+      "label": "Iran US Peace Talks FAIL | Is The Joke on Trump? Meet Team ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_iran_s_lego_mv_dissin_pete_hegseth_goes_viral": {
+      "id": "src_youtube_iran_s_lego_mv_dissin_pete_hegseth_goes_viral",
+      "type": "source",
+      "label": "Iran's LEGO MV dissin' Pete Hegseth Goes Viral",
+      "platform": "YouTube"
+    },
+    "src_youtube_iranian_state_media_releases_another_war_themed_lego": {
+      "id": "src_youtube_iranian_state_media_releases_another_war_themed_lego",
+      "type": "source",
+      "label": "Iranian State Media Releases Another War Themed Lego ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_israel_started_it_iran_stood_up_for_its_own_dignity": {
+      "id": "src_youtube_israel_started_it_iran_stood_up_for_its_own_dignity",
+      "type": "source",
+      "label": "Israel Started It - Iran Stood Up For Its Own Dignity",
+      "platform": "YouTube"
+    },
+    "src_youtube_latest_iranian_lego_animation_movie_depicting_good_vs_evil": {
+      "id": "src_youtube_latest_iranian_lego_animation_movie_depicting_good_vs_evil",
+      "type": "source",
+      "label": "Latest Iranian Lego Animation Movie Depicting Good vs Evil",
+      "platform": "YouTube"
+    },
+    "src_youtube_latest_iranian_lego_video_animation_movie_trolling_the_us": {
+      "id": "src_youtube_latest_iranian_lego_video_animation_movie_trolling_the_us",
+      "type": "source",
+      "label": "Latest Iranian Lego Video Animation Movie trolling the US",
+      "platform": "YouTube"
+    },
+    "src_youtube_lego_videos_playlist": {
+      "id": "src_youtube_lego_videos_playlist",
+      "type": "source",
+      "label": "LEGO VIDEOS (playlist)",
+      "platform": "YouTube"
+    },
+    "src_youtube_new_iranian_lego_video_animation_movie": {
+      "id": "src_youtube_new_iranian_lego_video_animation_movie",
+      "type": "source",
+      "label": "New Iranian Lego Video Animation Movie",
+      "platform": "YouTube"
+    },
+    "src_youtube_new_iranian_lego_video_zero": {
+      "id": "src_youtube_new_iranian_lego_video_zero",
+      "type": "source",
+      "label": "New Iranian lego video: Zero",
+      "platform": "YouTube"
+    },
+    "src_youtube_nothing_like_this_seen_before_iranian_lego_videos_mock": {
+      "id": "src_youtube_nothing_like_this_seen_before_iranian_lego_videos_mock",
+      "type": "source",
+      "label": "Nothing Like This Seen Before: Iranian LEGO Videos Mock ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_rise_up_message_iran_s_viral_lego_animation_explained": {
+      "id": "src_youtube_rise_up_message_iran_s_viral_lego_animation_explained",
+      "type": "source",
+      "label": "Rise Up Message? Iran's Viral Lego Animation Explained",
+      "platform": "YouTube"
+    },
+    "src_youtube_the_longest_latest_lego_animation_produced_by": {
+      "id": "src_youtube_the_longest_latest_lego_animation_produced_by",
+      "type": "source",
+      "label": "The Longest & Latest Lego Animation produced by ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_until_the_blood_is_out_ayatollah_ali_khamenei_vs_donald": {
+      "id": "src_youtube_until_the_blood_is_out_ayatollah_ali_khamenei_vs_donald",
+      "type": "source",
+      "label": "Until the blood is out | Ayatollah ali khamenei VS Donald ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_until_the_blood_is_out_we_still_stand": {
+      "id": "src_youtube_until_the_blood_is_out_we_still_stand",
+      "type": "source",
+      "label": "Until The Blood Is Out | We Still Stand",
+      "platform": "YouTube"
+    },
+    "src_youtube_watch_iran_state_media_publishes_lego_themed_animation": {
+      "id": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation",
+      "type": "source",
+      "label": "WATCH | Iran State Media Publishes Lego-Themed Animation ...",
+      "platform": "YouTube"
+    },
+    "src_youtube_watch_iran_state_media_publishes_lego_themed_animation_apt_mirror": {
+      "id": "src_youtube_watch_iran_state_media_publishes_lego_themed_animation_apt_mirror",
+      "type": "source",
+      "label": "WATCH | Iran State Media Publishes Lego-Themed Animation ... (APT mirror)",
+      "platform": "YouTube"
+    },
+    "src_youtube_we_will_fight": {
+      "id": "src_youtube_we_will_fight",
+      "type": "source",
+      "label": "We will Fight",
+      "platform": "YouTube"
+    },
+    "src_facebook_muslimvillage": {
+      "id": "src_facebook_muslimvillage",
+      "type": "source",
+      "label": "muslimvillage",
+      "platform": "Facebook"
+    },
+    "src_facebook_thedailypolitik": {
+      "id": "src_facebook_thedailypolitik",
+      "type": "source",
+      "label": "TheDailyPolitik",
+      "platform": "Facebook"
+    },
+    "src_facebook_warfrontupdatesme": {
+      "id": "src_facebook_warfrontupdatesme",
+      "type": "source",
+      "label": "WarFrontUpdatesME",
+      "platform": "Facebook"
+    },
+    "src_instagram_iran_has_condemned_a_ban_imposed_by_youtube_on_a_pro": {
+      "id": "src_instagram_iran_has_condemned_a_ban_imposed_by_youtube_on_a_pro",
+      "type": "source",
+      "label": "Iran has condemned a ban imposed by YouTube on a pro ...",
+      "platform": "Instagram"
+    },
+    "src_telegram_we_will_not_leave_lebanon": {
+      "id": "src_telegram_we_will_not_leave_lebanon",
+      "type": "source",
+      "label": "لن نترك لبنان / We will not leave Lebanon",
+      "platform": "Telegram"
+    },
+    "src_youtube_haider_iranian_lego_animation_by_akhbarenfejari": {
+      "id": "src_youtube_haider_iranian_lego_animation_by_akhbarenfejari",
+      "type": "source",
+      "label": "Haider (Iranian Lego Animation By Akhbarenfejari)",
+      "platform": "YouTube"
+    },
+    "src_youtube_inside_iran_war_s_viral_lego_war_videos": {
+      "id": "src_youtube_inside_iran_war_s_viral_lego_war_videos",
+      "type": "source",
+      "label": "Inside Iran War's Viral LEGO War Videos",
+      "platform": "YouTube"
+    }
+  },
+  "propagation_paths": [
+    {
+      "incident_id": "inc_2026_iran_lego_core_explosive_media",
+      "title": "Explosive Media core distribution cluster",
+      "item_count": 153,
+      "role_counts": {
+        "primary": 53,
+        "repost": 92,
+        "coverage": 5,
+        "mirror": 2,
+        "source_reference": 1
+      },
+      "source_count": 116
+    },
+    {
+      "incident_id": "inc_2026_iran_lego_media_coverage",
+      "title": "International media and expert coverage cluster",
+      "item_count": 65,
+      "role_counts": {
+        "coverage": 65
+      },
+      "source_count": 64
+    },
+    {
+      "incident_id": "inc_2026_iran_lego_social_amplification",
+      "title": "Community repost and social amplification cluster",
+      "item_count": 174,
+      "role_counts": {
+        "repost": 139,
+        "coverage": 16,
+        "source_reference": 14,
+        "mirror": 5
+      },
+      "source_count": 166
+    },
+    {
+      "incident_id": "inc_2026_iran_lego_creator_source_discovery",
+      "title": "Creator and source discovery cluster",
+      "item_count": 28,
+      "role_counts": {
+        "primary": 2,
+        "candidate": 25,
+        "source_reference": 1
+      },
+      "source_count": 3
+    },
+    {
+      "incident_id": "inc_2026_iran_lego_alt_creator_networks",
+      "title": "Alternative creator-network clusters",
+      "item_count": 77,
+      "role_counts": {
+        "primary": 16,
+        "repost": 57,
+        "source_reference": 4
+      },
+      "source_count": 54
+    },
+    {
+      "incident_id": "inc_2026_iran_lego_platform_moderation_and_mirrors",
+      "title": "Platform moderation, takedowns and mirror persistence",
+      "item_count": 94,
+      "role_counts": {
+        "primary": 12,
+        "candidate": 25,
+        "source_reference": 20,
+        "repost": 24,
+        "coverage": 6,
+        "mirror": 7
+      },
+      "source_count": 64
+    }
+  ],
+  "filters": {
+    "node_types": [
+      "actor",
+      "family",
+      "source",
+      "item",
+      "incident",
+      "infrastructure",
+      "claim"
+    ],
+    "edge_types": [
+      "actor_uses_infrastructure",
+      "canonical_to_variant",
+      "family_has_source",
+      "incident_includes_family",
+      "incident_includes_item",
+      "incident_includes_source",
+      "source_published_or_contextualizes"
+    ],
+    "incident_ids": [
+      "inc_2026_iran_lego_core_explosive_media",
+      "inc_2026_iran_lego_media_coverage",
+      "inc_2026_iran_lego_social_amplification",
+      "inc_2026_iran_lego_creator_source_discovery",
+      "inc_2026_iran_lego_alt_creator_networks",
+      "inc_2026_iran_lego_platform_moderation_and_mirrors"
+    ]
+  },
+  "actions": [
+    "filter_by_incident",
+    "filter_by_node_type",
+    "expand_node",
+    "show_propagation_path",
+    "export_svg",
+    "export_graph_json"
+  ]
+}

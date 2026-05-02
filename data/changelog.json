@@ -1,0 +1,116 @@
+[
+  {
+    "version": "v74.1",
+    "title": "Resolved QA issues without content loss",
+    "date": "2026-05-01",
+    "changes": [
+      "Retained all 470 original item IDs and added 6 verified missing coverage/mirror records.",
+      "Resolved date_quality=unknown records by adding auditable archive-first-seen timeline dates without fabricating publication dates.",
+      "Generated 367 local metadata preview images so no item uses thumbnail_mode=fallback.",
+      "Resolved all 8 duplicate clusters losslessly via canonical URL-variant normalization and provenance flags; no item was deleted.",
+      "Preserved the five families with status needs_review exactly as requested.",
+      "Regenerated QA, provenance chains, duplicate resolution, lossless audit and external verification reports."
+    ],
+    "warnings": [
+      "Archive-first-seen dates are monitoring dates, not claimed publication dates.",
+      "Generated previews are local metadata previews, not scraped platform screenshots."
+    ]
+  },
+  {
+    "version": "v74",
+    "title": "Provenance chain and data governance upgrade",
+    "date": "2026-05-01",
+    "changes": [
+      "Added provenance.schema_version v1 object to all 470 items.",
+      "Added role, relationship, evidence_urls, confidence and review_status fields for every item.",
+      "Generated provenance_chains.json with family role counts and duplicate chains.",
+      "Backfilled discovery metadata for items itm_00451 through itm_00470.",
+      "Recomputed qa_report.json and diff_report.json.",
+      "Updated HTML app to v74 with Data Quality and Provenance sections."
+    ],
+    "recommended_next_step": "v75 Admin mode: editable metadata, validation flags, CSV/JSON export and patch application."
+  },
+  {
+    "version": "v73",
+    "title": "Review-first AI Tools MVP artefacts",
+    "date": "2026-05-01",
+    "changes": [
+      "Added candidate_queue.json as the review-first intake layer.",
+      "Added duplicate_candidates.json for merge/mirror review.",
+      "Added schema files for items, sources, families, candidates and provenance.",
+      "Added scripts/generate_qa_report.mjs to regenerate QA metrics from JSON data.",
+      "No browser API-key pattern added; AI integration remains server-side by design."
+    ],
+    "security_principles": [
+      "No direct AI write into items.json.",
+      "Candidates require review_status transition before export patch.",
+      "Server-side API keys only; browser bundle remains static."
+    ]
+  },
+  {
+    "version": "v70-channels",
+    "title": "Added Flow Lego and CNN IRAN LEGO YouTube channels",
+    "date": "2026-05-01",
+    "changes": [
+      "Added @flowlego as verified YouTube primary creator/source",
+      "Added @CNNIRANLEGO as YouTube candidate source pending verification",
+      "Added channel and videos-tab records for both channels",
+      "Updated embedded HTML snapshot and JSON data files"
+    ]
+  },
+  {
+    "run_date": "2026-05-01",
+    "summary": "v66 expanded source taxonomy, added candidate accounts, and added recent coverage/mirror/source-page items.",
+    "new_items": 16,
+    "updated_items": 466,
+    "new_sources": 26,
+    "notes": [
+      "Added primary_distribution, official_social, platform_removed, amplifier, coverage_* and needs_verification source kinds.",
+      "Added recent coverage from Al Jazeera, WIRED, The Verge, The National, Al-Monitor, ABC, Forbes, Le Monde, Salon, Jerusalem Post and related source pages/mirrors.",
+      "Account URLs marked needs_verification should be manually confirmed because handles and platform availability can change quickly.",
+      "Coverage and mirrors are clearly separated from primary sources."
+    ]
+  },
+  {
+    "run_date": "2026-05-01",
+    "summary": "Migrated the current project into a dataset-driven v2 library and generated a fresh HTML output.",
+    "new_items": 0,
+    "updated_items": 450,
+    "new_sources": 348,
+    "notes": [
+      "Current HTML was converted into items.json, sources.json and source_families.json.",
+      "The v2 output keeps the source registry, QA dashboard, latest additions, alerts and changelog."
+    ]
+  },
+  {
+    "version": "v71",
+    "title": "Clean interface and source registry layout",
+    "date": "2026-05-01",
+    "changes": [
+      "Kept the homepage What’s New overview visible",
+      "Moved technical update/status history out of the main interface",
+      "Added a dedicated source registry layout with summary counts",
+      "Added source search, platform/type filters, and reliability quick filters",
+      "Created data/changelog_v71.json for technical changelog notes",
+      "Kept Check now and Import JSON functional but less prominent"
+    ]
+  },
+  {
+    "version": "v72",
+    "title": "Interface cleanup",
+    "date": "2026-05-01",
+    "changes": [
+      "Removed visible v69 homepage implementation note from the interface",
+      "Moved technical update notes to changelog files",
+      "Simplified top-left branding to 🇮🇷 Iran Lego Movies",
+      "Kept What’s New visible on the homepage",
+      "Kept the dedicated source registry layout functional",
+      "Removed macOS/localhost/file-mode instructions from the visible interface and kept them in README"
+    ],
+    "moved_from_interface": [
+      "v69 homepage: Grotere contentrails, minder tekst op cards en automatische leader-rotatie met thematische achtergronden.",
+      "Technische updategeschiedenis staat nu in data/changelog_v71.json. Het compacte What’s New-overzicht blijft bovenaan de hoofdpagina.",
+      "macOS Tahoe gebruik / localhost / file:// help text"
+    ]
+  }
+]

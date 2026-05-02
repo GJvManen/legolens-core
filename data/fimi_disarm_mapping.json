@@ -1,0 +1,302 @@
+{
+  "schema_version": "v82.0",
+  "generated_at": "2026-05-02T08:30:00Z",
+  "frameworks": [
+    "LegoLens custom",
+    "FIMI vocabulary",
+    "DISARM-like TTP mapping"
+  ],
+  "caveat": "Mappings are analytic labels, not attribution proof. All high-risk labels require human review.",
+  "behavior_labels": [
+    {
+      "id": "beh_primary_seeding",
+      "label": "Primary seeding",
+      "item_roles": [
+        "primary"
+      ],
+      "ttp_ids": [
+        "ttp_cross_platform_seeding"
+      ]
+    },
+    {
+      "id": "beh_mirror_amplification",
+      "label": "Mirror/repost amplification",
+      "item_roles": [
+        "mirror",
+        "repost"
+      ],
+      "ttp_ids": [
+        "ttp_mirror_amplification",
+        "ttp_cross_platform_seeding"
+      ]
+    },
+    {
+      "id": "beh_coverage_laundering",
+      "label": "Coverage/context laundering",
+      "item_roles": [
+        "coverage"
+      ],
+      "ttp_ids": [
+        "ttp_media_laundering"
+      ]
+    },
+    {
+      "id": "beh_ai_memetic_production",
+      "label": "AI-assisted memetic production",
+      "item_roles": [
+        "primary",
+        "repost",
+        "mirror"
+      ],
+      "ttp_ids": [
+        "ttp_ai_visual_memes"
+      ]
+    },
+    {
+      "id": "beh_review_risk",
+      "label": "Unverified or ambiguous source status",
+      "item_roles": [
+        "candidate",
+        "source_reference"
+      ],
+      "ttp_ids": [
+        "ttp_review_risk",
+        "ttp_source_obfuscation"
+      ]
+    }
+  ],
+  "ttp_map": [
+    {
+      "legolens_ttp_id": "ttp_ai_visual_memes",
+      "label": "AI visual meme production",
+      "phase": "production",
+      "fimi_dimension": "content",
+      "review_required": false,
+      "detection_hints": [
+        "lego-style visuals",
+        "high-volume variants",
+        "short song/parody format"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_emotional_mockery",
+      "label": "Humor, ridicule and humiliation framing",
+      "phase": "narrative",
+      "fimi_dimension": "governance",
+      "review_required": false,
+      "detection_hints": [
+        "mocking title",
+        "diss track",
+        "humiliation language"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_cross_platform_seeding",
+      "label": "Cross-platform seeding",
+      "phase": "distribution",
+      "fimi_dimension": "behavior",
+      "review_required": false,
+      "detection_hints": [
+        "same title across platforms",
+        "same source family",
+        "multiple source_kind roles"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_mirror_reupload",
+      "label": "Mirror / reupload persistence",
+      "phase": "distribution",
+      "fimi_dimension": "behavior",
+      "review_required": false,
+      "detection_hints": [
+        "mirror role",
+        "canonical variant",
+        "platform_removed flag"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_amplifier_repost",
+      "label": "Amplifier reposting",
+      "phase": "amplification",
+      "fimi_dimension": "behavior",
+      "review_required": false,
+      "detection_hints": [
+        "repost role",
+        "community family",
+        "same canonical group"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_news_coverage_leverage",
+      "label": "Coverage leverage",
+      "phase": "amplification",
+      "fimi_dimension": "behavior",
+      "review_required": false,
+      "detection_hints": [
+        "coverage role",
+        "news domains",
+        "analysis outlets"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_source_obfuscation",
+      "label": "Source ambiguity",
+      "phase": "infrastructure",
+      "fimi_dimension": "governance",
+      "review_required": true,
+      "detection_hints": [
+        "needs_review family",
+        "candidate source",
+        "low confidence"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_rapid_event_response",
+      "label": "Rapid event-response content",
+      "phase": "production",
+      "fimi_dimension": "content",
+      "review_required": false,
+      "detection_hints": [
+        "recent first_seen_at",
+        "event-specific title",
+        "candidate queue"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_language_bridging",
+      "label": "Language/audience bridging",
+      "phase": "distribution",
+      "fimi_dimension": "behavior",
+      "review_required": false,
+      "detection_hints": [
+        "English-language meta",
+        "Western pop references",
+        "international coverage"
+      ]
+    },
+    {
+      "legolens_ttp_id": "ttp_review_risk",
+      "label": "Human-review dependency",
+      "phase": "governance",
+      "fimi_dimension": "governance",
+      "review_required": true,
+      "detection_hints": [
+        "pending_review",
+        "needs_more_evidence",
+        "needs_verification"
+      ]
+    }
+  ],
+  "narrative_map": [
+    {
+      "narrative_id": "nar_us_humiliation",
+      "label": "US humiliation / incompetence",
+      "risk": "medium",
+      "keywords": [
+        "trump",
+        "america",
+        "american",
+        "u.s.",
+        "us ",
+        "white house",
+        "loser",
+        "humiliation"
+      ]
+    },
+    {
+      "narrative_id": "nar_israel_dependency",
+      "label": "US–Israel dependency frame",
+      "risk": "medium",
+      "keywords": [
+        "israel",
+        "netanyahu",
+        "zionist",
+        "tel aviv"
+      ]
+    },
+    {
+      "narrative_id": "nar_revenge_deterrence",
+      "label": "Revenge / deterrence",
+      "risk": "high",
+      "keywords": [
+        "revenge",
+        "vengeance",
+        "target",
+        "strike",
+        "missile",
+        "bunker",
+        "hormuz",
+        "loaded",
+        "attack"
+      ]
+    },
+    {
+      "narrative_id": "nar_pop_culture_memetic",
+      "label": "Pop-culture memetic persuasion",
+      "risk": "medium",
+      "keywords": [
+        "lego",
+        "meme",
+        "song",
+        "rap",
+        "diss",
+        "blockbuster",
+        "movie",
+        "viral"
+      ]
+    },
+    {
+      "narrative_id": "nar_platform_moderation",
+      "label": "Platform moderation / takedown",
+      "risk": "medium",
+      "keywords": [
+        "youtube bans",
+        "ban",
+        "removed",
+        "takedown",
+        "suspended",
+        "mirror",
+        "reupload"
+      ]
+    },
+    {
+      "narrative_id": "nar_creator_infrastructure",
+      "label": "Creator/source infrastructure",
+      "risk": "medium",
+      "keywords": [
+        "channel",
+        "creator",
+        "source page",
+        "videos tab",
+        "studio",
+        "explosive media"
+      ]
+    },
+    {
+      "narrative_id": "nar_media_analysis",
+      "label": "Media analysis / research coverage",
+      "risk": "low",
+      "keywords": [
+        "analysis",
+        "coverage",
+        "news",
+        "article",
+        "university",
+        "analyst",
+        "propaganda war",
+        "information warfare"
+      ]
+    },
+    {
+      "narrative_id": "nar_unverified_claim",
+      "label": "Unverified or claim-heavy content",
+      "risk": "high",
+      "keywords": [
+        "claim",
+        "alleged",
+        "unverified",
+        "needs verification"
+      ]
+    }
+  ]
+}

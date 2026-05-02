@@ -1,0 +1,15 @@
+{
+  "schema_version": "legolens.validation.v1",
+  "release": "v1.0.0",
+  "status": "pass",
+  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "counts": {
+    "items": 476,
+    "sources": 382,
+    "source_families": 10,
+    "evidence": 476,
+    "claims": 14,
+    "incidents": 6
+  },
+  "gate": "data/release_gate_v1_0.json"
+}

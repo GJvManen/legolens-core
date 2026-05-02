@@ -1,0 +1,91 @@
+{
+  "schema_version": "v111.interface-map",
+  "release": "v115.0",
+  "generated_at": "2026-05-02T13:40:23.891663Z",
+  "principle": "local-first grouped navigation; no data migration; existing modules remain addressable",
+  "groups": [
+    {
+      "group_id": "overview",
+      "label": "Overview",
+      "target": "overview-hub",
+      "description": "Dagelijks overzicht, status en risico’s",
+      "sections": [
+        "dashboard",
+        "overview-hub"
+      ]
+    },
+    {
+      "group_id": "monitor",
+      "label": "Monitor",
+      "target": "monitor-hub",
+      "description": "Updates, AI discovery en source monitoring",
+      "sections": [
+        "updates",
+        "discovery",
+        "monitoring"
+      ]
+    },
+    {
+      "group_id": "investigate",
+      "label": "Investigate",
+      "target": "investigate-hub",
+      "description": "Content, sources, incidents, evidence, claims en graph",
+      "sections": [
+        "content",
+        "research",
+        "incidents",
+        "sources",
+        "evidence-workbench",
+        "claim-intelligence",
+        "graph-explorer"
+      ]
+    },
+    {
+      "group_id": "review",
+      "label": "Review",
+      "target": "review-hub",
+      "description": "Candidate review, duplicates, evidence tasks en claim review",
+      "sections": [
+        "work-queues",
+        "similarity",
+        "governance"
+      ]
+    },
+    {
+      "group_id": "report",
+      "label": "Report",
+      "target": "report-hub",
+      "description": "Report builder, dashboard graphics en exports",
+      "sections": [
+        "report-builder",
+        "reports",
+        "dashboard-graphics"
+      ]
+    },
+    {
+      "group_id": "admin",
+      "label": "Admin",
+      "target": "admin-hub",
+      "description": "OpenAI, release gates, backup/config en data quality",
+      "sections": [
+        "admin",
+        "quality",
+        "tests",
+        "database"
+      ]
+    }
+  ],
+  "deprecated_top_level_nav": [
+    "evidence",
+    "analysis",
+    "monitoring",
+    "reliability",
+    "infrastructure"
+  ],
+  "acceptance_criteria": [
+    "index.html works without backend",
+    "backend remains optional",
+    "all old section anchors still available",
+    "admin is configuration-only"
+  ]
+}

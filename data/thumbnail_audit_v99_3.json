@@ -1,0 +1,14 @@
+{
+  "schema_version": "v99.3-thumbnail-audit",
+  "generated_at": "2026-05-02T12:55:00Z",
+  "items": 476,
+  "preview_assets": 476,
+  "missing_preview_assets": [],
+  "fallback_strategy": [
+    "CSS background on .thumb",
+    "local assets/previews/<item_id>.jpg preferred",
+    "img onerror fallback chain",
+    "generated SVG fallback"
+  ],
+  "status": "pass"
+}

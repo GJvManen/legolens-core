@@ -1,0 +1,87 @@
+{
+  "schema_version": "v95.0-browser-tested-release-pipeline",
+  "generated_at": "2026-05-02T11:45:00Z",
+  "purpose": "Voorkom UI-regressies voordat een bundle wordt vrijgegeven.",
+  "release_gate_policy": {
+    "block_on_missing_content": true,
+    "block_on_missing_thumbnail_refs": true,
+    "block_on_admin_auth_ui_missing": true,
+    "block_on_update_flow_missing": true,
+    "block_on_console_errors": true,
+    "block_on_lossless_failure": true
+  },
+  "test_matrix": [
+    {
+      "id": "ui_dashboard_loads",
+      "type": "browser",
+      "selector": "#dashboard",
+      "expected": "visible"
+    },
+    {
+      "id": "ui_all_nav_links_have_targets",
+      "type": "dom",
+      "expected": "no broken hash targets"
+    },
+    {
+      "id": "ui_content_cards_render",
+      "type": "dom",
+      "expected_count": 476
+    },
+    {
+      "id": "ui_thumbnail_assets_resolve",
+      "type": "asset",
+      "expected_missing": 0
+    },
+    {
+      "id": "ui_hero_banner_and_iran_flag",
+      "type": "dom",
+      "expected": [
+        "#heroArea",
+        ".iran-flag"
+      ]
+    },
+    {
+      "id": "ui_admin_candidate_actions",
+      "type": "dom",
+      "expected_actions": [
+        "candidate-approve",
+        "candidate-evidence",
+        "candidate-reject"
+      ]
+    },
+    {
+      "id": "ui_chatgpt_authorization_controls",
+      "type": "dom",
+      "expected_actions": [
+        "authorize-chatgpt",
+        "load-openai-projects",
+        "connect-openai-project",
+        "revoke-chatgpt-auth"
+      ]
+    },
+    {
+      "id": "ui_update_flow_stages_package",
+      "type": "browser",
+      "expected": "staged diff shown before apply"
+    },
+    {
+      "id": "backend_ai_auth_status",
+      "type": "api",
+      "endpoint": "/api/openai/auth/status",
+      "expected": "valid JSON"
+    },
+    {
+      "id": "backend_project_registry",
+      "type": "api",
+      "endpoint": "/api/openai/projects",
+      "expected": "project choices returned"
+    },
+    {
+      "id": "release_gate_passes",
+      "type": "data",
+      "expected": "pass"
+    }
+  ],
+  "recommended_runner": "scripts/run_release_gate_v99.mjs",
+  "manual_fallback": "Open tests/smoke_test_v99.html after starting backend; then verify Admin > ChatGPT Authorization."
+}
