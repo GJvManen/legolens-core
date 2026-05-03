@@ -1,0 +1,41 @@
+{
+  "schema_version": "legolens.case-pack-starter-content.v1",
+  "case_id": "sahel",
+  "status": "draft-enriched",
+  "media_policy": "external_media_packs_only",
+  "sources": [
+    {"source_id":"src_sahel_unhcr","name":"UNHCR Sahel Emergency","type":"humanitarian","reliability":"institutional"},
+    {"source_id":"src_sahel_ocha","name":"OCHA Sahel","type":"humanitarian","reliability":"institutional"},
+    {"source_id":"src_sahel_wfp","name":"WFP Sahel","type":"food-security","reliability":"institutional"},
+    {"source_id":"src_sahel_unicef","name":"UNICEF Sahel","type":"humanitarian","reliability":"institutional"},
+    {"source_id":"src_sahel_acled","name":"ACLED Sahel","type":"conflict-data","reliability":"specialized"},
+    {"source_id":"src_sahel_reuters","name":"Reuters Sahel coverage","type":"news","reliability":"newswire"},
+    {"source_id":"src_sahel_bbc","name":"BBC Sahel coverage","type":"news","reliability":"major-media"},
+    {"source_id":"src_sahel_crisisgroup","name":"International Crisis Group Sahel","type":"analysis","reliability":"specialized"},
+    {"source_id":"src_sahel_reliefweb","name":"ReliefWeb Sahel updates","type":"humanitarian-aggregator","reliability":"institutional"},
+    {"source_id":"src_sahel_african_union","name":"African Union regional statements","type":"regional-institution","reliability":"institutional"}
+  ],
+  "claims": [
+    {"claim_id":"claim_sahel_001","title":"Displacement pressure remains high across several Sahel contexts","status":"needs_review","risk_tags":["displacement"]},
+    {"claim_id":"claim_sahel_002","title":"Armed group reach affects civilian protection and governance","status":"needs_review","risk_tags":["armed_groups","protection"]},
+    {"claim_id":"claim_sahel_003","title":"Food insecurity compounds conflict vulnerability","status":"needs_review","risk_tags":["food_security"]},
+    {"claim_id":"claim_sahel_004","title":"Regional spillover risk requires cross-border monitoring","status":"needs_review","risk_tags":["regional_spillover"]},
+    {"claim_id":"claim_sahel_005","title":"Information manipulation and anti-foreign narratives require context tracking","status":"needs_review","risk_tags":["information_environment"]}
+  ],
+  "items": [
+    {"item_id":"item_sahel_001","title":"Displacement pressure signal","linked_claims":["claim_sahel_001"],"status":"candidate"},
+    {"item_id":"item_sahel_002","title":"Armed group activity signal","linked_claims":["claim_sahel_002"],"status":"candidate"},
+    {"item_id":"item_sahel_003","title":"Food security pressure signal","linked_claims":["claim_sahel_003"],"status":"candidate"},
+    {"item_id":"item_sahel_004","title":"Cross-border spillover signal","linked_claims":["claim_sahel_004"],"status":"candidate"},
+    {"item_id":"item_sahel_005","title":"Information environment signal","linked_claims":["claim_sahel_005"],"status":"candidate"}
+  ],
+  "evidence": [
+    {"evidence_id":"ev_sahel_001","item_id":"item_sahel_001","status":"unverified","source_id":"src_sahel_unhcr"},
+    {"evidence_id":"ev_sahel_002","item_id":"item_sahel_002","status":"needs_corroboration","source_id":"src_sahel_acled"},
+    {"evidence_id":"ev_sahel_003","item_id":"item_sahel_003","status":"unverified","source_id":"src_sahel_wfp"},
+    {"evidence_id":"ev_sahel_004","item_id":"item_sahel_004","status":"unverified","source_id":"src_sahel_ocha"},
+    {"evidence_id":"ev_sahel_005","item_id":"item_sahel_005","status":"needs_corroboration","source_id":"src_sahel_crisisgroup"}
+  ],
+  "risk_model": {"dimensions":["displacement","civilian_protection","food_security","regional_spillover","information_manipulation"]},
+  "graph": {"nodes":["sahel","displacement","armed_groups","food_security","regional_spillover"],"edges":[["sahel","displacement"],["sahel","armed_groups"],["armed_groups","regional_spillover"],["food_security","displacement"]]}
+}
