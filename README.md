@@ -42,6 +42,22 @@ LegoLens is a review-first framework. Starter content is for triage and workflow
 
 A multilingual publication explanation is included for broad community onboarding:
 
-- `docs/PUBLICATION_EXPLANATION_MULTILINGUAL.md`
+- Combined file: `docs/PUBLICATION_EXPLANATION_MULTILINGUAL.md`
+- Separate language files: `docs/i18n/README.md`
 
-It contains short publication-ready descriptions in English, Simplified Chinese, Hindi, Spanish, Arabic, French, Bengali, Portuguese, Russian, Urdu, Indonesian, German, Japanese and Dutch.
+Available separate files:
+
+- `docs/i18n/en.md`
+- `docs/i18n/zh-Hans.md`
+- `docs/i18n/hi.md`
+- `docs/i18n/es.md`
+- `docs/i18n/ar.md`
+- `docs/i18n/fr.md`
+- `docs/i18n/bn.md`
+- `docs/i18n/pt.md`
+- `docs/i18n/ru.md`
+- `docs/i18n/ur.md`
+- `docs/i18n/id.md`
+- `docs/i18n/de.md`
+- `docs/i18n/ja.md`
+- `docs/i18n/nl.md`
