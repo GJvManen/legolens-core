@@ -1,6 +1,6 @@
 # Publication status — LegoLens Core v1.2.1
 
-This file confirms that the ChatGPT GitHub connector can write to this repository using the GitHub Contents API.
+Write access through the ChatGPT GitHub connector is now working via the GitHub Contents API.
 
 Publication update scope:
 
