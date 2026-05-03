@@ -1,0 +1,18 @@
+{
+  "schema_version": "legolens.case-pack.v1",
+  "case_id": "sahel",
+  "title": "Sahel Information Environment Monitor",
+  "version": "0.1.0",
+  "status": "draft-enriched",
+  "description": "Starter case pack for monitoring regional instability, displacement, armed group activity, humanitarian pressure and information-environment risks across the Sahel.",
+  "framework": "LegoLens Core",
+  "framework_version": "1.2.1",
+  "languages": ["en", "fr", "ar"],
+  "topics": ["regional instability", "displacement", "armed groups", "food security", "information environment"],
+  "counts": {"sources": 10, "items": 32, "claims": 12, "evidence": 32},
+  "data_files": {"starter_content": "starter_content.json"},
+  "media_policy": "external_media_packs_only",
+  "review_policy": "review-first",
+  "sensitivity": "high",
+  "responsible_use_required": true
+}
