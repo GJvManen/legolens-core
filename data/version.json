@@ -1,25 +1,33 @@
 {
   "schema_version": "legolens.version.v1",
   "project": "LegoLens Core",
-  "release": "v1.0.0",
-  "release_name": "Stable Community Release",
+  "release": "v1.2.1",
+  "release_name": "Publication-clean release",
   "channel": "stable",
-  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "generated_at": "2026-05-03T14:30:00Z",
   "official_entrypoint": "index.html",
-  "previous_release": "v120.1",
+  "previous_release": "v1.2.0",
   "compatibility": {
     "offline_mode": true,
     "optional_backend": true,
     "case_pack_loader": true,
-    "legacy_v120_data_compatible": true
+    "legacy_v120_data_compatible": true,
+    "publication_clean": true
   },
   "central_version_source": true,
-  "core_version": "1.0.0",
-  "case_pack": {
-    "id": "iran",
-    "version": "1.0.0",
-    "path": "case-packs/iran/case.json"
+  "core_version": "1.2.1",
+  "case_pack_library": {
+    "path": "case-packs/index.json",
+    "case_packs": [
+      "iran",
+      "sudan",
+      "gaza-regional-spillover",
+      "ukraine-donbas",
+      "red-sea-yemen",
+      "sahel"
+    ]
   },
-  "positioning": "Open-source, review-first intelligence framework for monitoring complex information environments.",
-  "publication_policy": "candidate_only_until_human_review"
+  "positioning": "Neutral, review-first intelligence framework for monitoring complex information environments.",
+  "publication_policy": "candidate_only_until_human_review",
+  "media_policy": "external_media_packs_only"
 }
