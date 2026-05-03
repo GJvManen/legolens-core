@@ -1,41 +1,42 @@
 {
   "schema_version": "legolens.release-manifest.v1",
-  "generated_at": "2026-05-02T17:40:45.878139+00:00",
+  "generated_at": "2026-05-03T16:05:00Z",
   "project": "LegoLens Core",
-  "release": "v1.0.0",
-  "version": "1.0.0",
-  "release_name": "Stable Community Release",
+  "release": "v1.2.1",
+  "version": "1.2.1",
+  "release_name": "Publication-clean release",
   "official_entrypoint": "index.html",
   "central_version_file": "data/version.json",
-  "release_path": "legolens_core_v1_0_bundle.zip",
+  "case_pack_library": "case-packs/index.json",
   "case_packs": [
     "case-packs/iran/case.json",
-    "case-packs/demo/case.json"
+    "case-packs/sudan/case.json",
+    "case-packs/gaza-regional-spillover/case.json",
+    "case-packs/ukraine-donbas/case.json",
+    "case-packs/red-sea-yemen/case.json",
+    "case-packs/sahel/case.json"
   ],
   "counts": {
-    "items": 476,
-    "sources": 382,
-    "source_families": 10,
-    "evidence": 476,
-    "claims": 14,
-    "incidents": 6
+    "legacy_items": 476,
+    "legacy_sources": 382,
+    "legacy_evidence": 476,
+    "case_packs": 6
   },
   "features": [
-    "core/case-pack split",
-    "review-first workflow",
-    "evidence and confidence model",
-    "graph explorer",
-    "reporting templates",
-    "community documentation",
-    "responsible-use governance",
-    "GitHub and ChatGPT integration guides",
-    "release gate and checksums"
+    "neutral LegoLens Core positioning",
+    "publication-clean GitHub documentation",
+    "multilingual publication files",
+    "case pack library",
+    "content-rich starter case packs",
+    "intelligence quality documentation",
+    "review-first governance",
+    "external media pack policy"
   ],
   "security_defaults": {
     "api_keys_in_frontend": false,
-    "cors_default": "localhost_only",
     "direct_publication": false,
-    "human_review_required": true
+    "human_review_required": true,
+    "media_policy": "external_media_packs_only"
   },
   "status": "stable"
 }
