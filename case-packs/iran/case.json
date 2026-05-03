@@ -1,39 +1,29 @@
 {
   "schema_version": "legolens.case-pack.v1",
   "case_id": "iran",
-  "title": "Iran Information Environment Monitor",
-  "version": "1.0.0",
-  "description": "Demonstration case pack for LegoLens Core v1.0. Shows how the framework structures sources, items, claims, evidence, previews, graph context and reports for a complex information environment.",
+  "title": "Iran Case Pack",
+  "version": "1.2.1",
+  "status": "stable-demo",
+  "description": "Demonstration case pack for LegoLens Core. Iran is the first case pack; the framework is built for many cases.",
   "framework": "LegoLens Core",
-  "framework_version": "1.0.0",
-  "language": [
-    "nl",
-    "en"
-  ],
+  "framework_version": "1.2.1",
+  "languages": ["en", "fa", "nl"],
   "counts": {
-    "items": 476,
-    "sources": 382,
-    "source_families": 10,
-    "evidence": 476,
-    "claims": 14,
-    "incidents": 6
+    "sources": 16,
+    "items": 32,
+    "claims": 12,
+    "evidence": 32
   },
   "data_files": {
-    "items": "../../data/items.json",
-    "sources": "../../data/sources.json",
-    "source_families": "../../data/source_families.json",
-    "evidence": "../../data/evidence.json",
-    "claims": "../../data/claims_v93.json",
-    "incidents": "../../data/incidents.json",
-    "graph": "../../data/network_graph.json"
+    "sources": "sources.json",
+    "items": "items.json",
+    "claims": "claims.json",
+    "evidence": "evidence.json",
+    "graph": "graph.json",
+    "risk_model": "risk_model.json"
   },
-  "asset_paths": {
-    "previews": "../../assets/previews",
-    "hero": "../../assets/hero_*.jpg",
-    "fallback": "../../assets/fallback.jpg"
-  },
+  "media_policy": "external_media_packs_only",
   "sensitivity": "research",
   "publication_policy": "review_first_no_direct_publication",
-  "license_note": "Core code is intended for open-source use. Third-party source material and screenshots retain their original rights; verify before redistribution.",
-  "generated_at": "2026-05-02T17:40:45.878139+00:00"
+  "generated_at": "2026-05-03T14:30:00Z"
 }
