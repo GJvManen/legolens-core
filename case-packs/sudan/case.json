@@ -1,0 +1,18 @@
+{
+  "schema_version": "legolens.case-pack.v1",
+  "case_id": "sudan",
+  "title": "Sudan Crisis Monitor",
+  "version": "0.1.0",
+  "status": "draft-enriched",
+  "description": "Starter case pack for monitoring conflict, displacement, humanitarian access and information-environment risks related to Sudan.",
+  "framework": "LegoLens Core",
+  "framework_version": "1.2.1",
+  "languages": ["en", "ar"],
+  "topics": ["conflict monitoring", "displacement", "humanitarian access", "civilian harm", "source reliability"],
+  "counts": {"sources": 10, "items": 32, "claims": 12, "evidence": 32},
+  "data_files": {"sources": "sources.json", "items": "items.json", "claims": "claims.json", "evidence": "evidence.json", "graph": "graph.json", "risk_model": "risk_model.json"},
+  "media_policy": "external_media_packs_only",
+  "review_policy": "review-first",
+  "sensitivity": "high",
+  "responsible_use_required": true
+}
