@@ -1,63 +1,55 @@
-# LegoLens Core v1.2.1
+# LegoLens Core v2.0.0
 
-**LegoLens Core** is a neutral, review-first intelligence framework for monitoring complex information environments.
+LegoLens Core is a neutral, review-first intelligence platform for monitoring complex information environments.
 
-It helps teams turn signals, claims, sources and evidence into traceable, evidence-backed intelligence. Iran is included as the first case pack; the framework is built for many.
+Version 2.0.0 productizes the framework with multi-case dashboards, content acquisition, candidate-only updates, stable chart rendering, demo mode, connector configuration templates and Exchange Center governance for STIX/TAXII/MISP and other open standards.
 
 ## What is included
 
 - Neutral LegoLens Core branding.
-- Case Pack Library with Iran, Sudan, Gaza Regional Spillover, Ukraine Donbas, Red Sea Yemen and Sahel.
-- Explainable confidence model.
-- Evidence status model.
-- Source reliability model.
-- Cross-case graph foundation.
-- Review-first update package and publication-clean release gate.
-- Public-repo-safe media policy: no bundled images, screenshots, ZIPs, DOCX/PPTX/PDF files or SQLite databases.
+- Multi-case Case Pack Library: Iran, Sudan, Gaza Regional Spillover, Ukraine Donbas, Red Sea Yemen, Sahel and Demo Mode.
+- Case dashboards with preview carousels, metrics, claims, sources, evidence and graph summaries.
+- Content Acquisition Layer with source registry, connector registry, candidate queue, deduplication, enrichment and sensitivity checks.
+- Content Update Center with candidate-only update flow and transactional update model.
+- Review Workbench for approve, reject, duplicate, needs-more-evidence and share-review actions.
+- Exchange Center for STIX 2.1, TAXII 2.1, MISP Event JSON/API and other open standards.
+- External Connections for ChatGPT/OpenAI, MISP, TAXII, STIX, RSS, JSON and CSV.
+- Stable chart layer with responsive cards, numeric labels and fallback bars.
+- Graph Dataset Statistics with case-pack coverage, node/edge stats, platform mix and report coverage.
+- Multilingual UI foundation and publication files.
+- Release gate and regression tests.
 
 ## Start locally
 
 ```bash
-open index.html
-# or
+npm run build
+npm run validate
+npm test
+npm run release:check
 node backend/server.mjs
 ```
 
-## Validate before publishing
+Open:
 
-```bash
-npm test
-npm run validate
+```text
+http://localhost:8787
 ```
 
-## Publication policy
+## Core rule
 
-This package is designed for GitHub publication. Heavy media, screenshots, generated social assets and local databases are excluded. Case-pack media should be distributed separately as external media packs or release assets.
+All new content enters as candidates. Connectors and exchange imports may not write directly to approved content.
+
+```text
+new content → candidates → review → approved content → evidence / claims / graph / reports / exchange
+```
+
+## v2.0 release documentation
+
+- Full release documentation: `docs/RELEASE_V2_0.md`
+- Screenshot guide: `docs/screenshots/v2_0/README.md`
+- Content Acquisition Layer: `docs/CONTENT_ACQUISITION_LAYER.md`
+- External standards and connectors: `docs/EXTERNAL_STANDARDS_CONNECTORS_V2.md`
 
 ## Responsible use
 
-LegoLens is a review-first framework. Starter content is for triage and workflow testing. Do not publish findings externally without analyst review, corroboration and responsible-use checks.
-
-## Publication explanation in major world languages
-
-A multilingual publication explanation is included for broad community onboarding:
-
-- Combined file: `docs/PUBLICATION_EXPLANATION_MULTILINGUAL.md`
-- Separate language files: `docs/i18n/README.md`
-
-Available separate files:
-
-- `docs/i18n/en.md`
-- `docs/i18n/zh-Hans.md`
-- `docs/i18n/hi.md`
-- `docs/i18n/es.md`
-- `docs/i18n/ar.md`
-- `docs/i18n/fr.md`
-- `docs/i18n/bn.md`
-- `docs/i18n/pt.md`
-- `docs/i18n/ru.md`
-- `docs/i18n/ur.md`
-- `docs/i18n/id.md`
-- `docs/i18n/de.md`
-- `docs/i18n/ja.md`
-- `docs/i18n/nl.md`
+LegoLens is a review-first framework. Starter content, external imports and generated candidates are for triage and workflow testing. Do not publish or exchange findings externally without analyst review, corroboration and sharing approval.
