@@ -1,33 +1,35 @@
 {
   "schema_version": "legolens.version.v1",
   "project": "LegoLens Core",
-  "release": "v1.2.1",
-  "release_name": "Publication-clean release",
+  "release": "v2.0.0",
+  "release_name": "Release Candidate 10 — Chart Layout & Standards Connectors",
   "channel": "stable",
-  "generated_at": "2026-05-03T14:30:00Z",
+  "generated_at": "2026-05-04T10:10:00Z",
   "official_entrypoint": "index.html",
-  "previous_release": "v1.2.0",
+  "previous_release": "v1.2.1",
   "compatibility": {
     "offline_mode": true,
     "optional_backend": true,
     "case_pack_loader": true,
     "legacy_v120_data_compatible": true,
-    "publication_clean": true
+    "publication_clean": true,
+    "content_acquisition_layer": true,
+    "exchange_center": true,
+    "interactive_ui_restored": true,
+    "preview_assets_restored": true,
+    "graph_statistics_restored": true,
+    "stable_chart_layout_rc10": true,
+    "expanded_external_standards": true
   },
   "central_version_source": true,
-  "core_version": "1.2.1",
+  "core_version": "2.0.0",
   "case_pack_library": {
     "path": "case-packs/index.json",
-    "case_packs": [
-      "iran",
-      "sudan",
-      "gaza-regional-spillover",
-      "ukraine-donbas",
-      "red-sea-yemen",
-      "sahel"
-    ]
+    "case_packs": ["iran", "sudan", "gaza-regional-spillover", "ukraine-donbas", "red-sea-yemen", "sahel"]
   },
-  "positioning": "Neutral, review-first intelligence framework for monitoring complex information environments.",
+  "positioning": "Neutral, review-first intelligence platform for content acquisition, validation, analysis and controlled exchange.",
   "publication_policy": "candidate_only_until_human_review",
-  "media_policy": "external_media_packs_only"
+  "media_policy": "external_media_packs_with_local_preview_assets",
+  "ui_policy": "preserve_v1_2_working_interface_plus_v2_centers",
+  "rc": "RC10"
 }
