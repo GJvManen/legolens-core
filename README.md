@@ -8,31 +8,149 @@ Version **2.0.0** professionalizes the framework with multi-case dashboards, con
 
 ## Visual framework overview
 
-The following diagrams summarize the main operating model of LegoLens Core. They are designed as lightweight SVG assets so they can be embedded directly in the repository README and reused in documentation, release notes or project presentations.
+The following diagrams summarize the main operating model of LegoLens Core. They use GitHub-native Mermaid rendering instead of external image files, so they remain readable in the repository README and avoid cropped or distorted image previews.
 
 ### Review-first workflow
 
-![Review-first workflow](docs/visuals/review-first-workflow.svg)
+```mermaid
+flowchart LR
+    A[Source / Connector / Import] --> B[Candidate]
+    B --> C[Normalization]
+    C --> D[Deduplication]
+    D --> E[Enrichment]
+    E --> F[Sensitivity and policy checks]
+    F --> G[Human review]
+    G --> H[Approved content]
+    H --> I[Evidence / Claims / Graph / Reports]
+    H --> J[Optional exchange after share approval]
 
-This diagram explains the central safety and quality principle of LegoLens Core: every source, connector import or content update enters the system as a candidate first. Information is normalized, deduplicated, enriched and checked before human review can promote it to approved content. The visual also highlights the important distinction between internally reviewed content and content that is explicitly approved for external sharing.
+    B -.-> K[Everything enters as a candidate first]
+    H -.-> L[Reviewed content is not automatically share-approved]
+
+    classDef candidate fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#0f172a;
+    classDef review fill:#f0fdfa,stroke:#0f766e,stroke-width:2px,color:#0f172a;
+    class B candidate;
+    class G review;
+```
+
+This diagram explains the central safety and quality principle of LegoLens Core: every source, connector import or content update enters the system as a candidate first. Information is normalized, deduplicated, enriched and checked before human review can promote it to approved content. The workflow also highlights the important distinction between internally reviewed content and content that is explicitly approved for external sharing.
 
 ### Content acquisition layer
 
-![Content acquisition layer](docs/visuals/content-acquisition-layer.svg)
+```mermaid
+flowchart LR
+    subgraph Sources[Inbound sources]
+        S1[Manual URL import]
+        S2[RSS]
+        S3[JSON feed]
+        S4[CSV import]
+        S5[Local archive import]
+        S6[Research note import]
+    end
 
-This diagram shows how new material enters the framework through manual imports, feeds, archives and research notes. Source and connector registries keep ingestion structured, while the Candidate Queue ensures that raw inbound items remain separate from approved content. The pipeline records processing and review outcomes in the Ingestion Audit Log for traceability.
+    Sources --> SR[Source Registry]
+    Sources --> CR[Connector Registry]
+    SR --> CQ[Candidate Queue]
+    CR --> CQ
+
+    CQ --> N[Normalization Engine]
+    N --> D[Deduplication Engine]
+    D --> E[Enrichment Engine]
+    E --> SF[Sensitivity Filter]
+    SF --> RW[Review Workbench]
+    RW --> PE[Promotion Engine]
+    PE --> AC[Approved content]
+
+    CQ -.-> AL[Ingestion Audit Log]
+    N -.-> AL
+    D -.-> AL
+    E -.-> AL
+    SF -.-> AL
+    RW -.-> AL
+    PE -.-> AL
+    AC -.-> AL
+
+    classDef queue fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#0f172a;
+    classDef review fill:#f0fdfa,stroke:#0f766e,stroke-width:2px,color:#0f172a;
+    class CQ queue;
+    class RW,PE,AC review;
+```
+
+This diagram shows how new material enters the framework through manual imports, feeds, archives and research notes. Source and connector registries keep ingestion structured, while the Candidate Queue ensures that raw inbound items remain separate from approved content. The Ingestion Audit Log records processing and review outcomes for traceability.
 
 ### Controlled exchange model
 
-![Controlled exchange model](docs/visuals/controlled-exchange-model.svg)
+```mermaid
+flowchart LR
+    subgraph External[External standards and platforms]
+        STIX[STIX 2.1]
+        TAXII[TAXII 2.1]
+        MISP[MISP]
+        CACAO[CACAO]
+        OTHER[Sigma / YARA / GeoJSON]
+    end
+
+    External --> IC[Import as candidates]
+    IC --> CR[Candidate review]
+    CR --> AP[Approved content]
+    AP --> SA[Share approval]
+    SA --> EXP[Controlled export]
+
+    subgraph Outputs[Approved exchange outputs]
+        O1[STIX package]
+        O2[TAXII push]
+        O3[MISP event]
+        O4[Other approved exchange]
+    end
+
+    EXP --> Outputs
+
+    IC -.-> R1[Imported external data enters as candidates]
+    SA -.-> R2[Export requires explicit sharing approval]
+
+    classDef import fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#0f172a;
+    classDef approval fill:#f0fdfa,stroke:#0f766e,stroke-width:2px,color:#0f172a;
+    class IC,EXP import;
+    class CR,AP,SA approval;
+```
 
 This diagram summarizes controlled interoperability with external standards and platforms such as STIX, TAXII, MISP, CACAO, Sigma, YARA and GeoJSON. Imported data is routed through the same review-first process as other inbound material, while export requires a separate share-approval gate. Secrets and API credentials remain backend-only.
 
 ### Analyst workflow
 
-![How analysts use the framework](docs/visuals/analyst-workflow.svg)
+```mermaid
+flowchart LR
+    CPL[Case Pack Library] --> CU[Content Updates]
+    CU --> RW[Review Workbench]
+    RW --> CO[Case Outputs]
 
-This diagram presents the analyst-facing workflow from case pack selection to case outputs. Analysts work with separate case packs, process content updates, use the Review Workbench for triage and validation, and produce dashboards, reports, graph statistics and controlled exchange outputs. The visual emphasizes that multiple cases use one consistent workflow while keeping per-case dashboards separate.
+    CPL -.-> C1[Iran]
+    CPL -.-> C2[Sudan]
+    CPL -.-> C3[Gaza Regional Spillover]
+    CPL -.-> C4[Ukraine Donbas]
+    CPL -.-> C5[Red Sea Yemen]
+    CPL -.-> C6[Sahel / Demo Mode]
+
+    CU -.-> U1[New sources]
+    CU -.-> U2[Candidate items]
+    CU -.-> U3[Connector inputs]
+
+    RW -.-> R1[Triage]
+    RW -.-> R2[Validation]
+    RW -.-> R3[Promotion]
+
+    CO -.-> O1[Dashboards]
+    CO -.-> O2[Reports]
+    CO -.-> O3[Graph Stats]
+    CO -.-> O4[Exchange]
+
+    classDef library fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#0f172a;
+    classDef review fill:#f0fdfa,stroke:#0f766e,stroke-width:2px,color:#0f172a;
+    class CPL,CU library;
+    class RW,CO review;
+```
+
+This diagram presents the analyst-facing workflow from case pack selection to case outputs. Analysts work with separate case packs, process content updates, use the Review Workbench for triage and validation, and produce dashboards, reports, graph statistics and controlled exchange outputs. Multiple cases use one consistent workflow while keeping per-case dashboards and outputs separate.
 
 ---
 
