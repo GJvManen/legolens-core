@@ -6,6 +6,36 @@ Version **2.0.0** professionalizes the framework with multi-case dashboards, con
 
 ---
 
+## Visual framework overview
+
+The following diagrams summarize the main operating model of LegoLens Core. They are designed as lightweight SVG assets so they can be embedded directly in the repository README and reused in documentation, release notes or project presentations.
+
+### Review-first workflow
+
+![Review-first workflow](docs/visuals/review-first-workflow.svg)
+
+This diagram explains the central safety and quality principle of LegoLens Core: every source, connector import or content update enters the system as a candidate first. Information is normalized, deduplicated, enriched and checked before human review can promote it to approved content. The visual also highlights the important distinction between internally reviewed content and content that is explicitly approved for external sharing.
+
+### Content acquisition layer
+
+![Content acquisition layer](docs/visuals/content-acquisition-layer.svg)
+
+This diagram shows how new material enters the framework through manual imports, feeds, archives and research notes. Source and connector registries keep ingestion structured, while the Candidate Queue ensures that raw inbound items remain separate from approved content. The pipeline records processing and review outcomes in the Ingestion Audit Log for traceability.
+
+### Controlled exchange model
+
+![Controlled exchange model](docs/visuals/controlled-exchange-model.svg)
+
+This diagram summarizes controlled interoperability with external standards and platforms such as STIX, TAXII, MISP, CACAO, Sigma, YARA and GeoJSON. Imported data is routed through the same review-first process as other inbound material, while export requires a separate share-approval gate. Secrets and API credentials remain backend-only.
+
+### Analyst workflow
+
+![How analysts use the framework](docs/visuals/analyst-workflow.svg)
+
+This diagram presents the analyst-facing workflow from case pack selection to case outputs. Analysts work with separate case packs, process content updates, use the Review Workbench for triage and validation, and produce dashboards, reports, graph statistics and controlled exchange outputs. The visual emphasizes that multiple cases use one consistent workflow while keeping per-case dashboards separate.
+
+---
+
 ## Available languages
 
 LegoLens Core can be used and explained with the included multilingual publication and usage notes in the following languages:
