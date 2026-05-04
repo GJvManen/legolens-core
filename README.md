@@ -6,6 +6,29 @@ Version **2.0.0** professionalizes the framework with multi-case dashboards, con
 
 ---
 
+## Available languages
+
+LegoLens Core can be used and explained with the included multilingual publication and usage notes in the following languages:
+
+- English
+- 中文（简体）
+- हिन्दी
+- Español
+- العربية
+- Français
+- বাংলা
+- Português
+- Русский
+- اردو
+- Bahasa Indonesia
+- Deutsch
+- 日本語
+- Nederlands
+
+The primary repository and interface documentation remains in English. The multilingual files are available in `docs/i18n/`, with a combined overview in `docs/PUBLICATION_EXPLANATION_MULTILINGUAL.md`.
+
+---
+
 ## Why LegoLens exists
 
 Complex information environments generate many fragmented signals: source reports, media items, claims, evidence fragments, analyst notes, graph relationships and external intelligence packages. LegoLens provides a structured workflow to keep these signals traceable.
