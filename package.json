@@ -1,17 +1,18 @@
 {
   "name": "legolens-core",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Neutral, review-first intelligence framework with content-rich case packs.",
   "scripts": {
-    "dev": "node backend/server.mjs",
-    "validate": "node scripts/validate_v1_2_1_release.mjs",
-    "test": "node tests/data_integrity_test.mjs && node tests/graph_explorer_test.mjs && node tests/report_builder_test.mjs && node tests/update_flow_test.mjs && node tests/candidate_approval_test.mjs && node tests/case_pack_content_test.mjs && node tests/intelligence_quality_test.mjs && node tests/publication_audit_test.mjs && node tests/multilingual_publication_test.mjs",
-    "build": "node scripts/build_bootstrap.mjs && node scripts/generate_checksums.mjs"
+    "validate": "node scripts/validate_v2_release.mjs",
+    "test": "node tests/data_integrity_test.mjs && node tests/graph_explorer_test.mjs && node tests/report_builder_test.mjs && node tests/candidate_approval_test.mjs && node tests/preview_assets_test.mjs && node tests/case_pack_content_test.mjs && node tests/intelligence_quality_test.mjs && node tests/v2_restore_test.mjs && node tests/external_connections_test.mjs && node tests/content_update_mechanism_test.mjs && node tests/graph_dataset_stats_test.mjs && node tests/exchange_profile_test.mjs && node tests/ingestion_schema_test.mjs && node tests/case_pack_dataset_browser_test.mjs && node tests/content_update_runtime_test.mjs && node tests/report_coverage_render_test.mjs && node tests/graph_stats_completeness_test.mjs && node tests/v2_rc6_regression_test.mjs && node tests/v2_rc7_regression_test.mjs && node tests/v2_rc8_regression_test.mjs && node tests/v2_modular_ui_test.mjs && node tests/v2_release_gate_test.mjs && node tests/v2_transactional_update_test.mjs && node tests/v2_chart_layer_test.mjs && node tests/v2_demo_mode_test.mjs && node tests/v2_exchange_center_test.mjs && node tests/v2_i18n_completeness_test.mjs && node tests/v2_rc9_regression_test.mjs && node tests/v2_rc10_regression_test.mjs",
+    "build": "node scripts/build_bootstrap.mjs && node scripts/generate_checksums.mjs",
+    "package": "node scripts/package_v120.mjs",
+    "release:check": "node scripts/release_check_v2.mjs"
   },
   "engines": {
     "node": ">=20"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "description": "LegoLens Core v2.0 with multi-case dashboards, content acquisition, exchange center, stable charts and expanded external standards/connectors."
 }
