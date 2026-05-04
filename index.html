@@ -3,58 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LegoLens Core v1.0 + Iran Case Pack</title>
+  <title>LegoLens Core v2.0</title>
   <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="v115_overrides.css">
   <link rel="stylesheet" href="v116_overrides.css">
   <link rel="stylesheet" href="v120_overrides.css">
   <link rel="stylesheet" href="v1_overrides.css">
+  <link rel="stylesheet" href="v2_enhancements.css">
 </head>
 <body>
   <div id="app" class="shell">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="iran-flag" aria-label="Iraanse vlag"><span></span><span></span><span></span></div>
-        <div><h1>LegoLens Iran</h1><small>Core v1.0 • stable, review-first & community-ready</small></div>
+        <div class="lens-logo" aria-label="LegoLens Core"><span></span></div>
+        <div><h1>LegoLens Core</h1><small>v2.0 • review-first intelligence platform</small></div>
       </div>
       <nav class="nav" id="nav">
+        <strong class="nav-group">Overview</strong>
         <a href="#overview-hub">Today</a>
+        <a href="#datasets">Datasets</a>
+        <a href="#content-updates">Content Updates</a>
+        <a href="#ingestion-center">Ingestion</a>
+        <a href="#exchange-center">Exchange</a>
+        <a href="#graph-dataset-stats">Graph Stats</a>
+        <strong class="nav-group">Workbench</strong>
         <a href="#monitor-hub">Monitor</a>
         <a href="#investigate-hub">Investigate</a>
         <a href="#review-hub">Review</a>
-        <a href="#report-hub">Report</a>
-        <a href="#admin-hub">Admin Hub</a>
+        <a href="#report-hub">Reports</a>
+        <a href="#case-dashboards">Case Dashboards</a>
+        <a href="#external-connections">External Connections</a>
+        <strong class="nav-group">Legacy analytics</strong>
         <a href="#dashboard">Dashboard</a>
-        <a href="#updates">Updates</a>
         <a href="#content">Content</a>
-        <a href="#research">Research</a>
-        <a href="#analyst-workbench">Analyst Workbench</a>
         <a href="#sources">Sources</a>
-        <a href="#incidents">Incidents</a>
         <a href="#network">Network</a>
-        <a href="#graph-analytics">Graph Analytics</a>
-        <a href="#dashboard-graphics">Dashboard Graphics</a>
         <a href="#evidence">Evidence</a>
-        <a href="#similarity">Similarity</a>
-        <a href="#discovery">Discovery</a>
-        <a href="#reports">Reports</a>
         <a href="#admin">Admin</a>
-        <a href="#governance">Governance</a>
-        <a href="#quality">Quality</a>
-        <a href="#tests">Tests</a>
-        <a href="#database">Database</a>
-        <a href="#evidence-workbench">Evidence Workbench</a>
-        <a href="#analysis">Analysis</a>
-        <a href="#monitoring">Monitoring Scores</a>
-        <a href="#reliability">Reliability</a>
-        <a href="#claims">Claims</a>
-        <a href="#claim-intelligence">Claim Intelligence</a>
-        <a href="#infrastructure">Infrastructure</a>
       </nav>
       <div class="sidebar-footer">
-        <button class="btn btn-red" data-action="check-updates">Check now</button>
+        <button class="btn btn-red" data-action="check-updates">Check new content</button>
         <button class="btn" data-action="open-import">Import JSON</button>
-        <small id="sidebarStatus">v1.0.0 geladen</small>
+        <small id="sidebarStatus">v2.0.0 geladen</small>
       </div>
     </aside>
     <main class="main">
@@ -62,12 +52,19 @@
         <button class="btn only-mobile" data-action="toggle-nav">Menu</button>
         <input id="globalSearch" class="search" placeholder="Zoek items, bronnen, claims, actors, infrastructuur...">
         <button class="btn" data-action="open-import">Import JSON</button>
-        <button class="btn btn-red" data-action="check-updates">Check now</button>
+        <button class="btn btn-red" data-action="check-updates">Check new content</button>
         <button class="btn" data-action="download-session">Export session</button>
       </header>
       <input id="jsonInput" class="hidden" type="file" multiple accept=".json,application/json">
-      <section id="overview-hub" class="section"></section><section id="monitor-hub" class="section"></section><section id="investigate-hub" class="section"></section><section id="unified-detail" class="section"></section><section id="review-hub" class="section"></section><section id="work-queues" class="section"></section><section id="report-hub" class="section"></section><section id="report-builder" class="section"></section><section id="admin-hub" class="section"></section><section id="graph-explorer" class="section"></section><section id="dashboard" class="section"></section><section id="updates" class="section"></section><section id="content" class="section"></section><section id="research" class="section"></section><section id="sources" class="section"></section><section id="incidents" class="section"></section><section id="network" class="section"></section><section id="dashboard-graphics" class="section"></section><section id="evidence" class="section"></section><section id="similarity" class="section"></section><section id="discovery" class="section"></section><section id="reports" class="section"></section><section id="admin" class="section"></section><section id="governance" class="section"></section><section id="quality" class="section"></section><section id="tests" class="section"></section><section id="database" class="section"></section><section id="evidence-workbench" class="section"></section><section id="analysis" class="section"></section><section id="monitoring" class="section"></section><section id="reliability" class="section"></section><section id="claims" class="section"></section><section id="infrastructure" class="section"></section>
-    <section id="analyst-workbench" class="section"></section><section id="graph-analytics" class="section"></section><section id="claim-intelligence" class="section"></section>
+      <section id="overview-hub" class="section"></section>
+      <section id="datasets" class="section"></section>
+      <section id="case-dashboards" class="section"></section>
+      <section id="content-updates" class="section"></section>
+      <section id="ingestion-center" class="section"></section>
+      <section id="exchange-center" class="section"></section>
+      <section id="external-connections" class="section"></section>
+      <section id="graph-dataset-stats" class="section"></section>
+      <section id="monitor-hub" class="section"></section><section id="investigate-hub" class="section"></section><section id="unified-detail" class="section"></section><section id="review-hub" class="section"></section><section id="work-queues" class="section"></section><section id="report-hub" class="section"></section><section id="report-builder" class="section"></section><section id="admin-hub" class="section"></section><section id="graph-explorer" class="section"></section><section id="dashboard" class="section"></section><section id="updates" class="section"></section><section id="content" class="section"></section><section id="research" class="section"></section><section id="sources" class="section"></section><section id="incidents" class="section"></section><section id="network" class="section"></section><section id="dashboard-graphics" class="section"></section><section id="evidence" class="section"></section><section id="similarity" class="section"></section><section id="discovery" class="section"></section><section id="reports" class="section"></section><section id="admin" class="section"></section><section id="governance" class="section"></section><section id="quality" class="section"></section><section id="tests" class="section"></section><section id="database" class="section"></section><section id="evidence-workbench" class="section"></section><section id="analysis" class="section"></section><section id="monitoring" class="section"></section><section id="reliability" class="section"></section><section id="claims" class="section"></section><section id="infrastructure" class="section"></section><section id="analyst-workbench" class="section"></section><section id="graph-analytics" class="section"></section><section id="claim-intelligence" class="section"></section>
     </main>
   </div>
   <div id="toast" class="toast" role="status"></div>
@@ -79,5 +76,6 @@
   <script src="v116_overrides.js"></script>
   <script src="v120_overrides.js"></script>
   <script src="v1_overrides.js"></script>
+  <script src="v2_enhancements.js"></script>
 </body>
 </html>
