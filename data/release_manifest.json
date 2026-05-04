@@ -1,10 +1,10 @@
 {
   "schema_version": "legolens.release-manifest.v1",
-  "generated_at": "2026-05-03T16:05:00Z",
+  "generated_at": "2026-05-04T10:30:00Z",
   "project": "LegoLens Core",
-  "release": "v1.2.1",
-  "version": "1.2.1",
-  "release_name": "Publication-clean release",
+  "release": "v2.0.0",
+  "version": "2.0.0",
+  "release_name": "LegoLens Core v2.0.0",
   "official_entrypoint": "index.html",
   "central_version_file": "data/version.json",
   "case_pack_library": "case-packs/index.json",
@@ -23,20 +23,25 @@
     "case_packs": 6
   },
   "features": [
-    "neutral LegoLens Core positioning",
-    "publication-clean GitHub documentation",
-    "multilingual publication files",
-    "case pack library",
-    "content-rich starter case packs",
-    "intelligence quality documentation",
-    "review-first governance",
-    "external media pack policy"
+    "multi-case dashboards",
+    "content acquisition layer",
+    "candidate-only content updates",
+    "review workbench",
+    "exchange center",
+    "STIX TAXII MISP interoperability model",
+    "expanded external standards connector templates",
+    "stable chart layout",
+    "graph dataset statistics",
+    "multilingual UI foundation",
+    "demo mode",
+    "release gate"
   ],
   "security_defaults": {
     "api_keys_in_frontend": false,
     "direct_publication": false,
+    "automatic_sharing": false,
     "human_review_required": true,
-    "media_policy": "external_media_packs_only"
+    "media_policy": "external_media_packs_with_local_preview_assets"
   },
   "status": "stable"
 }
