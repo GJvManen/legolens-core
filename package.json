@@ -1,18 +1,20 @@
 {
-  "name": "legolens-core",
-  "version": "2.0.0",
+  "name": "legolens-core-3-local",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
+  "description": "LegoLens Core 3.0 final local release with candidate-only ingestion, persistent project state, audit trail, review workflow, legacy import and safe exports.",
   "scripts": {
-    "validate": "node scripts/validate_v2_release.mjs",
-    "test": "node tests/data_integrity_test.mjs && node tests/graph_explorer_test.mjs && node tests/report_builder_test.mjs && node tests/candidate_approval_test.mjs && node tests/preview_assets_test.mjs && node tests/case_pack_content_test.mjs && node tests/intelligence_quality_test.mjs && node tests/v2_release_smoke_test.mjs",
-    "build": "node scripts/build_bootstrap.mjs && node scripts/generate_checksums.mjs",
-    "package": "node scripts/package_v120.mjs",
-    "release:check": "node scripts/release_check_v2.mjs"
+    "start": "node backend/server.mjs",
+    "test": "node scripts/validate_v3_local.mjs && node scripts/ui_flow_static_test.mjs",
+    "release:check": "node scripts/release_final_check.mjs",
+    "browser:smoke": "node scripts/browser_smoke.mjs",
+    "browser:platforms": "python3 scripts/playwright_platform_qc.py --full",
+    "ingestion:run-all": "node scripts/ingestion_run_all_test.mjs",
+    "release:final": "node scripts/release_final_check.mjs"
   },
   "engines": {
     "node": ">=20"
   },
-  "dependencies": {},
-  "description": "LegoLens Core v2.0 with multi-case dashboards, content acquisition, exchange center, stable charts and expanded external standards/connectors."
+  "dependencies": {}
 }
