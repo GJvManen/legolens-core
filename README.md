@@ -2,7 +2,7 @@
 
 **LegoLens Core** is a local-first, review-first intelligence workspace for collecting source material as candidates, preserving attribution, reviewing findings, and exporting controlled local previews.
 
-Version **3.0.0** aligns the repository around a persistent local backend, a compact v3 browser interface, candidate-only ingestion, explicit review states, legacy import support, audit logging, backup/restore and local exports.
+Version **3.0.0** aligns the repository around a persistent local backend, a compact v3 browser interface, candidate-only ingestion, explicit review states, legacy import support, audit logging, backup/restore, safe local exports and reproducible real interface screenshot capture.
 
 ---
 
@@ -172,6 +172,7 @@ npm test
 npm run browser:smoke
 npm run release:check
 npm run ingestion:run-all
+npm run screenshots:capture
 ```
 
 The release checks validate:
@@ -184,6 +185,7 @@ The release checks validate:
 - Legacy import.
 - HTML, CSV, GeoJSON, STIX-preview and MISP-preview exports.
 - Export safety for secret-like values.
+- Reproducible real interface screenshot capture.
 
 ---
 
@@ -197,12 +199,10 @@ Real v3.0 interface screenshots are generated from the running application, not 
 Generate the full route screenshot set locally:
 
 ```bash
-python3 -m pip install playwright
-python3 -m playwright install chromium
-python3 scripts/capture_v3_screenshots.py
+npm run screenshots:capture
 ```
 
-The generator writes `01-dashboard.png` through `19-settings.png` plus `manifest.json` to `docs/screenshots/v3_0/`. The previous v3 mockup SVG files have been removed.
+The generator writes `01-dashboard.png` through `19-settings.png` plus `manifest.json` to `docs/screenshots/v3_0/`. The previous v2/v3 mockup SVG files have been removed from the release documentation.
 
 ---
 
@@ -210,14 +210,26 @@ The generator writes `01-dashboard.png` through `19-settings.png` plus `manifest
 
 Important documents:
 
-- `docs/RELEASE_NOTES_V3_FINAL.md`
-- `docs/QC_REPORT_V3_FINAL.md`
+- `docs/RELEASE_NOTES_V3_0_0.md`
+- `docs/QC_REPORT_V3_0_0.md`
 - `docs/CONTENT_ACQUISITION_LAYER.md`
-- `docs/EXTERNAL_STANDARDS_CONNECTORS_V2.md`
-- `docs/INTELLIGENCE_QUALITY_v1_2.md`
-- `docs/PUBLICATION_EXPLANATION_MULTILINGUAL.md`
-- `docs/i18n/README.md`
 - `docs/screenshots/v3_0/README.md`
+
+---
+
+## Repository cleanup policy
+
+The v3.0.0 release branch keeps the repository focused on the active local-first runtime.
+
+Removed from the release documentation:
+
+- obsolete v2 screenshot/mockup files;
+- obsolete v3 screenshot mockup files;
+- superseded `*_V3_FINAL.md` reports;
+- legacy frontend entrypoints that are not loaded by `index.html`;
+- package scripts that point to missing files.
+
+Runtime-generated data under `runtime/` should not be committed.
 
 ---
 
@@ -239,6 +251,7 @@ npm test
 npm run browser:smoke
 npm run release:check
 npm run ingestion:run-all
+npm run screenshots:capture
 ```
 
 Verify:
@@ -246,7 +259,7 @@ Verify:
 - `package.json` version is `3.0.0`.
 - `data/version.json` release is `v3.0.0`.
 - `index.html` loads `app_v3.js`.
-- v3 screenshot mockups are not present in `docs/screenshots/v3_0/`.
-- Real screenshots can be generated with `scripts/capture_v3_screenshots.py`.
+- v2/v3 screenshot mockups are not present in the release documentation.
+- Real screenshots can be generated with `npm run screenshots:capture`.
 - No runtime analyst data is committed.
 - No connector secret, API key or private credential is committed.
