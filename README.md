@@ -189,14 +189,20 @@ The release checks validate:
 
 ## Screenshots and interface guide
 
-The v3.0 interface documentation is in:
+Real v3.0 interface screenshots are generated from the running application, not drawn as mockups.
 
 - [v3.0 screenshot guide](docs/screenshots/v3_0/README.md)
-- [Overview dashboard](docs/screenshots/v3_0/01-overview-dashboard.svg)
-- [Content Updates and run-all ingestion](docs/screenshots/v3_0/02-content-updates-run-all.svg)
-- [Media Library attribution view](docs/screenshots/v3_0/03-media-library-attribution.svg)
+- Screenshot generator: `scripts/capture_v3_screenshots.py`
 
-The SVG files are lightweight documentation mockups for GitHub. They are not large binary browser captures.
+Generate the full route screenshot set locally:
+
+```bash
+python3 -m pip install playwright
+python3 -m playwright install chromium
+python3 scripts/capture_v3_screenshots.py
+```
+
+The generator writes `01-dashboard.png` through `19-settings.png` plus `manifest.json` to `docs/screenshots/v3_0/`. The previous v3 mockup SVG files have been removed.
 
 ---
 
@@ -240,5 +246,7 @@ Verify:
 - `package.json` version is `3.0.0`.
 - `data/version.json` release is `v3.0.0`.
 - `index.html` loads `app_v3.js`.
+- v3 screenshot mockups are not present in `docs/screenshots/v3_0/`.
+- Real screenshots can be generated with `scripts/capture_v3_screenshots.py`.
 - No runtime analyst data is committed.
 - No connector secret, API key or private credential is committed.
