@@ -30,9 +30,11 @@ const requiredServerTokens = [
   '/api/review/update',
   '/api/legacy/import',
   '/api/reports/export',
-  'runtime/ingestion_candidates.json',
-  'runtime/project_state.json',
-  'runtime/audit_log.json'
+  'RUNTIME',
+  'ingestion_candidates.json',
+  'project_state.json',
+  'audit_log.json',
+  'legacy_import_log.json'
 ];
 
 const missingServerTokens = requiredServerTokens.filter((token) => !server.includes(token));
