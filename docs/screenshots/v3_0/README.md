@@ -1,17 +1,55 @@
-# LegoLens Core v3.0.0 Interface Guide
+# LegoLens Core v3.0.0 Real Interface Screenshots
 
-This folder contains lightweight SVG interface examples for the v3.0.0 final release documentation.
+This folder is reserved for real browser screenshots captured from the running LegoLens Core v3.0.0 interface.
 
-These are documentation mockups, not binary browser captures. They are designed to stay readable in GitHub, keep the repository small and reflect the current v3.0.0 interface structure.
+The previous documentation mockup SVG files have been removed from this folder. Do not add hand-drawn interface mockups here.
 
-## Included examples
+## Generate the screenshots
 
-1. `01-overview-dashboard.svg` — overview dashboard and case-pack entry points.
-2. `02-content-updates-run-all.svg` — Content Updates with all-case ingestion.
-3. `03-media-library-attribution.svg` — Media Library source and attribution records.
-4. `04-review-queue-states.svg` — candidate review states and share approval separation.
-5. `05-reports-exports.svg` — local report/export previews.
-6. `06-admin-settings-connectors.svg` — compact connector settings with backend-only secret references.
+Run from the repository root:
+
+```bash
+python3 -m pip install playwright
+python3 -m playwright install chromium
+python3 scripts/capture_v3_screenshots.py
+```
+
+The script renders every v3 route with the correct v3 localStorage key (`ll3v30`) and writes one PNG per route to this directory.
+
+## Expected output files
+
+```text
+01-dashboard.png
+02-today.png
+03-datasets.png
+04-case-dashboard.png
+05-map.png
+06-timeline.png
+07-monitor.png
+08-investigate.png
+09-graph-stats.png
+10-frameworks.png
+11-content-updates.png
+12-content.png
+13-legacy-import.png
+14-media-library.png
+15-ingestion.png
+16-review-queue.png
+17-reports.png
+18-exchange.png
+19-settings.png
+manifest.json
+```
+
+## Capture rules
+
+- Use real browser rendering, not design mockups.
+- Use the v3.0.0 application state key: `ll3v30`.
+- Use the repository data files:
+  - `data/app_data.json`
+  - `data/source_set.json`
+- Capture every route defined in `data/app_data.json`.
+- Verify the first `h2` on each capture matches the intended route.
 
 ## v3.0.0 interface principles
 

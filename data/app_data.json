@@ -1,0 +1,56 @@
+{
+  "schema_version": "legolens.app_data.v3",
+  "release": "v3.0.0",
+  "repository": "LegoLens Core",
+  "repo_narratives": [
+    {
+      "id": "core_review_first",
+      "label": "Review-first candidate workflow",
+      "description": "All new material enters as candidates and requires analyst review before use or sharing."
+    }
+  ],
+  "case_packs": [
+    {
+      "id": "iran",
+      "title": "Iran",
+      "region": "Middle East",
+      "map": { "places": [{ "label": "Tehran", "lat": 35.6892, "lon": 51.3890 }] }
+    },
+    {
+      "id": "sudan",
+      "title": "Sudan",
+      "region": "Africa",
+      "map": { "places": [{ "label": "Khartoum", "lat": 15.5007, "lon": 32.5599 }] }
+    },
+    {
+      "id": "gaza-regional-spillover",
+      "title": "Gaza Regional Spillover",
+      "region": "Middle East",
+      "map": { "places": [{ "label": "Eastern Mediterranean", "lat": 31.5, "lon": 34.8 }] }
+    },
+    {
+      "id": "ukraine-donbas",
+      "title": "Ukraine Donbas",
+      "region": "Europe",
+      "map": { "places": [{ "label": "Donbas", "lat": 48.0, "lon": 37.8 }] }
+    },
+    {
+      "id": "red-sea-yemen",
+      "title": "Red Sea Yemen",
+      "region": "Red Sea",
+      "map": { "places": [{ "label": "Bab el-Mandeb", "lat": 12.6, "lon": 43.3 }] }
+    },
+    {
+      "id": "sahel",
+      "title": "Sahel",
+      "region": "Africa",
+      "map": { "places": [{ "label": "Central Sahel", "lat": 14.5, "lon": 0.0 }] }
+    },
+    {
+      "id": "demo-mode",
+      "title": "Demo Mode",
+      "region": "Demo",
+      "map": { "places": [{ "label": "Demo location", "lat": 0.0, "lon": 0.0 }] }
+    }
+  ]
+}
