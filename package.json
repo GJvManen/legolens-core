@@ -9,7 +9,6 @@
     "test": "node scripts/validate_v3_local.mjs && node scripts/ui_flow_static_test.mjs",
     "release:check": "node scripts/release_final_check.mjs",
     "browser:smoke": "node scripts/browser_smoke.mjs",
-    "browser:platforms": "python3 scripts/playwright_platform_qc.py --full",
     "ingestion:run-all": "node scripts/ingestion_run_all_test.mjs",
     "release:final": "node scripts/release_final_check.mjs"
   },
