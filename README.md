@@ -271,23 +271,6 @@ Important documents:
 
 ---
 
-## Repository cleanup policy
-
-The v3.0.0 release branch keeps the repository focused on the active local-first runtime.
-
-Removed from the release documentation and active runtime path:
-
-- obsolete v2 screenshot/mockup files;
-- obsolete v3 screenshot mockup files;
-- superseded final-report duplicates;
-- legacy frontend entrypoints not loaded by `index.html`;
-- package scripts that point to missing files;
-- duplicate validation workflows.
-
-Runtime-generated data under `runtime/` should not be committed.
-
----
-
 ## Responsible use
 
 LegoLens is a review-first framework. Starter content, external imports and generated candidates are for triage and workflow testing. Do not publish or exchange findings externally without analyst review, corroboration and explicit sharing approval.
