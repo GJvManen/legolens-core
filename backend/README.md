@@ -1,16 +1,42 @@
-# LegoLens Iran v120 Optional Backend
+# LegoLens Core v3.0.0 Backend
 
-Run from the bundle root:
+This directory contains the local Node.js backend for LegoLens Core v3.0.0.
+
+The backend supports the v3 local-first workflows:
+
+- health and version checks;
+- local project state;
+- candidate-only ingestion;
+- all-case source sync;
+- review-state updates;
+- legacy JSON import;
+- audit logging;
+- backup and restore;
+- local report and export previews.
+
+## Start
+
+Run from the repository root:
 
 ```bash
 node backend/server.mjs
 ```
 
-Defaults:
+Open:
 
-- Port: `8787`
-- CORS origin: `http://localhost:8787`
-- Override CORS for a local dev shell with `LEGOLENS_CORS_ORIGIN=http://localhost:3000`
-- OpenAI/API keys remain server-side via environment variables or `runtime_config/openai_config.local.json`.
+```text
+http://localhost:8787
+```
 
-v120 endpoints include `/api/version`, `/api/release/manifest`, `/api/release/validation`, `/api/quality/confidence`, `/api/report/runtime` and the existing review-first update/AI endpoints.
+## Runtime state
+
+The backend creates local runtime files under `runtime/`.
+
+Runtime files are operational local state and should not be committed with analyst data.
+
+## Safety model
+
+- Ingestion is candidate-only.
+- Internal review is separate from share approval.
+- Exports are local previews.
+- External connector configuration stays backend-side.
