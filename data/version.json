@@ -1,35 +1,31 @@
 {
-  "schema_version": "legolens.version.v1",
+  "schema_version": "legolens.version.v3",
   "project": "LegoLens Core",
-  "release": "v2.0.0",
-  "release_name": "Release Candidate 10 — Chart Layout & Standards Connectors",
+  "release": "v3.0.0",
+  "release_name": "Final Local Release",
   "channel": "stable",
-  "generated_at": "2026-05-04T10:10:00Z",
+  "generated_at": "2026-05-06T00:00:00Z",
   "official_entrypoint": "index.html",
-  "previous_release": "v1.2.1",
-  "compatibility": {
-    "offline_mode": true,
-    "optional_backend": true,
-    "case_pack_loader": true,
-    "legacy_v120_data_compatible": true,
-    "publication_clean": true,
-    "content_acquisition_layer": true,
-    "exchange_center": true,
-    "interactive_ui_restored": true,
-    "preview_assets_restored": true,
-    "graph_statistics_restored": true,
-    "stable_chart_layout_rc10": true,
-    "expanded_external_standards": true
-  },
-  "central_version_source": true,
-  "core_version": "2.0.0",
+  "core_version": "3.0.0",
+  "runtime_model": "local-first Node backend with static browser UI",
+  "publication_policy": "candidate_only_until_human_review_and_explicit_share_approval",
+  "candidate_only_ingestion": true,
+  "persistent_runtime": true,
+  "runtime_files": [
+    "runtime/ingestion_candidates.json",
+    "runtime/project_state.json",
+    "runtime/audit_log.json",
+    "runtime/legacy_import_log.json"
+  ],
   "case_pack_library": {
-    "path": "case-packs/index.json",
-    "case_packs": ["iran", "sudan", "gaza-regional-spillover", "ukraine-donbas", "red-sea-yemen", "sahel"]
-  },
-  "positioning": "Neutral, review-first intelligence platform for content acquisition, validation, analysis and controlled exchange.",
-  "publication_policy": "candidate_only_until_human_review",
-  "media_policy": "external_media_packs_with_local_preview_assets",
-  "ui_policy": "preserve_v1_2_working_interface_plus_v2_centers",
-  "rc": "RC10"
+    "case_packs": [
+      "iran",
+      "sudan",
+      "gaza-regional-spillover",
+      "ukraine-donbas",
+      "red-sea-yemen",
+      "sahel",
+      "demo-mode"
+    ]
+  }
 }
