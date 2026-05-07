@@ -1,7 +1,0 @@
-{
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://legolens.local/schemas/legolens_claim.schema.json",
-  "title": "LegoLens Claim",
-  "type": "object",
-  "additionalProperties": true
-}
