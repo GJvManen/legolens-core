@@ -1,2 +1,0 @@
-# metadata
-Local evidence storage.
