@@ -8,7 +8,7 @@ Deze branch is bedoeld voor uitgebreide system documentatie, system workflows, p
 
 - `main` — documentatie en uitleg.
 - `3.0.1` — lichte runtimeversie van LegoLens v3.0.1.
-- `archive/main-before-docs-only-2026-05-07` — backup van de eerdere main-branch.
+- `archive/3.0.0` — backup/ontwikkelversie van de eerdere main-branch.
 
 Runtimebranch:
 
