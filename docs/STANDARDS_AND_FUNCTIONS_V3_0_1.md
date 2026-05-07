@@ -1,8 +1,119 @@
-# LegoLens Core 3.0.1 — standards and functions
+# LegoLens Core 3.0.1 — standards, sources, connectors and functions
 
-This document is the standards and functions addendum for the Full 3.0.1 README.
+This document is the standards, source, connector and function addendum for the Full 3.0.1 README.
 
-## Standards
+Core boundary:
+
+```text
+reviewed != share_approved
+```
+
+Connector output, import output and manually added material enter as candidate material first. Review, evidence linking, report generation and external exchange remain separate stages.
+
+---
+
+## Evidence basis
+
+This document is aligned with the Full 3.0.1 release documentation that is visible from the `prototype` tag and the runtime source-set that is visible in the repository. The release asset zip itself is referenced as:
+
+```text
+https://github.com/GJvManen/legolens-core/releases/download/prototype/legolens_3_0_1_full.zip
+```
+
+The directly visible Full 3.0.1 release documentation confirms:
+
+| Capability | Count / value |
+|---|---:|
+| Package files | 338 |
+| Source records | 196 |
+| Source families | 25 |
+| Connector records | 21 |
+| Social media platforms | 20 |
+| Case packs | 7 |
+| Interface routes | 19 |
+| GEO observations | 39 |
+| GeoJSON features | 289 |
+| Timeline updates | 21 |
+| App report templates | 9 |
+| Professional report templates | 7 |
+| Database migrations | 3 |
+
+The README-visible connector wording confirms support for these connector classes:
+
+```text
+web, RSS, Telegram, social and static repository adapters
+```
+
+The runtime source-set visible in the repository shows example source families for institutional, humanitarian, open-data and demo/local sources. The Full 3.0.1 README declares a larger full inventory of 25 source families and 196 source records, but the individual full inventory records are not present in the documentation branch as separate readable JSON files.
+
+---
+
+## Confirmed source categories
+
+| Source category | Confirmed basis | Typical platform / input | LegoLens normalized output | Review boundary |
+|---|---|---|---|---|
+| Institutional sources | Runtime source-set example and source-registry layer | official or institution-linked web records | source record, candidate, case context | source presence is not endorsement |
+| Humanitarian sources | Runtime source-set example and case-pack role descriptions | NGO, relief, crisis or civil-society web records | source record, candidate, timeline context | humanitarian status does not bypass review |
+| Open data sources | Runtime source-set example and GEO/data layers | public datasets, map data, open records | source record, GeoJSON layer, candidate | open data still needs provenance and review |
+| Demo/local sources | Runtime source-set example | local/demo records | demo source record | demo material is not production evidence |
+| Web sources | Full README connector wording | HTTP/HTTPS pages and source URLs | normalized candidate with source metadata | fetched content remains candidate-only |
+| RSS/feed sources | Full README connector wording | RSS/feed-style entries | candidate with feed attribution | feed presence is not validation |
+| Telegram sources | Full README connector wording | Telegram/channel-oriented records | candidate with platform/source context | platform material requires review |
+| Social platform sources | Full README count and connector wording | social media records across declared platforms | candidate mapped to source/case context | social content must not bypass review |
+| Static repository sources | Full README connector wording | repository or static package files | reference data, import candidate or documentation record | repository presence is not proof |
+| GEO sources | Full README GeoJSON/GEO counts | GeoJSON features and observations | map layers and spatial context | map display is context, not proof |
+| Media/asset sources | Full README media/asset counts | thumbnails, previews, media assets | media-library record with attribution | media requires source and review state |
+| Legacy local files | API surface and workflow documentation | older JSON/local structured records | legacy import log and candidate/mapped record | import creates traceability, not approval |
+| Report/export sources | Report template/export endpoints | reviewed case material and templates | local report preview/export | report generation is not share approval |
+| Audit/governance records | Audit/team endpoints | review updates, checklists, decision logs | audit and decision trail | logs document decisions; they do not replace review |
+
+---
+
+## Confirmed connector catalogue
+
+| Connector family | Confirmed by | Protocol / standard | Typical input | Normalized output |
+|---|---|---|---|---|
+| Web connector | Full README connector wording | HTTP/HTTPS, HTML/text extraction | web pages, institutional pages, media pages | JSON candidate with source metadata |
+| RSS/feed connector | Full README connector wording | RSS/Atom-style feed over HTTP/HTTPS | feed entries, headlines, links, timestamps | JSON candidate with feed attribution |
+| Telegram connector | Full README connector wording | Telegram/channel connector convention | channel or post references | JSON candidate linked to platform/source context |
+| Social connector | Full README connector wording and social platform count | platform-specific social conventions | posts, handles, URLs, timestamps | candidate mapped to source registry and case context |
+| Static repository connector | Full README connector wording | Git/static file convention | repository files, packaged registries, static source sets | reference records or candidate/import records |
+| Legacy import connector | API surface and workflow documentation | local file / JSON import convention | legacy JSON and local structured files | import log plus candidate or mapped records |
+| GEO connector | Full README GEO/GeoJSON counts | GeoJSON and observation mapping | spatial features, coordinates, observation records | map layers and GEO observations |
+| Media connector | Full README media/asset context | file/asset manifest convention | images, thumbnails, previews, media references | media-library records tied to source/case context |
+| Report export connector | API surface and report workflow | local export/template convention | reviewed case material and templates | local report preview/export |
+| Exchange connector | exchange route and share-approval workflow | controlled output convention | report preview plus approval decision | controlled exchange output or hold/reject state |
+| Audit/governance connector | audit/team endpoints | decision trail convention | review updates, exchange decisions, import events | audit and decision-log records |
+| Storage connector | storage endpoint and migrations | SQLite/JSON runtime convention | runtime state, migrations, storage status | storage status and durable-state readiness |
+
+---
+
+## Open standards assessment
+
+The open standards below are relevant to intelligence and cyber-threat exchange. They are documented here as an interoperability assessment, not as confirmed active connector records, unless the Full 3.0.1 package explicitly exposes them in a connector registry.
+
+| Open standard | Status in current evidence | Recommended LegoLens mapping if enabled |
+|---|---|---|
+| MISP core format | Not confirmed as an active Full 3.0.1 connector in visible release docs. | event, attribute, object, sighting, tag -> candidate/evidence/source metadata |
+| MISP taxonomies | Not confirmed as active in visible release docs. | taxonomy tag -> source policy, confidence, TLP/share label |
+| MISP galaxies | Not confirmed as active in visible release docs. | actor/tool/campaign/context -> entity or claim context |
+| STIX 2.1 | Not confirmed as active in visible release docs. | indicator, observed-data, report, relationship, sighting -> evidence/provenance graph |
+| TAXII 2.1 | Not confirmed as active in visible release docs. | TAXII collection -> candidate queue or controlled exchange package |
+| TLP 2.0 | Not confirmed as active in visible release docs. | sharing label -> governance/share approval restriction |
+| PAP | Not confirmed as active in visible release docs. | permitted actions -> exchange/governance label |
+| CACAO | Not confirmed as active in visible release docs. | playbook steps -> checklist/workflow tasks |
+| OpenC2 | Not confirmed as active in visible release docs. | action statement -> recommendation only, never automatic execution |
+| MITRE ATT&CK | Not confirmed as active in visible release docs. | tactic/technique -> claim or evidence context |
+| CVE / CVSS / CWE / CPE | Not confirmed as active in visible release docs. | vulnerability/advisory context -> report/evidence metadata |
+| CSAF / OSV | Not confirmed as active in visible release docs. | advisory/package vulnerability -> candidate or report appendix |
+| Sigma / YARA / OpenIOC | Not confirmed as active in visible release docs. | rule or IOC -> detection/evidence context |
+| IODEF / VERIS | Not confirmed as active in visible release docs. | incident taxonomy -> timeline/report context |
+
+Rule: do not claim active MISP, STIX/TAXII or other CTI-standard connector support until the Full 3.0.1 package exposes a concrete connector record, adapter, schema or endpoint for that standard.
+
+---
+
+## Standards used by confirmed Full 3.0.1 capabilities
 
 | Area | Standards and conventions |
 |---|---|
@@ -17,44 +128,27 @@ This document is the standards and functions addendum for the Full 3.0.1 README.
 | Governance | Source policy, decision logs, checklists, no-runtime-on-main rule. |
 | i18n | 15 framework languages, LTR/RTL direction handling, shared canonical logic. |
 
-## Exchange protocols and interoperability standards
+---
 
-| Protocol / standard | Direction | Used for | Boundary |
-|---|---|---|---|
-| Local HTTP API | UI to backend | Browser-to-Node communication through `/api/*`. | Local-first; shared deployment needs auth, roles and network controls. |
-| REST-like resource endpoints | UI to backend | Version, health, app data, sources, review states, reports and storage status. | Endpoint access does not imply approval of the returned material. |
-| JSON API payloads | UI, backend and runtime | Structured exchange of app data, source sets, candidates, review states and report metadata. | JSON structure is transport format, not validation of truth. |
-| JSON seed registries | Package to runtime | Packaged cases, sources, schemas, templates and workflow configuration. | Seed data is reference data; runtime analyst state remains separate. |
-| Runtime JSON files | Runtime to review workflow | Candidate queue, audit log and legacy import log. | Runtime files must not be committed to `main`. |
-| Legacy JSON import | External/local file to candidate workflow | Mapping older data into traceable import/candidate records. | Import creates traceability, not automatic review approval. |
-| GeoJSON | GEO layer to map/report context | Spatial features, case-linked observations and map layers. | Map data is context and must stay tied to source/review state. |
-| RSS/feed-style ingestion | External source to connector layer | Feed-based source monitoring where configured. | Feed entries become candidates only. |
-| Web HTTP/HTTPS source fetching | External web to connector layer | Web source collection and normalization where configured. | Fetched content is not trusted until reviewed. |
-| Telegram connector convention | External channel/platform to connector layer | Telegram-oriented monitoring where configured. | Platform material enters as candidate material. |
-| Social platform connector convention | External platforms to connector layer | Social media platform records and source mappings. | Platform-specific availability and terms apply; output is candidate-only. |
-| Static repository/file exchange | Repository or local files to package/runtime | Static source sets, package files, docs and branch-based publication. | Repository presence is not evidence validation. |
-| Report export interface | Reviewed material to local output | Local report previews and exportable report structures. | Report output can remain internal without share approval. |
-| Controlled exchange workflow | Internal report to external sharing decision | Explicit approval gate before external use. | `reviewed != share_approved` remains mandatory. |
-| Audit and decision-log records | Workflow transitions to governance trail | Review updates, exchange decisions and team governance. | Logs must preserve decisions instead of replacing review. |
-| Git branch/archive convention | Repository publication and release separation | `main`, runtime branches and archives. | Keeps documentation, runtime and historical baselines separate. |
-
-### Exchange model
+## Connector lifecycle
 
 ```mermaid
 flowchart LR
-    A[External or local source] --> B[Connector/import]
-    B --> C[Normalized JSON candidate]
-    C --> D[Review queue]
-    D --> E[Evidence and provenance]
-    E --> F[Report preview]
-    F --> G{Share approval}
-    G -->|No| H[Internal-only output]
-    G -->|Yes| I[Controlled exchange]
-    D --> J[Audit log]
-    G --> J
+    A[Confirmed source class] --> B[Connector or import profile]
+    B --> C[Normalize to JSON]
+    C --> D[Attach source metadata]
+    D --> E[Candidate queue]
+    E --> F[Review queue]
+    F --> G[Evidence and provenance]
+    G --> H[Report preview]
+    H --> I{Share approval}
+    I -->|No| J[Internal only]
+    I -->|Yes| K[Controlled exchange]
+    F --> L[Audit log]
+    I --> L
 ```
 
-The exchange model is intentionally conservative. LegoLens can ingest from external protocols and produce local outputs, but exchange is governed by review state, provenance, auditability and explicit share approval.
+---
 
 ## Functions
 
@@ -74,6 +168,8 @@ The exchange model is intentionally conservative. LegoLens can ingest from exter
 | Team/governance | Team review, checklists, decision log and audit trail. |
 | Storage | Storage status and database-first readiness context. |
 
+---
+
 ## Boundary rules
 
 1. Connectors and imports create candidates only.
@@ -82,4 +178,5 @@ The exchange model is intentionally conservative. LegoLens can ingest from exter
 4. Reports can be internal previews without being exchange-approved.
 5. Runtime analyst data must not be committed to `main`.
 6. External protocols are ingestion or transport mechanisms; they do not create trust by themselves.
-7. Controlled exchange requires provenance, auditability and explicit share approval.
+7. Open CTI standards such as MISP and STIX/TAXII should only be documented as supported when a concrete connector, schema, adapter or endpoint exists in the Full package.
+8. Controlled exchange requires provenance, auditability and explicit share approval.
