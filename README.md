@@ -5,7 +5,7 @@
 Source package:
 
 ```text
-legolens_3_0_1_full_new_interface_no_tests.zip
+legolens_3_0_1_full.zip
 ```
 
 The package itself is not uploaded to `main`. Runtime branches remain separate.
