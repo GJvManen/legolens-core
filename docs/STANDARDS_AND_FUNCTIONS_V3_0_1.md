@@ -14,102 +14,189 @@ Connector output, import output and manually added material enter as candidate m
 
 ## Evidence basis
 
-This document is aligned with the Full 3.0.1 release documentation that is visible from the `prototype` tag and the runtime source-set that is visible in the repository. The release asset zip itself is referenced as:
+This document was updated after inspecting the uploaded Full 3.0.1 archive:
 
 ```text
-https://github.com/GJvManen/legolens-core/releases/download/prototype/legolens_3_0_1_full.zip
+legolens_3_0_1_full.zip
 ```
 
-The directly visible Full 3.0.1 release documentation confirms:
+The inspected archive contains, among other files:
+
+```text
+data/source_set.json
+data/connector_registry.json
+data/connector_operations_v46.json
+data/connector_health.json
+connectors/adapters/web.js
+connectors/adapters/rss.js
+connectors/adapters/telegram.js
+connectors/adapters/social.js
+connectors/adapters/staticRepo.js
+src/connectors/adapterRunner.js
+src/connectors/registry.js
+schemas/source.schema.json
+schemas/geojson.schema.json
+```
+
+The archive confirms these support counts and inventories:
 
 | Capability | Count / value |
 |---|---:|
-| Package files | 338 |
-| Source records | 196 |
-| Source families | 25 |
-| Connector records | 21 |
-| Social media platforms | 20 |
-| Case packs | 7 |
-| Interface routes | 19 |
-| GEO observations | 39 |
-| GeoJSON features | 289 |
-| Timeline updates | 21 |
-| App report templates | 9 |
-| Professional report templates | 7 |
-| Database migrations | 3 |
+| Package entries in uploaded archive | 378 |
+| Source records in `data/source_set.json` | 196 |
+| Source families in `data/source_set.json` | 25 |
+| Connector records in `data/source_set.json` | 21 |
+| Social media platforms in `data/source_set.json` | 20 |
+| Connector records in `data/connector_registry.json` | 5 operational adapter records |
+| Connector operation records in `data/connector_operations_v46.json` | 5 operational adapter records |
+| Connector health records in `data/connector_health.json` | 5 operational adapter records |
 
-The README-visible connector wording confirms support for these connector classes:
+The package therefore contains two related connector views:
+
+1. **Full source-set connector inventory** — 21 records, including manual import, feeds, social/public platform connectors, MISP exchange and TAXII exchange.
+2. **Operational adapter registry** — 5 local adapter contracts: web, RSS, Telegram, social and static repository.
+
+---
+
+## Confirmed source families from Full archive
+
+The following 25 source families are present in `data/source_set.json`.
+
+| Source family id | Name | Platforms | Status |
+|---|---|---|---|
+| `fam_brick_beat_battalion` | Brick Beat Battalion | YouTube | needs_review |
+| `fam_community_reposts` | Community / Reposts | Facebook, Instagram | needs_review |
+| `fam_explosive_media` | Explosive Media | Bluesky, Facebook, Instagram, Linkhub, Pinterest, Rumble, SoundCloud, Spotify, Telegram, Threads, TikTok, UpScrolled, X, YouTube | active |
+| `fam_furkangozukara` | FurkanGozukara | X | active |
+| `fam_media_coverage` | Media Coverage | Web | active |
+| `fam_militarylego_ai_x_network` | Militarylego AI X Network | Facebook, Instagram, Threads, YouTube | needs_review |
+| `fam_mirrors_linkhub` | Mirrors & Linkhub | BitChute, Telegram, other | active |
+| `fam_persiaboi_studios` | PersiaBoi Studios | Web, X | needs_review |
+| `fam_rock_id_official` | Rock ID Official | YouTube | needs_review |
+| `fam_youtube_creators` | YouTube creators | YouTube | active |
+| `project_repository` | Project repository | none listed | active |
+| `institutional` | Institutional / humanitarian sources | Web | active |
+| `public_social_connector_profile` | Public social connector profiles | BitChute, CSV, Facebook, Instagram, JSON, RSS, Reddit, Telegram, Threads, TikTok, Web, X, YouTube | available |
+| `digital_resilience` | Digital resilience / civic tech | Web | needs_source_review |
+| `official_open_data` | Official open data / dashboards | Web | active |
+| `maritime_security` | Maritime security | Web | active |
+| `fam_iran_diplomatic_ai_amplification` | Iranian diplomatic AI amplification accounts | Web, X | needs_source_review |
+| `fam_revayat_fath_institute` | Revayat-e Fath Institute | Web | needs_source_review |
+| `fam_southern_punk` | Southern Punk discovery | Web | needs_source_review |
+| `fam_nukta_media` | Nukta Media discovery | Web | needs_source_review |
+| `fam_sudan_humanitarian_social` | Sudan humanitarian and civil society social sources | Telegram, X | needs_source_review |
+| `fam_gaza_humanitarian_media_social` | Gaza humanitarian, civil defence and media social sources | Telegram, Web, X | needs_source_review |
+| `fam_ukraine_osint_social` | Ukraine OSINT and map social sources | Bluesky, Map, Telegram, X | needs_source_review |
+| `fam_red_sea_maritime_social` | Red Sea Yemen maritime and incident social sources | Telegram, X | needs_source_review |
+| `fam_sahel_osint_disinfo_social` | Sahel OSINT and disinformation social sources | Telegram, Web, X | needs_source_review |
+
+---
+
+## Confirmed social / public platforms from Full archive
+
+`data/source_set.json` lists these 20 social/media/data platforms:
 
 ```text
-web, RSS, Telegram, social and static repository adapters
+YouTube, X, Instagram, Facebook, Threads, Telegram, TikTok, Reddit,
+BitChute, Web, RSS, JSON, CSV, UpScrolled, Bluesky, Spotify,
+SoundCloud, Rumble, Pinterest, Linkhub
 ```
 
-The runtime source-set visible in the repository shows example source families for institutional, humanitarian, open-data and demo/local sources. The Full 3.0.1 README declares a larger full inventory of 25 source families and 196 source records, but the individual full inventory records are not present in the documentation branch as separate readable JSON files.
+These platforms are source and connector context. Platform presence does not make a record reviewed, reliable or share-approved.
 
 ---
 
-## Confirmed source categories
+## Full source-set connector inventory
 
-| Source category | Confirmed basis | Typical platform / input | LegoLens normalized output | Review boundary |
-|---|---|---|---|---|
-| Institutional sources | Runtime source-set example and source-registry layer | official or institution-linked web records | source record, candidate, case context | source presence is not endorsement |
-| Humanitarian sources | Runtime source-set example and case-pack role descriptions | NGO, relief, crisis or civil-society web records | source record, candidate, timeline context | humanitarian status does not bypass review |
-| Open data sources | Runtime source-set example and GEO/data layers | public datasets, map data, open records | source record, GeoJSON layer, candidate | open data still needs provenance and review |
-| Demo/local sources | Runtime source-set example | local/demo records | demo source record | demo material is not production evidence |
-| Web sources | Full README connector wording | HTTP/HTTPS pages and source URLs | normalized candidate with source metadata | fetched content remains candidate-only |
-| RSS/feed sources | Full README connector wording | RSS/feed-style entries | candidate with feed attribution | feed presence is not validation |
-| Telegram sources | Full README connector wording | Telegram/channel-oriented records | candidate with platform/source context | platform material requires review |
-| Social platform sources | Full README count and connector wording | social media records across declared platforms | candidate mapped to source/case context | social content must not bypass review |
-| Static repository sources | Full README connector wording | repository or static package files | reference data, import candidate or documentation record | repository presence is not proof |
-| GEO sources | Full README GeoJSON/GEO counts | GeoJSON features and observations | map layers and spatial context | map display is context, not proof |
-| Media/asset sources | Full README media/asset counts | thumbnails, previews, media assets | media-library record with attribution | media requires source and review state |
-| Legacy local files | API surface and workflow documentation | older JSON/local structured records | legacy import log and candidate/mapped record | import creates traceability, not approval |
-| Report/export sources | Report template/export endpoints | reviewed case material and templates | local report preview/export | report generation is not share approval |
-| Audit/governance records | Audit/team endpoints | review updates, checklists, decision logs | audit and decision trail | logs document decisions; they do not replace review |
+The following 21 connector records are present in `data/source_set.json`.
+
+| Connector id | Name | Type | Platform | Status | Output policy |
+|---|---|---|---|---|---|
+| `manual_url` | Manual URL import | manual | n/a | active | candidate_only |
+| `rss` | RSS/Atom feed connector | feed | n/a | available | candidate_only |
+| `json_feed` | JSON feed connector | feed | n/a | available | candidate_only |
+| `csv_import` | CSV import | file | n/a | active | candidate_only |
+| `youtube_public` | YouTube public source connector | social | YouTube | available | candidate_only |
+| `x_public` | X public source connector | social | X | available | candidate_only |
+| `instagram_public` | Instagram public source connector | social | Instagram | available | candidate_only |
+| `facebook_public` | Facebook public source connector | social | Facebook | available | candidate_only |
+| `threads_public` | Threads public source connector | social | Threads | available | candidate_only |
+| `telegram_public` | Telegram public channel connector | social | Telegram | available | candidate_only |
+| `web_archive` | Web/archive importer | archive | n/a | available | candidate_only |
+| `openai` | ChatGPT/OpenAI candidate assistant | ai | n/a | available | candidate_only |
+| `misp` | MISP exchange | exchange | n/a | available | share_approval_required |
+| `taxii` | TAXII exchange | exchange | n/a | available | share_approval_required |
+| `linkhub_public` | Public linkhub/social profile index | social | Linkhub | available | candidate_only |
+| `upscrolled_public` | UpScrolled public profile connector | social | UpScrolled | available | candidate_only |
+| `bluesky_public` | Bluesky public profile connector | social | Bluesky | available | candidate_only |
+| `audio_platform_public` | Public audio platform connector | social | Audio | available | candidate_only |
+| `rumble_public` | Rumble public profile connector | social | Rumble | available | candidate_only |
+| `tiktok_public` | TikTok public profile connector | social | TikTok | available | candidate_only |
+| `pinterest_public` | Pinterest public profile connector | social | Pinterest | available | candidate_only |
+
+Required fields for the exchange connectors:
+
+| Connector | Required fields |
+|---|---|
+| `misp` | `server_url`, `backend_key_ref`, `default_distribution`, `to_ids_policy` |
+| `taxii` | `discovery_url`, `collection_id`, `auth_mode`, `backend_key_ref` |
 
 ---
 
-## Confirmed connector catalogue
+## Operational adapter registry
 
-| Connector family | Confirmed by | Protocol / standard | Typical input | Normalized output |
-|---|---|---|---|---|
-| Web connector | Full README connector wording | HTTP/HTTPS, HTML/text extraction | web pages, institutional pages, media pages | JSON candidate with source metadata |
-| RSS/feed connector | Full README connector wording | RSS/Atom-style feed over HTTP/HTTPS | feed entries, headlines, links, timestamps | JSON candidate with feed attribution |
-| Telegram connector | Full README connector wording | Telegram/channel connector convention | channel or post references | JSON candidate linked to platform/source context |
-| Social connector | Full README connector wording and social platform count | platform-specific social conventions | posts, handles, URLs, timestamps | candidate mapped to source registry and case context |
-| Static repository connector | Full README connector wording | Git/static file convention | repository files, packaged registries, static source sets | reference records or candidate/import records |
-| Legacy import connector | API surface and workflow documentation | local file / JSON import convention | legacy JSON and local structured files | import log plus candidate or mapped records |
-| GEO connector | Full README GEO/GeoJSON counts | GeoJSON and observation mapping | spatial features, coordinates, observation records | map layers and GEO observations |
-| Media connector | Full README media/asset context | file/asset manifest convention | images, thumbnails, previews, media references | media-library records tied to source/case context |
-| Report export connector | API surface and report workflow | local export/template convention | reviewed case material and templates | local report preview/export |
-| Exchange connector | exchange route and share-approval workflow | controlled output convention | report preview plus approval decision | controlled exchange output or hold/reject state |
-| Audit/governance connector | audit/team endpoints | decision trail convention | review updates, exchange decisions, import events | audit and decision-log records |
-| Storage connector | storage endpoint and migrations | SQLite/JSON runtime convention | runtime state, migrations, storage status | storage status and durable-state readiness |
+`data/connector_registry.json`, `data/connector_operations_v46.json` and `data/connector_health.json` define the local operational adapter set. These are the adapters with concrete local adapter files in the archive.
+
+| Adapter id | Type | Platform | Status | Output policy | Local adapter evidence |
+|---|---|---|---|---|---|
+| `web_public` | web | web | available / configured | candidate_only | `connectors/adapters/web.js` |
+| `rss_public` | rss | rss | available / configured | candidate_only | `connectors/adapters/rss.js` |
+| `telegram_public` | telegram | telegram | available / configured | candidate_only | `connectors/adapters/telegram.js` |
+| `social_public` | social | x/youtube/tiktok/instagram | available / configured | candidate_only | `connectors/adapters/social.js` |
+| `static_repo` | static | github/static | available / configured | candidate_only | `connectors/adapters/staticRepo.js` |
+
+The operational adapter contract in `connector_operations_v46.json` is:
+
+```text
+configure, test_connection, dry_run, normalize, deduplicate,
+write_candidate_only, log_errors
+```
+
+All operational adapters write to candidate queue only, keep secrets backend-only, use rate limiting and require manual review.
 
 ---
 
 ## Open standards assessment
 
-The open standards below are relevant to intelligence and cyber-threat exchange. They are documented here as an interoperability assessment, not as confirmed active connector records, unless the Full 3.0.1 package explicitly exposes them in a connector registry.
+This section reflects the actual evidence found in the uploaded Full 3.0.1 archive.
 
-| Open standard | Status in current evidence | Recommended LegoLens mapping if enabled |
-|---|---|---|
-| MISP core format | Not confirmed as an active Full 3.0.1 connector in visible release docs. | event, attribute, object, sighting, tag -> candidate/evidence/source metadata |
-| MISP taxonomies | Not confirmed as active in visible release docs. | taxonomy tag -> source policy, confidence, TLP/share label |
-| MISP galaxies | Not confirmed as active in visible release docs. | actor/tool/campaign/context -> entity or claim context |
-| STIX 2.1 | Not confirmed as active in visible release docs. | indicator, observed-data, report, relationship, sighting -> evidence/provenance graph |
-| TAXII 2.1 | Not confirmed as active in visible release docs. | TAXII collection -> candidate queue or controlled exchange package |
-| TLP 2.0 | Not confirmed as active in visible release docs. | sharing label -> governance/share approval restriction |
-| PAP | Not confirmed as active in visible release docs. | permitted actions -> exchange/governance label |
-| CACAO | Not confirmed as active in visible release docs. | playbook steps -> checklist/workflow tasks |
-| OpenC2 | Not confirmed as active in visible release docs. | action statement -> recommendation only, never automatic execution |
-| MITRE ATT&CK | Not confirmed as active in visible release docs. | tactic/technique -> claim or evidence context |
-| CVE / CVSS / CWE / CPE | Not confirmed as active in visible release docs. | vulnerability/advisory context -> report/evidence metadata |
-| CSAF / OSV | Not confirmed as active in visible release docs. | advisory/package vulnerability -> candidate or report appendix |
-| Sigma / YARA / OpenIOC | Not confirmed as active in visible release docs. | rule or IOC -> detection/evidence context |
-| IODEF / VERIS | Not confirmed as active in visible release docs. | incident taxonomy -> timeline/report context |
+| Open standard | Status in current evidence | Evidence in archive | Documentation decision |
+|---|---|---|---|
+| MISP core format | Confirmed as available exchange connector. | `data/source_set.json` contains connector id `misp`, name `MISP exchange`, type `exchange`, status `available`, output policy `share_approval_required`. `app.js` exchange policy also mentions `MISP/TAXII backend-only`. | Document as supported exchange connector requiring share approval. |
+| MISP taxonomies | Not separately confirmed. | No separate taxonomy schema/file/adapter found by text search. | Document only as possible mapping inside MISP exchange, not as independent supported feature. |
+| MISP galaxies | Not separately confirmed. | No galaxy schema/file/adapter found by text search. | Do not claim active support. Mention only as future/enrichment mapping if implemented. |
+| STIX 2.1 | Not explicitly confirmed. | Text search found no `STIX` occurrence in text/code/schema files. | Do not claim active STIX object support unless a STIX mapping file or schema is added. TAXII is confirmed, but STIX payload support is not separately evidenced. |
+| TAXII 2.1 | Confirmed as available exchange connector. | `data/source_set.json` contains connector id `taxii`, name `TAXII exchange`, type `exchange`, status `available`, output policy `share_approval_required`, required fields `discovery_url`, `collection_id`, `auth_mode`, `backend_key_ref`. `app.js` exchange policy mentions `MISP/TAXII backend-only`. | Document as supported exchange connector requiring share approval. |
+| TLP | Confirmed as share-approval field, not as full standalone schema. | `data/app_data.json` share approval framework requires `tlp`. | Document as governance/share marking field. Do not claim full TLP schema implementation unless added. |
+| PAP | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| CACAO | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| OpenC2 | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| MITRE ATT&CK | Not confirmed as standard integration. | Only generic word `attack` appears in narrative keyword context; no MITRE ATT&CK schema or mapping found. | Do not claim support. |
+| MITRE D3FEND | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| CAPEC | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| CVE | Not confirmed in text/code/schema files. | No reliable text occurrence found outside binary/image false positives. | Do not claim support. |
+| CVSS | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| CWE | Not confirmed in text/code/schema files. | No reliable text occurrence found outside binary/image false positives. | Do not claim support. |
+| CPE | Not confirmed in text/code/schema files. | No reliable text occurrence found outside binary/image false positives. | Do not claim support. |
+| CSAF | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| OSV | Not confirmed in text/code/schema files. | No reliable text occurrence found outside unrelated text/image false positives. | Do not claim support. |
+| Sigma | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| YARA | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| OpenIOC | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| IODEF | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
+| VERIS | Not confirmed. | No text/code/schema occurrence found. | Do not claim support. |
 
-Rule: do not claim active MISP, STIX/TAXII or other CTI-standard connector support until the Full 3.0.1 package exposes a concrete connector record, adapter, schema or endpoint for that standard.
+Rule: MISP and TAXII are confirmed exchange connectors in the full archive. STIX is not separately confirmed by name or schema in the inspected files, so STIX should not be claimed as implemented until a concrete STIX mapping/profile is added.
 
 ---
 
@@ -120,12 +207,14 @@ Rule: do not claim active MISP, STIX/TAXII or other CTI-standard connector suppo
 | Browser UI | HTML5, CSS3, JavaScript, route naming, LTR/RTL layout support. |
 | Backend/API | Node.js, ECMAScript modules, HTTP, REST-like endpoints, JSON payloads. |
 | Data | JSON seed registries, schema validation, runtime JSON separation. |
+| Feed ingestion | RSS/Atom connector and JSON feed connector. |
+| File import | CSV import and legacy/local JSON-style import workflow. |
 | Storage | SQLite-first model, SQL migrations, local runtime files. |
 | GEO | GeoJSON, case-linked observations, map layers. |
 | Documentation | Markdown, Mermaid diagrams, Git branch separation. |
 | Review | Candidate-first ingestion, evidence/provenance links, audit logs. |
-| Exchange | Separate share approval; `reviewed != share_approved`. |
-| Governance | Source policy, decision logs, checklists, no-runtime-on-main rule. |
+| Exchange | MISP exchange, TAXII exchange, share approval, `reviewed != share_approved`. |
+| Governance | TLP field in share approval framework, source policy, decision logs, checklists, no-runtime-on-main rule. |
 | i18n | 15 framework languages, LTR/RTL direction handling, shared canonical logic. |
 
 ---
@@ -134,16 +223,16 @@ Rule: do not claim active MISP, STIX/TAXII or other CTI-standard connector suppo
 
 ```mermaid
 flowchart LR
-    A[Confirmed source class] --> B[Connector or import profile]
+    A[Confirmed source or exchange connector] --> B[Connector/import profile]
     B --> C[Normalize to JSON]
     C --> D[Attach source metadata]
-    D --> E[Candidate queue]
+    D --> E[Candidate queue or exchange review]
     E --> F[Review queue]
     F --> G[Evidence and provenance]
     G --> H[Report preview]
     H --> I{Share approval}
     I -->|No| J[Internal only]
-    I -->|Yes| K[Controlled exchange]
+    I -->|Yes| K[MISP/TAXII/controlled exchange]
     F --> L[Audit log]
     I --> L
 ```
@@ -157,8 +246,9 @@ flowchart LR
 | Startup | Local backend, static UI serving, health and version checks. |
 | Bootstrap | App data, routes, language framework, workflow configuration. |
 | Sources | Source registry, source families, case links, source metadata. |
-| Connectors | Connector registry, connector health and candidate-only ingestion. |
-| Import | Legacy JSON import into traceable candidate/import records. |
+| Connectors | 21 source-set connector records and 5 local operational adapter contracts. |
+| Open exchange | MISP exchange and TAXII exchange, both share-approval required and backend-key based. |
+| Import | Manual URL import, RSS/Atom feed, JSON feed, CSV import, web/archive import. |
 | Review | Candidate queue, review states, review updates and conflict flags. |
 | Evidence | Evidence chains, claim clusters and provenance graph. |
 | GEO/media | Map layers, observations, media library, previews and thumbnails. |
@@ -172,11 +262,12 @@ flowchart LR
 
 ## Boundary rules
 
-1. Connectors and imports create candidates only.
-2. Source records are metadata, not automatic endorsement.
-3. Review state and share approval are separate.
-4. Reports can be internal previews without being exchange-approved.
-5. Runtime analyst data must not be committed to `main`.
-6. External protocols are ingestion or transport mechanisms; they do not create trust by themselves.
-7. Open CTI standards such as MISP and STIX/TAXII should only be documented as supported when a concrete connector, schema, adapter or endpoint exists in the Full package.
-8. Controlled exchange requires provenance, auditability and explicit share approval.
+1. Connectors and imports create candidates only unless explicitly documented as exchange connectors.
+2. MISP and TAXII are exchange connectors and require share approval.
+3. Source records are metadata, not automatic endorsement.
+4. Review state and share approval are separate.
+5. Reports can be internal previews without being exchange-approved.
+6. Runtime analyst data must not be committed to `main`.
+7. External protocols are ingestion or transport mechanisms; they do not create trust by themselves.
+8. Open standards should only be documented as supported when a concrete connector, schema, adapter, endpoint or source-set connector record exists in the Full package.
+9. Controlled exchange requires provenance, auditability and explicit share approval.
